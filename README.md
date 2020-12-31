@@ -11,3 +11,20 @@ and I discovered.  This motivated me to re-write _Z2Edit_ from scratch
 with collaboration as a specific goal.
 
 This repository is a Z2Edit-2.0 project which re-creates _Benthic King_.
+
+## Story
+
+```
+Hyrule has enjoyed years
+of uncharacteristic peace.
+
+Bagu spends all his days
+endlessly fishing, but now
+he has angered the king of
+the merfolk.  The oceans
+are rising quickly.  Link
+must journey into the
+briny depths and defeat
+the fish king in his most
+adventuresome quest yet...
+```
