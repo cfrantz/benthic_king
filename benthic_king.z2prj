@@ -9,9 +9,9 @@
         "comment": "",
         "config": "vanilla",
         "extra": {
-          "project": "Benthic King",
+          "next_config": "config-Benthic King",
           "fix": "true",
-          "next_config": "config-Benthic King"
+          "project": "Benthic King"
         }
       },
       "edit": {
@@ -24,16 +24,16 @@
       "meta": {
         "label": "Python Script",
         "user": "cfrantz",
-        "timestamp": 1609390712705918,
+        "timestamp": 1609458057793154,
         "comment": "",
         "config": "config-Benthic King",
         "extra": {
-          "next_config": "config-Benthic King-tile_expansion"
+          "next_config": "config-Benthic King-hacks"
         }
       },
       "edit": {
         "type": "PythonScript",
-        "file": "scripts/tile_expansion.py",
+        "file": "scripts/init.py",
         "code": ""
       }
     },
@@ -43,7 +43,7 @@
         "user": "cfrantz",
         "timestamp": 1609393885214781,
         "comment": "",
-        "config": "config-Benthic King-tile_expansion",
+        "config": "config-Benthic King-hacks",
         "extra": {}
       },
       "edit": {
@@ -66,7 +66,7 @@
         "user": "cfrantz",
         "timestamp": 1609397140706853,
         "comment": "",
-        "config": "config-Benthic King-tile_expansion",
+        "config": "config-Benthic King-hacks",
         "extra": {}
       },
       "edit": {
@@ -75,41 +75,17 @@
           {
             "id": "west_hyrule/overworldtile",
             "tile": {
-              "22": [
-                148,
-                148,
-                148,
-                148
+              "48": [
+                156,
+                157,
+                158,
+                159
               ],
-              "25": [
-                114,
-                114,
-                114,
-                114
-              ],
-              "30": [
-                160,
-                161,
-                162,
-                163
-              ],
-              "31": [
-                168,
-                169,
-                170,
-                171
-              ],
-              "33": [
-                176,
-                177,
-                178,
-                179
-              ],
-              "50": [
-                110,
-                193,
-                110,
-                195
+              "46": [
+                164,
+                165,
+                166,
+                167
               ],
               "21": [
                 115,
@@ -117,11 +93,11 @@
                 115,
                 115
               ],
-              "63": [
-                180,
-                181,
-                182,
-                183
+              "29": [
+                152,
+                153,
+                154,
+                155
               ],
               "49": [
                 108,
@@ -129,41 +105,23 @@
                 108,
                 108
               ],
-              "29": [
-                152,
-                153,
-                154,
-                155
-              ],
-              "43": [
-                140,
-                141,
-                142,
-                143
-              ],
               "23": [
                 149,
                 149,
                 149,
                 149
               ],
-              "17": [
-                144,
-                145,
-                146,
-                147
+              "25": [
+                114,
+                114,
+                114,
+                114
               ],
-              "27": [
-                136,
-                137,
-                138,
-                139
-              ],
-              "62": [
-                172,
-                173,
-                174,
-                175
+              "31": [
+                168,
+                169,
+                170,
+                171
               ],
               "59": [
                 100,
@@ -171,45 +129,87 @@
                 102,
                 103
               ],
-              "48": [
-                156,
-                157,
-                158,
-                159
-              ],
               "16": [
                 188,
                 189,
                 190,
                 191
               ],
-              "46": [
-                164,
-                165,
-                166,
-                167
+              "43": [
+                140,
+                141,
+                142,
+                143
+              ],
+              "30": [
+                160,
+                161,
+                162,
+                163
+              ],
+              "17": [
+                144,
+                145,
+                146,
+                147
+              ],
+              "22": [
+                148,
+                148,
+                148,
+                148
+              ],
+              "62": [
+                172,
+                173,
+                174,
+                175
+              ],
+              "27": [
+                136,
+                137,
+                138,
+                139
+              ],
+              "33": [
+                176,
+                177,
+                178,
+                179
+              ],
+              "63": [
+                180,
+                181,
+                182,
+                183
+              ],
+              "50": [
+                110,
+                193,
+                110,
+                195
               ]
             },
             "palette": {
-              "31": 3,
-              "62": 3,
-              "63": 3,
-              "23": 3,
-              "33": 3,
-              "22": 3,
-              "59": 2,
-              "27": 3,
-              "25": 3,
               "21": 3,
-              "16": 3,
-              "30": 3,
-              "17": 3,
-              "43": 3,
-              "48": 3,
               "50": 3,
+              "23": 3,
+              "59": 2,
+              "49": 3,
+              "30": 3,
               "46": 3,
+              "48": 3,
+              "31": 3,
+              "63": 3,
               "29": 3,
-              "49": 3
+              "27": 3,
+              "22": 3,
+              "62": 3,
+              "17": 3,
+              "16": 3,
+              "33": 3,
+              "43": 3,
+              "25": 3
             }
           }
         ]
@@ -221,7 +221,7 @@
         "user": "cfrantz",
         "timestamp": 1609394795012025,
         "comment": "",
-        "config": "config-Benthic King-tile_expansion",
+        "config": "config-Benthic King-hacks",
         "extra": {}
       },
       "edit": {
@@ -1457,6 +1457,255 @@
           }
         ]
       }
+    },
+    {
+      "meta": {
+        "label": "Sideview: Palace A 5",
+        "user": "cfrantz",
+        "timestamp": 1609457060335287,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/5",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 2,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 5,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 9,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 13,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 16,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 17,
+              "y": 8,
+              "kind": 5,
+              "param": 0
+            },
+            {
+              "x": 24,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 7,
+              "y": 8,
+              "kind": 6,
+              "param": 0
+            },
+            {
+              "x": 27,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 31,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 35,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 40,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 48,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 51,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 55,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 59,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 62,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 15,
+                "y": 1,
+                "kind": 11,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 35,
+                "y": 3,
+                "kind": 6,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 48,
+                "y": 1,
+                "kind": 11,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 4,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 6,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 0,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
     }
-  ]
+  ],
+  "extra_data": {
+    "data": {
+      "west_hyrule/connector/47/layout": {
+        "type": "MultiMapLayout",
+        "scale": 0.25,
+        "spread": [
+          1.25,
+          1.25
+        ],
+        "show_invalid_connections": false,
+        "layout": {
+          "29": {
+            "x": 1929.5992,
+            "y": 771.2006
+          },
+          "5": {
+            "x": 2048.0,
+            "y": 411.2
+          },
+          "37": {
+            "x": 886.3997,
+            "y": 1011.2002
+          },
+          "49": {
+            "x": 483.19998,
+            "y": 755.2001
+          },
+          "0": {
+            "x": 1152.0001,
+            "y": 108.799934
+          },
+          "4": {
+            "x": 300.80005,
+            "y": 408.00003
+          }
+        }
+      }
+    }
+  }
 }
