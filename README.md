@@ -28,3 +28,23 @@ briny depths and defeat
 the fish king in his most
 adventuresome quest yet...
 ```
+
+## Hackjam 2020 Entry Description
+
+Zelda 2 Mini HackJam Entry
+
+1. Game Title:
+The Legend of Zelda: Benthic King
+
+2. Text modifications: 
+Title roll, townsfolk dialog, end credits and game over screen.
+
+3. Other changes:
+Maps, towns, palaces, graphics, music, puzzles, game mechanics, bosses,
+and physics have all been altered.
+
+4. The End:
+The end credits will roll when you win.
+
+5. Additional info:
+Ah, to be fishing.
