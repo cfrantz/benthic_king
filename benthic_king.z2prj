@@ -221,7 +221,6 @@
         "timestamp": 1609561422293765,
         "comment": "",
         "config": "config-Benthic King-hacks",
-        "skip_pack": true,
         "extra": {}
       },
       "edit": {
@@ -1465,7 +1464,6 @@
         "timestamp": 1609561422410481,
         "comment": "",
         "config": "config-Benthic King-hacks",
-        "skip_pack": true,
         "extra": {}
       },
       "edit": {
