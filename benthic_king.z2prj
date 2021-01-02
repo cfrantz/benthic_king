@@ -218,9 +218,10 @@
       "meta": {
         "label": "Overworld: West Hyrule",
         "user": "cfrantz",
-        "timestamp": 1609536467056646,
+        "timestamp": 1609561422293765,
         "comment": "",
         "config": "config-Benthic King-hacks",
+        "skip_pack": true,
         "extra": {}
       },
       "edit": {
@@ -488,8 +489,8 @@
           },
           {
             "id": "west_hyrule/connector/7",
-            "x": 61,
-            "y": 27,
+            "x": 47,
+            "y": 33,
             "dest_map": 6,
             "dest_world": 0,
             "dest_overworld": 0,
@@ -624,8 +625,8 @@
           },
           {
             "id": "west_hyrule/connector/15",
-            "x": 9,
-            "y": 39,
+            "x": 8,
+            "y": 38,
             "dest_map": 14,
             "dest_world": 0,
             "dest_overworld": 0,
@@ -811,15 +812,15 @@
           },
           {
             "id": "west_hyrule/connector/26",
-            "x": 20,
-            "y": 46,
-            "dest_map": 21,
+            "x": 47,
+            "y": 27,
+            "dest_map": 26,
             "dest_world": 0,
-            "dest_overworld": 0,
-            "external": false,
+            "dest_overworld": 2,
+            "external": true,
             "second": false,
             "exit_2_lower": false,
-            "entry": 1,
+            "entry": 0,
             "entry_right": false,
             "passthru": false,
             "fall": false,
@@ -1066,8 +1067,8 @@
           },
           {
             "id": "west_hyrule/connector/41",
-            "x": 61,
-            "y": 47,
+            "x": 62,
+            "y": 45,
             "dest_map": 41,
             "dest_world": 0,
             "dest_overworld": 2,
@@ -1461,9 +1462,10 @@
       "meta": {
         "label": "Overworld: East Hyrule",
         "user": "cfrantz",
-        "timestamp": 1609536510955496,
+        "timestamp": 1609561422410481,
         "comment": "",
         "config": "config-Benthic King-hacks",
+        "skip_pack": true,
         "extra": {}
       },
       "edit": {
@@ -1553,19 +1555,7 @@
         },
         "encounter": [
           {
-            "dest_map": 29,
-            "entry": 1
-          },
-          {
-            "dest_map": 30,
-            "entry": 1
-          },
-          {
-            "dest_map": 34,
-            "entry": 1
-          },
-          {
-            "dest_map": 35,
+            "dest_map": 39,
             "entry": 1
           },
           {
@@ -1573,15 +1563,27 @@
             "entry": 1
           },
           {
-            "dest_map": 40,
+            "dest_map": 39,
             "entry": 1
           },
           {
-            "dest_map": 47,
+            "dest_map": 39,
             "entry": 1
           },
           {
-            "dest_map": 48,
+            "dest_map": 34,
+            "entry": 1
+          },
+          {
+            "dest_map": 34,
+            "entry": 1
+          },
+          {
+            "dest_map": 29,
+            "entry": 1
+          },
+          {
+            "dest_map": 29,
             "entry": 1
           },
           {
@@ -1597,7 +1599,7 @@
             "entry": 1
           },
           {
-            "dest_map": 58,
+            "dest_map": 57,
             "entry": 1
           },
           {
@@ -1612,23 +1614,6 @@
         "connector": [
           {
             "id": "east_hyrule/connector/0",
-            "x": 10,
-            "y": 28,
-            "dest_map": 38,
-            "dest_world": 0,
-            "dest_overworld": 0,
-            "external": false,
-            "second": false,
-            "exit_2_lower": false,
-            "entry": 1,
-            "entry_right": false,
-            "passthru": false,
-            "fall": false,
-            "hidden": null,
-            "palace": null
-          },
-          {
-            "id": "east_hyrule/connector/1",
             "x": 54,
             "y": 61,
             "dest_map": 44,
@@ -1645,9 +1630,26 @@
             "palace": null
           },
           {
+            "id": "east_hyrule/connector/1",
+            "x": 18,
+            "y": 28,
+            "dest_map": 38,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
             "id": "east_hyrule/connector/2",
-            "x": 21,
-            "y": 46,
+            "x": 3,
+            "y": 45,
             "dest_map": 2,
             "dest_world": 0,
             "dest_overworld": 0,
@@ -1663,7 +1665,7 @@
           },
           {
             "id": "east_hyrule/connector/3",
-            "x": 17,
+            "x": 10,
             "y": 51,
             "dest_map": 3,
             "dest_world": 0,
@@ -1680,8 +1682,8 @@
           },
           {
             "id": "east_hyrule/connector/4",
-            "x": 19,
-            "y": 54,
+            "x": 12,
+            "y": 56,
             "dest_map": 4,
             "dest_world": 0,
             "dest_overworld": 0,
@@ -1799,8 +1801,8 @@
           },
           {
             "id": "east_hyrule/connector/11",
-            "x": 24,
-            "y": 22,
+            "x": 28,
+            "y": 23,
             "dest_map": 8,
             "dest_world": 0,
             "dest_overworld": 0,
@@ -1816,8 +1818,8 @@
           },
           {
             "id": "east_hyrule/connector/12",
-            "x": 27,
-            "y": 18,
+            "x": 29,
+            "y": 25,
             "dest_map": 8,
             "dest_world": 0,
             "dest_overworld": 0,
@@ -1833,7 +1835,7 @@
           },
           {
             "id": "east_hyrule/connector/13",
-            "x": 25,
+            "x": 33,
             "y": 41,
             "dest_map": 9,
             "dest_world": 0,
@@ -1850,12 +1852,12 @@
           },
           {
             "id": "east_hyrule/connector/14",
-            "x": 31,
-            "y": 48,
+            "x": 57,
+            "y": 38,
             "dest_map": 11,
             "dest_world": 0,
             "dest_overworld": 0,
-            "external": false,
+            "external": true,
             "second": false,
             "exit_2_lower": false,
             "entry": 0,
@@ -1867,8 +1869,8 @@
           },
           {
             "id": "east_hyrule/connector/15",
-            "x": 49,
-            "y": 48,
+            "x": 48,
+            "y": 49,
             "dest_map": 13,
             "dest_world": 0,
             "dest_overworld": 0,
@@ -1901,8 +1903,8 @@
           },
           {
             "id": "east_hyrule/connector/17",
-            "x": 2,
-            "y": 45,
+            "x": 18,
+            "y": 49,
             "dest_map": 16,
             "dest_world": 0,
             "dest_overworld": 0,
@@ -1918,8 +1920,8 @@
           },
           {
             "id": "east_hyrule/connector/18",
-            "x": 4,
-            "y": 45,
+            "x": 13,
+            "y": 49,
             "dest_map": 16,
             "dest_world": 0,
             "dest_overworld": 0,
@@ -1935,8 +1937,8 @@
           },
           {
             "id": "east_hyrule/connector/19",
-            "x": 6,
-            "y": 47,
+            "x": 26,
+            "y": 45,
             "dest_map": 19,
             "dest_world": 0,
             "dest_overworld": 0,
@@ -1952,7 +1954,7 @@
           },
           {
             "id": "east_hyrule/connector/20",
-            "x": 10,
+            "x": 32,
             "y": 47,
             "dest_map": 20,
             "dest_world": 0,
@@ -1969,8 +1971,8 @@
           },
           {
             "id": "east_hyrule/connector/21",
-            "x": 26,
-            "y": 51,
+            "x": 52,
+            "y": 28,
             "dest_map": 51,
             "dest_world": 0,
             "dest_overworld": 0,
@@ -2020,8 +2022,8 @@
           },
           {
             "id": "east_hyrule/connector/24",
-            "x": 34,
-            "y": 26,
+            "x": 46,
+            "y": 24,
             "dest_map": 57,
             "dest_world": 0,
             "dest_overworld": 0,
@@ -2054,15 +2056,15 @@
           },
           {
             "id": "east_hyrule/connector/26",
-            "x": 57,
-            "y": 69,
-            "dest_map": 46,
+            "x": 16,
+            "y": 16,
+            "dest_map": 26,
             "dest_world": 0,
             "dest_overworld": 0,
-            "external": false,
+            "external": true,
             "second": false,
             "exit_2_lower": false,
-            "entry": 1,
+            "entry": 0,
             "entry_right": false,
             "passthru": false,
             "fall": false,
@@ -2071,8 +2073,8 @@
           },
           {
             "id": "east_hyrule/connector/27",
-            "x": 13,
-            "y": 38,
+            "x": 14,
+            "y": 39,
             "dest_map": 45,
             "dest_world": 0,
             "dest_overworld": 0,
@@ -2310,7 +2312,7 @@
           {
             "id": "east_hyrule/connector/41",
             "x": 7,
-            "y": 22,
+            "y": 11,
             "dest_map": 41,
             "dest_world": 0,
             "dest_overworld": 0,
@@ -2378,7 +2380,7 @@
           {
             "id": "east_hyrule/connector/45",
             "x": 23,
-            "y": 30,
+            "y": 20,
             "dest_map": 14,
             "dest_world": 2,
             "dest_overworld": 2,
@@ -2520,9 +2522,9 @@
           },
           {
             "id": "east_hyrule/connector/53",
-            "x": 45,
-            "y": 72,
-            "dest_map": 36,
+            "x": 53,
+            "y": 7,
+            "dest_map": 0,
             "dest_world": 4,
             "dest_overworld": 2,
             "external": true,
@@ -2533,21 +2535,21 @@
             "passthru": false,
             "fall": false,
             "hidden": {
-              "hidden": true,
+              "hidden": false,
               "id": "hidden_palace"
             },
             "palace": {
               "index": 1,
-              "chr_bank": 24,
-              "palette": 5
+              "chr_bank": 12,
+              "palette": 1
             }
           },
           {
             "id": "east_hyrule/connector/54",
-            "x": 4,
+            "x": 39,
             "y": 43,
             "dest_map": 0,
-            "dest_world": 5,
+            "dest_world": 4,
             "dest_overworld": 2,
             "external": true,
             "second": false,
@@ -2560,7 +2562,7 @@
             "palace": {
               "index": 2,
               "chr_bank": 12,
-              "palette": 6
+              "palette": 1
             }
           },
           {
@@ -2701,42 +2703,5757 @@
           }
         ]
       }
+    },
+    {
+      "meta": {
+        "label": "palace_125/0",
+        "user": "cfrantz",
+        "timestamp": 1609561440339726,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/0",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": false,
+          "floor": 0,
+          "tileset": 1,
+          "sprite_palette": 0,
+          "background_palette": 0,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 2,
+              "y": 3,
+              "kind": 7,
+              "param": 0
+            },
+            {
+              "x": 6,
+              "y": 6,
+              "kind": 8,
+              "param": 0
+            },
+            {
+              "x": 8,
+              "y": 5,
+              "kind": 192,
+              "param": 4
+            },
+            {
+              "x": 8,
+              "y": 10,
+              "kind": 64,
+              "param": 8
+            },
+            {
+              "x": 12,
+              "y": 8,
+              "kind": 9,
+              "param": 0
+            },
+            {
+              "x": 16,
+              "y": 5,
+              "kind": 192,
+              "param": 4
+            },
+            {
+              "x": 20,
+              "y": 3,
+              "kind": 7,
+              "param": 0
+            },
+            {
+              "x": 22,
+              "y": 10,
+              "kind": 32,
+              "param": 1
+            },
+            {
+              "x": 24,
+              "y": 9,
+              "kind": 112,
+              "param": 7
+            },
+            {
+              "x": 26,
+              "y": 0,
+              "kind": 32,
+              "param": 0
+            },
+            {
+              "x": 27,
+              "y": 0,
+              "kind": 112,
+              "param": 4
+            },
+            {
+              "x": 27,
+              "y": 2,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 32,
+              "y": 0,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 32,
+              "y": 9,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 36,
+              "y": 2,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 44,
+              "y": 2,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 48,
+              "y": 0,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 48,
+              "y": 9,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 52,
+              "y": 2,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 60,
+              "y": 2,
+              "kind": 192,
+              "param": 6
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            []
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 63,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 1,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/1",
+        "user": "cfrantz",
+        "timestamp": 1609561440392497,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/1",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": false,
+          "floor": 0,
+          "tileset": 1,
+          "sprite_palette": 0,
+          "background_palette": 0,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 0,
+              "y": 0,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 0,
+              "y": 9,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 10,
+              "y": 2,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 16,
+              "y": 0,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 16,
+              "y": 9,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 17,
+              "y": 2,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 24,
+              "y": 2,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 31,
+              "y": 2,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 32,
+              "y": 0,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 32,
+              "y": 10,
+              "kind": 64,
+              "param": 6
+            },
+            {
+              "x": 32,
+              "y": 11,
+              "kind": 64,
+              "param": 6
+            },
+            {
+              "x": 32,
+              "y": 12,
+              "kind": 64,
+              "param": 6
+            },
+            {
+              "x": 35,
+              "y": 2,
+              "kind": 112,
+              "param": 9
+            },
+            {
+              "x": 35,
+              "y": 4,
+              "kind": 112,
+              "param": 9
+            },
+            {
+              "x": 35,
+              "y": 6,
+              "kind": 32,
+              "param": 9
+            },
+            {
+              "x": 39,
+              "y": 15,
+              "kind": 80,
+              "param": 6
+            },
+            {
+              "x": 39,
+              "y": 0,
+              "kind": 240,
+              "param": 1
+            },
+            {
+              "x": 39,
+              "y": 10,
+              "kind": 64,
+              "param": 8
+            },
+            {
+              "x": 39,
+              "y": 11,
+              "kind": 64,
+              "param": 8
+            },
+            {
+              "x": 39,
+              "y": 12,
+              "kind": 64,
+              "param": 8
+            },
+            {
+              "x": 48,
+              "y": 0,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 48,
+              "y": 2,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 48,
+              "y": 9,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 54,
+              "y": 2,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 60,
+              "y": 2,
+              "kind": 192,
+              "param": 6
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            []
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 0,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 4,
+            "entry": 2,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 2,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/2",
+        "user": "cfrantz",
+        "timestamp": 1609561440445770,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/2",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": false,
+          "floor": 0,
+          "tileset": 1,
+          "sprite_palette": 0,
+          "background_palette": 0,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 0,
+              "y": 0,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 0,
+              "y": 9,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 10,
+              "y": 2,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 16,
+              "y": 0,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 16,
+              "y": 9,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 17,
+              "y": 2,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 24,
+              "y": 2,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 31,
+              "y": 2,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 32,
+              "y": 0,
+              "kind": 112,
+              "param": 4
+            },
+            {
+              "x": 32,
+              "y": 9,
+              "kind": 112,
+              "param": 7
+            },
+            {
+              "x": 37,
+              "y": 0,
+              "kind": 32,
+              "param": 0
+            },
+            {
+              "x": 40,
+              "y": 10,
+              "kind": 32,
+              "param": 1
+            },
+            {
+              "x": 41,
+              "y": 6,
+              "kind": 7,
+              "param": 0
+            },
+            {
+              "x": 47,
+              "y": 5,
+              "kind": 192,
+              "param": 4
+            },
+            {
+              "x": 47,
+              "y": 10,
+              "kind": 64,
+              "param": 8
+            },
+            {
+              "x": 51,
+              "y": 8,
+              "kind": 9,
+              "param": 0
+            },
+            {
+              "x": 52,
+              "y": 2,
+              "kind": 7,
+              "param": 0
+            },
+            {
+              "x": 55,
+              "y": 5,
+              "kind": 192,
+              "param": 4
+            },
+            {
+              "x": 59,
+              "y": 7,
+              "kind": 8,
+              "param": 0
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            []
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 1,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/3",
+        "user": "cfrantz",
+        "timestamp": 1609561440497614,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/3",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 2,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 8,
+              "y": 7,
+              "kind": 144,
+              "param": 15
+            },
+            {
+              "x": 10,
+              "y": 5,
+              "kind": 144,
+              "param": 15
+            },
+            {
+              "x": 24,
+              "y": 7,
+              "kind": 144,
+              "param": 3
+            },
+            {
+              "x": 35,
+              "y": 7,
+              "kind": 144,
+              "param": 15
+            },
+            {
+              "x": 37,
+              "y": 5,
+              "kind": 144,
+              "param": 13
+            },
+            {
+              "x": 51,
+              "y": 5,
+              "kind": 144,
+              "param": 1
+            },
+            {
+              "x": 51,
+              "y": 7,
+              "kind": 144,
+              "param": 3
+            },
+            {
+              "x": 62,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 25,
+                "y": 3,
+                "kind": 31,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 37,
+                "y": 3,
+                "kind": 31,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 51,
+                "y": 4,
+                "kind": 4,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 53,
+                "y": 6,
+                "kind": 4,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 5,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 4,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/4",
+        "user": "cfrantz",
+        "timestamp": 1609561440550544,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/4",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 2,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 4,
+              "y": 13,
+              "kind": 0,
+              "param": 9
+            },
+            {
+              "x": 6,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 10,
+              "y": 13,
+              "kind": 0,
+              "param": 9
+            },
+            {
+              "x": 12,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 14,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 18,
+              "y": 8,
+              "kind": 5,
+              "param": 0
+            },
+            {
+              "x": 20,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 22,
+              "y": 13,
+              "kind": 0,
+              "param": 9
+            },
+            {
+              "x": 24,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 33,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 36,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 37,
+              "y": 10,
+              "kind": 32,
+              "param": 1
+            },
+            {
+              "x": 39,
+              "y": 15,
+              "kind": 80,
+              "param": 0
+            },
+            {
+              "x": 39,
+              "y": 0,
+              "kind": 240,
+              "param": 1
+            },
+            {
+              "x": 41,
+              "y": 13,
+              "kind": 0,
+              "param": 15
+            },
+            {
+              "x": 43,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 44,
+              "y": 5,
+              "kind": 15,
+              "param": 8
+            },
+            {
+              "x": 44,
+              "y": 9,
+              "kind": 176,
+              "param": 1
+            },
+            {
+              "x": 45,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 46,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 56,
+              "y": 13,
+              "kind": 0,
+              "param": 9
+            },
+            {
+              "x": 58,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 60,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 8,
+                "y": 3,
+                "kind": 6,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 10,
+                "y": 9,
+                "kind": 4,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 25,
+                "y": 3,
+                "kind": 31,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 3,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 1,
+            "entry": 2,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 7,
+            "entry": 2,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 5,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          false,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/5",
+        "user": "cfrantz",
+        "timestamp": 1609561440603360,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/5",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 2,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 5,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 9,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 13,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 16,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 24,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 27,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 31,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 35,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 40,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 48,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 51,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 55,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 59,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 62,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 15,
+                "y": 1,
+                "kind": 11,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 35,
+                "y": 3,
+                "kind": 6,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 48,
+                "y": 1,
+                "kind": 11,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 4,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 3,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/6",
+        "user": "cfrantz",
+        "timestamp": 1609561440655916,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/6",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 16,
+              "y": 14,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 20,
+              "y": 13,
+              "kind": 0,
+              "param": 13
+            },
+            {
+              "x": 32,
+              "y": 14,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 42,
+              "y": 13,
+              "kind": 0,
+              "param": 9
+            },
+            {
+              "x": 42,
+              "y": 4,
+              "kind": 1,
+              "param": 0
+            },
+            {
+              "x": 44,
+              "y": 9,
+              "kind": 112,
+              "param": 1
+            },
+            {
+              "x": 46,
+              "y": 13,
+              "kind": 0,
+              "param": 4
+            },
+            {
+              "x": 48,
+              "y": 13,
+              "kind": 0,
+              "param": 6
+            },
+            {
+              "x": 61,
+              "y": 4,
+              "kind": 15,
+              "param": 8
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 23,
+                "y": 9,
+                "kind": 6,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 28,
+                "y": 9,
+                "kind": 6,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 42,
+                "y": 4,
+                "kind": 5,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 8,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 7,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          false,
+          true,
+          false
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/7",
+        "user": "cfrantz",
+        "timestamp": 1609561440708103,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/7",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 2,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 4,
+              "y": 13,
+              "kind": 0,
+              "param": 9
+            },
+            {
+              "x": 6,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 10,
+              "y": 13,
+              "kind": 0,
+              "param": 9
+            },
+            {
+              "x": 12,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 14,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 18,
+              "y": 8,
+              "kind": 5,
+              "param": 0
+            },
+            {
+              "x": 20,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 22,
+              "y": 13,
+              "kind": 0,
+              "param": 9
+            },
+            {
+              "x": 24,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 32,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 36,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 37,
+              "y": 10,
+              "kind": 32,
+              "param": 5
+            },
+            {
+              "x": 39,
+              "y": 15,
+              "kind": 80,
+              "param": 0
+            },
+            {
+              "x": 39,
+              "y": 0,
+              "kind": 240,
+              "param": 1
+            },
+            {
+              "x": 41,
+              "y": 13,
+              "kind": 0,
+              "param": 15
+            },
+            {
+              "x": 43,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 44,
+              "y": 2,
+              "kind": 15,
+              "param": 8
+            },
+            {
+              "x": 44,
+              "y": 9,
+              "kind": 64,
+              "param": 1
+            },
+            {
+              "x": 44,
+              "y": 10,
+              "kind": 64,
+              "param": 1
+            },
+            {
+              "x": 47,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 55,
+              "y": 8,
+              "kind": 6,
+              "param": 0
+            },
+            {
+              "x": 56,
+              "y": 13,
+              "kind": 0,
+              "param": 9
+            },
+            {
+              "x": 58,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 60,
+              "y": 13,
+              "kind": 0,
+              "param": 15
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 22,
+                "y": 9,
+                "kind": 17,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 25,
+                "y": 3,
+                "kind": 35,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 50,
+                "y": 9,
+                "kind": 17,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 6,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 4,
+            "entry": 2,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 10,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 8,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 21,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          false,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/8",
+        "user": "cfrantz",
+        "timestamp": 1609561440760557,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/8",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 15,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 2,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 5,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 9,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 9,
+              "y": 8,
+              "kind": 6,
+              "param": 0
+            },
+            {
+              "x": 13,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 16,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 24,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 27,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 31,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 35,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 40,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 48,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 51,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 55,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 55,
+              "y": 8,
+              "kind": 6,
+              "param": 0
+            },
+            {
+              "x": 59,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 62,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 27,
+                "y": 1,
+                "kind": 10,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 13,
+                "y": 8,
+                "kind": 4,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 28,
+                "y": 9,
+                "kind": 4,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 33,
+                "y": 9,
+                "kind": 4,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 51,
+                "y": 8,
+                "kind": 4,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 36,
+                "y": 1,
+                "kind": 10,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 7,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 6,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 61,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 21,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/9",
+        "user": "cfrantz",
+        "timestamp": 1609561440813180,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/9",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 2,
+              "y": 13,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 6,
+              "y": 9,
+              "kind": 112,
+              "param": 5
+            },
+            {
+              "x": 8,
+              "y": 7,
+              "kind": 112,
+              "param": 3
+            },
+            {
+              "x": 8,
+              "y": 11,
+              "kind": 240,
+              "param": 15
+            },
+            {
+              "x": 10,
+              "y": 5,
+              "kind": 112,
+              "param": 1
+            },
+            {
+              "x": 12,
+              "y": 5,
+              "kind": 80,
+              "param": 12
+            },
+            {
+              "x": 24,
+              "y": 4,
+              "kind": 15,
+              "param": 10
+            },
+            {
+              "x": 24,
+              "y": 8,
+              "kind": 176,
+              "param": 2
+            },
+            {
+              "x": 25,
+              "y": 5,
+              "kind": 48,
+              "param": 14
+            },
+            {
+              "x": 25,
+              "y": 8,
+              "kind": 176,
+              "param": 2
+            },
+            {
+              "x": 26,
+              "y": 9,
+              "kind": 176,
+              "param": 1
+            },
+            {
+              "x": 27,
+              "y": 6,
+              "kind": 48,
+              "param": 10
+            },
+            {
+              "x": 31,
+              "y": 7,
+              "kind": 48,
+              "param": 2
+            },
+            {
+              "x": 32,
+              "y": 8,
+              "kind": 6,
+              "param": 0
+            },
+            {
+              "x": 38,
+              "y": 9,
+              "kind": 176,
+              "param": 1
+            },
+            {
+              "x": 39,
+              "y": 4,
+              "kind": 15,
+              "param": 12
+            },
+            {
+              "x": 39,
+              "y": 8,
+              "kind": 176,
+              "param": 2
+            },
+            {
+              "x": 40,
+              "y": 5,
+              "kind": 80,
+              "param": 11
+            },
+            {
+              "x": 40,
+              "y": 8,
+              "kind": 176,
+              "param": 2
+            },
+            {
+              "x": 41,
+              "y": 11,
+              "kind": 240,
+              "param": 14
+            },
+            {
+              "x": 52,
+              "y": 5,
+              "kind": 112,
+              "param": 1
+            },
+            {
+              "x": 52,
+              "y": 7,
+              "kind": 112,
+              "param": 3
+            },
+            {
+              "x": 52,
+              "y": 9,
+              "kind": 112,
+              "param": 5
+            },
+            {
+              "x": 62,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 7,
+                "y": 8,
+                "kind": 4,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 9,
+                "y": 6,
+                "kind": 4,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 54,
+                "y": 6,
+                "kind": 4,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 56,
+                "y": 8,
+                "kind": 4,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 11,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 10,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 24,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 24,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          false,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/10",
+        "user": "cfrantz",
+        "timestamp": 1609561440865325,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/10",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 6,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 0,
+              "y": 0,
+              "kind": 112,
+              "param": 3
+            },
+            {
+              "x": 4,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 4,
+              "y": 5,
+              "kind": 144,
+              "param": 3
+            },
+            {
+              "x": 4,
+              "y": 7,
+              "kind": 144,
+              "param": 11
+            },
+            {
+              "x": 4,
+              "y": 9,
+              "kind": 144,
+              "param": 11
+            },
+            {
+              "x": 7,
+              "y": 11,
+              "kind": 112,
+              "param": 1
+            },
+            {
+              "x": 8,
+              "y": 6,
+              "kind": 48,
+              "param": 3
+            },
+            {
+              "x": 16,
+              "y": 8,
+              "kind": 48,
+              "param": 3
+            },
+            {
+              "x": 16,
+              "y": 9,
+              "kind": 144,
+              "param": 7
+            },
+            {
+              "x": 24,
+              "y": 10,
+              "kind": 48,
+              "param": 3
+            },
+            {
+              "x": 32,
+              "y": 4,
+              "kind": 2,
+              "param": 0
+            },
+            {
+              "x": 33,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 48,
+              "y": 14,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 52,
+              "y": 10,
+              "kind": 112,
+              "param": 3
+            },
+            {
+              "x": 55,
+              "y": 15,
+              "kind": 80,
+              "param": 0
+            },
+            {
+              "x": 55,
+              "y": 0,
+              "kind": 240,
+              "param": 1
+            },
+            {
+              "x": 57,
+              "y": 13,
+              "kind": 0,
+              "param": 15
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 20,
+                "y": 7,
+                "kind": 4,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 15,
+                "y": 5,
+                "kind": 30,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 5,
+                "y": 9,
+                "kind": 5,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 9,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 7,
+            "entry": 2,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 13,
+            "entry": 2,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 11,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/11",
+        "user": "cfrantz",
+        "timestamp": 1609561440919256,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/11",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 15,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 4,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 4,
+              "y": 6,
+              "kind": 1,
+              "param": 0
+            },
+            {
+              "x": 9,
+              "y": 8,
+              "kind": 6,
+              "param": 0
+            },
+            {
+              "x": 15,
+              "y": 6,
+              "kind": 2,
+              "param": 0
+            },
+            {
+              "x": 16,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 20,
+              "y": 8,
+              "kind": 144,
+              "param": 1
+            },
+            {
+              "x": 20,
+              "y": 9,
+              "kind": 144,
+              "param": 1
+            },
+            {
+              "x": 26,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 26,
+              "y": 6,
+              "kind": 1,
+              "param": 0
+            },
+            {
+              "x": 37,
+              "y": 6,
+              "kind": 2,
+              "param": 0
+            },
+            {
+              "x": 38,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 42,
+              "y": 8,
+              "kind": 144,
+              "param": 1
+            },
+            {
+              "x": 42,
+              "y": 9,
+              "kind": 144,
+              "param": 1
+            },
+            {
+              "x": 48,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 48,
+              "y": 6,
+              "kind": 1,
+              "param": 0
+            },
+            {
+              "x": 59,
+              "y": 6,
+              "kind": 2,
+              "param": 0
+            },
+            {
+              "x": 60,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 12,
+                "y": 3,
+                "kind": 35,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 26,
+                "y": 6,
+                "kind": 22,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 34,
+                "y": 3,
+                "kind": 35,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 37,
+                "y": 6,
+                "kind": 23,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 48,
+                "y": 6,
+                "kind": 22,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 56,
+                "y": 3,
+                "kind": 35,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 59,
+                "y": 6,
+                "kind": 23,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 10,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 9,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 56,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/12",
+        "user": "cfrantz",
+        "timestamp": 1609561440973085,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/12",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 2,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 5,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 9,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 13,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 16,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 17,
+              "y": 8,
+              "kind": 5,
+              "param": 0
+            },
+            {
+              "x": 24,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 27,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 31,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 35,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 40,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 48,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 51,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 55,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 59,
+              "y": 4,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 62,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 16,
+                "y": 9,
+                "kind": 30,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 53,
+                "y": 9,
+                "kind": 24,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 14,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 13,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/13",
+        "user": "cfrantz",
+        "timestamp": 1609561441026451,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/13",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 2,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 4,
+              "y": 13,
+              "kind": 0,
+              "param": 9
+            },
+            {
+              "x": 6,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 9,
+              "y": 8,
+              "kind": 6,
+              "param": 0
+            },
+            {
+              "x": 10,
+              "y": 13,
+              "kind": 0,
+              "param": 9
+            },
+            {
+              "x": 12,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 14,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 20,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 22,
+              "y": 13,
+              "kind": 0,
+              "param": 9
+            },
+            {
+              "x": 24,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 32,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 37,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 37,
+              "y": 8,
+              "kind": 64,
+              "param": 5
+            },
+            {
+              "x": 37,
+              "y": 9,
+              "kind": 64,
+              "param": 5
+            },
+            {
+              "x": 37,
+              "y": 10,
+              "kind": 64,
+              "param": 5
+            },
+            {
+              "x": 39,
+              "y": 15,
+              "kind": 80,
+              "param": 0
+            },
+            {
+              "x": 39,
+              "y": 0,
+              "kind": 240,
+              "param": 1
+            },
+            {
+              "x": 41,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 43,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 44,
+              "y": 2,
+              "kind": 15,
+              "param": 12
+            },
+            {
+              "x": 47,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 56,
+              "y": 13,
+              "kind": 0,
+              "param": 9
+            },
+            {
+              "x": 58,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 60,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 22,
+                "y": 9,
+                "kind": 17,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 25,
+                "y": 3,
+                "kind": 35,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 50,
+                "y": 9,
+                "kind": 17,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 12,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 10,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 16,
+            "entry": 2,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 14,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 54,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/14",
+        "user": "cfrantz",
+        "timestamp": 1609561441080175,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/14",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 2,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 8,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 12,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 16,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 18,
+              "y": 8,
+              "kind": 5,
+              "param": 0
+            },
+            {
+              "x": 20,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 24,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 28,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 35,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 36,
+              "y": 2,
+              "kind": 112,
+              "param": 7
+            },
+            {
+              "x": 36,
+              "y": 4,
+              "kind": 112,
+              "param": 7
+            },
+            {
+              "x": 36,
+              "y": 6,
+              "kind": 112,
+              "param": 7
+            },
+            {
+              "x": 39,
+              "y": 15,
+              "kind": 80,
+              "param": 0
+            },
+            {
+              "x": 39,
+              "y": 0,
+              "kind": 240,
+              "param": 1
+            },
+            {
+              "x": 39,
+              "y": 11,
+              "kind": 112,
+              "param": 1
+            },
+            {
+              "x": 44,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 50,
+              "y": 13,
+              "kind": 0,
+              "param": 12
+            },
+            {
+              "x": 56,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 62,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 14,
+                "y": 3,
+                "kind": 6,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 22,
+                "y": 6,
+                "kind": 6,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 33,
+                "y": 3,
+                "kind": 6,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 35,
+                "y": 1,
+                "kind": 13,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 44,
+                "y": 1,
+                "kind": 13,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 57,
+                "y": 3,
+                "kind": 6,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 13,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 17,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 12,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          false,
+          false,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/15",
+        "user": "cfrantz",
+        "timestamp": 1609561441132618,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/15",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 2,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 2,
+              "y": 7,
+              "kind": 48,
+              "param": 5
+            },
+            {
+              "x": 12,
+              "y": 7,
+              "kind": 48,
+              "param": 5
+            },
+            {
+              "x": 22,
+              "y": 7,
+              "kind": 48,
+              "param": 5
+            },
+            {
+              "x": 24,
+              "y": 6,
+              "kind": 15,
+              "param": 10
+            },
+            {
+              "x": 32,
+              "y": 7,
+              "kind": 48,
+              "param": 5
+            },
+            {
+              "x": 42,
+              "y": 7,
+              "kind": 48,
+              "param": 3
+            },
+            {
+              "x": 46,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 49,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 49,
+              "y": 7,
+              "kind": 64,
+              "param": 12
+            },
+            {
+              "x": 55,
+              "y": 5,
+              "kind": 9,
+              "param": 0
+            },
+            {
+              "x": 62,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 8,
+                "y": 3,
+                "kind": 6,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 18,
+                "y": 3,
+                "kind": 14,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 28,
+                "y": 3,
+                "kind": 6,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 38,
+                "y": 3,
+                "kind": 6,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 17,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 16,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [],
+        "availability": [
+          true,
+          false,
+          false,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/16",
+        "user": "cfrantz",
+        "timestamp": 1609561441186363,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/16",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 2,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 4,
+              "y": 13,
+              "kind": 0,
+              "param": 9
+            },
+            {
+              "x": 6,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 10,
+              "y": 13,
+              "kind": 0,
+              "param": 9
+            },
+            {
+              "x": 12,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 14,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 18,
+              "y": 8,
+              "kind": 5,
+              "param": 0
+            },
+            {
+              "x": 20,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 22,
+              "y": 13,
+              "kind": 0,
+              "param": 9
+            },
+            {
+              "x": 24,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 32,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 34,
+              "y": 8,
+              "kind": 6,
+              "param": 0
+            },
+            {
+              "x": 37,
+              "y": 13,
+              "kind": 0,
+              "param": 15
+            },
+            {
+              "x": 39,
+              "y": 15,
+              "kind": 80,
+              "param": 0
+            },
+            {
+              "x": 39,
+              "y": 0,
+              "kind": 240,
+              "param": 1
+            },
+            {
+              "x": 43,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 44,
+              "y": 2,
+              "kind": 15,
+              "param": 5
+            },
+            {
+              "x": 47,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 56,
+              "y": 13,
+              "kind": 0,
+              "param": 9
+            },
+            {
+              "x": 58,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 60,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 22,
+                "y": 9,
+                "kind": 17,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 25,
+                "y": 3,
+                "kind": 35,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 50,
+                "y": 9,
+                "kind": 17,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 15,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 13,
+            "entry": 2,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 19,
+            "entry": 2,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 17,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 34,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/17",
+        "user": "cfrantz",
+        "timestamp": 1609561441239247,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/17",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 7,
+              "y": 15,
+              "kind": 80,
+              "param": 0
+            },
+            {
+              "x": 7,
+              "y": 8,
+              "kind": 240,
+              "param": 1
+            },
+            {
+              "x": 16,
+              "y": 14,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 23,
+              "y": 8,
+              "kind": 5,
+              "param": 0
+            },
+            {
+              "x": 32,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 32,
+              "y": 4,
+              "kind": 1,
+              "param": 0
+            },
+            {
+              "x": 36,
+              "y": 10,
+              "kind": 48,
+              "param": 3
+            },
+            {
+              "x": 40,
+              "y": 9,
+              "kind": 144,
+              "param": 7
+            },
+            {
+              "x": 44,
+              "y": 8,
+              "kind": 48,
+              "param": 3
+            },
+            {
+              "x": 48,
+              "y": 7,
+              "kind": 144,
+              "param": 11
+            },
+            {
+              "x": 48,
+              "y": 9,
+              "kind": 144,
+              "param": 11
+            },
+            {
+              "x": 52,
+              "y": 6,
+              "kind": 48,
+              "param": 3
+            },
+            {
+              "x": 56,
+              "y": 5,
+              "kind": 144,
+              "param": 3
+            },
+            {
+              "x": 60,
+              "y": 13,
+              "kind": 0,
+              "param": 6
+            },
+            {
+              "x": 60,
+              "y": 0,
+              "kind": 112,
+              "param": 3
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 32,
+                "y": 4,
+                "kind": 22,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 35,
+                "y": 9,
+                "kind": 4,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 37,
+                "y": 9,
+                "kind": 4,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 39,
+                "y": 9,
+                "kind": 4,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 41,
+                "y": 8,
+                "kind": 4,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 45,
+                "y": 7,
+                "kind": 4,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 16,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 14,
+            "entry": 2,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 15,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/18",
+        "user": "cfrantz",
+        "timestamp": 1609561441292908,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/18",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": false,
+          "floor": 0,
+          "tileset": 1,
+          "sprite_palette": 0,
+          "background_palette": 0,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 0,
+              "y": 11,
+              "kind": 240,
+              "param": 15
+            },
+            {
+              "x": 16,
+              "y": 14,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 16,
+              "y": 11,
+              "kind": 240,
+              "param": 15
+            },
+            {
+              "x": 20,
+              "y": 12,
+              "kind": 7,
+              "param": 0
+            },
+            {
+              "x": 25,
+              "y": 8,
+              "kind": 8,
+              "param": 0
+            },
+            {
+              "x": 30,
+              "y": 4,
+              "kind": 7,
+              "param": 0
+            },
+            {
+              "x": 32,
+              "y": 11,
+              "kind": 64,
+              "param": 2
+            },
+            {
+              "x": 32,
+              "y": 12,
+              "kind": 32,
+              "param": 15
+            },
+            {
+              "x": 33,
+              "y": 9,
+              "kind": 9,
+              "param": 0
+            },
+            {
+              "x": 35,
+              "y": 11,
+              "kind": 32,
+              "param": 15
+            },
+            {
+              "x": 39,
+              "y": 4,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 43,
+              "y": 9,
+              "kind": 144,
+              "param": 2
+            },
+            {
+              "x": 44,
+              "y": 10,
+              "kind": 15,
+              "param": 14
+            },
+            {
+              "x": 48,
+              "y": 11,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 49,
+              "y": 4,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 54,
+              "y": 4,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 56,
+              "y": 1,
+              "kind": 8,
+              "param": 0
+            },
+            {
+              "x": 59,
+              "y": 4,
+              "kind": 192,
+              "param": 6
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            []
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 1,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 19,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/19",
+        "user": "cfrantz",
+        "timestamp": 1609561441346026,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/19",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": false,
+          "floor": 0,
+          "tileset": 1,
+          "sprite_palette": 0,
+          "background_palette": 0,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 0,
+              "y": 11,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 2,
+              "y": 3,
+              "kind": 7,
+              "param": 0
+            },
+            {
+              "x": 6,
+              "y": 5,
+              "kind": 8,
+              "param": 0
+            },
+            {
+              "x": 9,
+              "y": 4,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 13,
+              "y": 4,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 16,
+              "y": 11,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 17,
+              "y": 4,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 21,
+              "y": 4,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 30,
+              "y": 4,
+              "kind": 7,
+              "param": 0
+            },
+            {
+              "x": 32,
+              "y": 11,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 35,
+              "y": 6,
+              "kind": 64,
+              "param": 9
+            },
+            {
+              "x": 35,
+              "y": 7,
+              "kind": 192,
+              "param": 3
+            },
+            {
+              "x": 38,
+              "y": 4,
+              "kind": 9,
+              "param": 0
+            },
+            {
+              "x": 39,
+              "y": 15,
+              "kind": 80,
+              "param": 0
+            },
+            {
+              "x": 39,
+              "y": 11,
+              "kind": 240,
+              "param": 1
+            },
+            {
+              "x": 41,
+              "y": 4,
+              "kind": 9,
+              "param": 0
+            },
+            {
+              "x": 44,
+              "y": 7,
+              "kind": 192,
+              "param": 3
+            },
+            {
+              "x": 48,
+              "y": 11,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 54,
+              "y": 4,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 56,
+              "y": 1,
+              "kind": 8,
+              "param": 0
+            },
+            {
+              "x": 59,
+              "y": 4,
+              "kind": 192,
+              "param": 6
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            []
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 18,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 16,
+            "entry": 2,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 20,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/20",
+        "user": "cfrantz",
+        "timestamp": 1609561441399023,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/20",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": false,
+          "floor": 0,
+          "tileset": 1,
+          "sprite_palette": 0,
+          "background_palette": 0,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 0,
+              "y": 11,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 4,
+              "y": 4,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 9,
+              "y": 4,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 11,
+              "y": 2,
+              "kind": 7,
+              "param": 0
+            },
+            {
+              "x": 14,
+              "y": 4,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 16,
+              "y": 11,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 18,
+              "y": 9,
+              "kind": 144,
+              "param": 2
+            },
+            {
+              "x": 19,
+              "y": 10,
+              "kind": 15,
+              "param": 14
+            },
+            {
+              "x": 21,
+              "y": 7,
+              "kind": 8,
+              "param": 0
+            },
+            {
+              "x": 24,
+              "y": 4,
+              "kind": 192,
+              "param": 6
+            },
+            {
+              "x": 29,
+              "y": 11,
+              "kind": 64,
+              "param": 2
+            },
+            {
+              "x": 30,
+              "y": 9,
+              "kind": 9,
+              "param": 0
+            },
+            {
+              "x": 32,
+              "y": 11,
+              "kind": 240,
+              "param": 15
+            },
+            {
+              "x": 36,
+              "y": 6,
+              "kind": 7,
+              "param": 0
+            },
+            {
+              "x": 41,
+              "y": 12,
+              "kind": 8,
+              "param": 0
+            },
+            {
+              "x": 52,
+              "y": 11,
+              "kind": 240,
+              "param": 15
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            []
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 19,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 2,
+            "entry": 2,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 2,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/21",
+        "user": "cfrantz",
+        "timestamp": 1609561441453142,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/21",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 1,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 10,
+              "y": 13,
+              "kind": 0,
+              "param": 128
+            },
+            {
+              "x": 24,
+              "y": 10,
+              "kind": 15,
+              "param": 10
+            },
+            {
+              "x": 32,
+              "y": 14,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 32,
+              "y": 3,
+              "kind": 112,
+              "param": 1
+            },
+            {
+              "x": 32,
+              "y": 2,
+              "kind": 15,
+              "param": 8
+            },
+            {
+              "x": 48,
+              "y": 14,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 50,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            []
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 7,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 8,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          false,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/24",
+        "user": "cfrantz",
+        "timestamp": 1609561441613402,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/24",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 16,
+              "y": 14,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 16,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 16,
+              "y": 2,
+              "kind": 128,
+              "param": 15
+            },
+            {
+              "x": 19,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 28,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 32,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 48,
+              "y": 14,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 48,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 51,
+              "y": 10,
+              "kind": 64,
+              "param": 8
+            },
+            {
+              "x": 53,
+              "y": 9,
+              "kind": 64,
+              "param": 4
+            },
+            {
+              "x": 55,
+              "y": 8,
+              "kind": 15,
+              "param": 15
+            },
+            {
+              "x": 62,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 62,
+              "y": 8,
+              "kind": 32,
+              "param": 1
+            },
+            {
+              "x": 62,
+              "y": 9,
+              "kind": 9,
+              "param": 0
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 28,
+                "y": 8,
+                "kind": 32,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 9,
+            "entry": 2,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 9,
+            "entry": 2,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/34",
+        "user": "cfrantz",
+        "timestamp": 1609561442166086,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/34",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 16,
+              "y": 14,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 16,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 16,
+              "y": 2,
+              "kind": 128,
+              "param": 15
+            },
+            {
+              "x": 19,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 28,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 32,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 41,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 44,
+              "y": 10,
+              "kind": 64,
+              "param": 8
+            },
+            {
+              "x": 46,
+              "y": 9,
+              "kind": 64,
+              "param": 4
+            },
+            {
+              "x": 48,
+              "y": 8,
+              "kind": 15,
+              "param": 15
+            },
+            {
+              "x": 55,
+              "y": 11,
+              "kind": 240,
+              "param": 6
+            },
+            {
+              "x": 62,
+              "y": 13,
+              "kind": 0,
+              "param": 15
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 28,
+                "y": 9,
+                "kind": 33,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 16,
+            "entry": 2,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 2,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "door": [],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/54",
+        "user": "cfrantz",
+        "timestamp": 1609561443268068,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/54",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 2,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 2,
+              "y": 7,
+              "kind": 144,
+              "param": 5
+            },
+            {
+              "x": 4,
+              "y": 6,
+              "kind": 15,
+              "param": 8
+            },
+            {
+              "x": 8,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 8,
+              "y": 7,
+              "kind": 112,
+              "param": 1
+            },
+            {
+              "x": 10,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 16,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 16,
+              "y": 7,
+              "kind": 112,
+              "param": 5
+            },
+            {
+              "x": 22,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 22,
+              "y": 8,
+              "kind": 176,
+              "param": 2
+            },
+            {
+              "x": 23,
+              "y": 8,
+              "kind": 176,
+              "param": 2
+            },
+            {
+              "x": 23,
+              "y": 10,
+              "kind": 15,
+              "param": 12
+            },
+            {
+              "x": 24,
+              "y": 8,
+              "kind": 112,
+              "param": 1
+            },
+            {
+              "x": 24,
+              "y": 9,
+              "kind": 112,
+              "param": 3
+            },
+            {
+              "x": 32,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 32,
+              "y": 8,
+              "kind": 176,
+              "param": 2
+            },
+            {
+              "x": 48,
+              "y": 14,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 48,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 48,
+              "y": 6,
+              "kind": 1,
+              "param": 0
+            },
+            {
+              "x": 54,
+              "y": 7,
+              "kind": 32,
+              "param": 7
+            },
+            {
+              "x": 56,
+              "y": 8,
+              "kind": 192,
+              "param": 2
+            },
+            {
+              "x": 62,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 3,
+                "y": 3,
+                "kind": 14,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 58,
+                "y": 5,
+                "kind": 30,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 25,
+                "y": 6,
+                "kind": 25,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 13,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 55,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/55",
+        "user": "cfrantz",
+        "timestamp": 1609561443322784,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/55",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 2,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 8,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 12,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 16,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 18,
+              "y": 8,
+              "kind": 5,
+              "param": 0
+            },
+            {
+              "x": 20,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 24,
+              "y": 13,
+              "kind": 0,
+              "param": 11
+            },
+            {
+              "x": 28,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 35,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 36,
+              "y": 6,
+              "kind": 112,
+              "param": 7
+            },
+            {
+              "x": 37,
+              "y": 10,
+              "kind": 32,
+              "param": 5
+            },
+            {
+              "x": 39,
+              "y": 15,
+              "kind": 80,
+              "param": 0
+            },
+            {
+              "x": 39,
+              "y": 5,
+              "kind": 15,
+              "param": 12
+            },
+            {
+              "x": 39,
+              "y": 8,
+              "kind": 240,
+              "param": 1
+            },
+            {
+              "x": 44,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 50,
+              "y": 13,
+              "kind": 0,
+              "param": 12
+            },
+            {
+              "x": 56,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 62,
+              "y": 13,
+              "kind": 0,
+              "param": 15
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 21,
+                "y": 3,
+                "kind": 31,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 48,
+                "y": 3,
+                "kind": 31,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 54,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 56,
+            "entry": 2,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [],
+        "availability": [
+          true,
+          true,
+          false,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/56",
+        "user": "cfrantz",
+        "timestamp": 1609561443378967,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/56",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 14,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 2,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 6,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 10,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 14,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 18,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 22,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 26,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 32,
+              "y": 13,
+              "kind": 0,
+              "param": 14
+            },
+            {
+              "x": 39,
+              "y": 15,
+              "kind": 80,
+              "param": 0
+            },
+            {
+              "x": 39,
+              "y": 0,
+              "kind": 240,
+              "param": 1
+            },
+            {
+              "x": 39,
+              "y": 11,
+              "kind": 112,
+              "param": 1
+            },
+            {
+              "x": 46,
+              "y": 13,
+              "kind": 0,
+              "param": 8
+            },
+            {
+              "x": 50,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 54,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 58,
+              "y": 2,
+              "kind": 192,
+              "param": 8
+            },
+            {
+              "x": 62,
+              "y": 13,
+              "kind": 0,
+              "param": 15
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 15,
+                "y": 1,
+                "kind": 11,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 48,
+                "y": 1,
+                "kind": 11,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 11,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 55,
+            "entry": 2,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "palace_125/61",
+        "user": "cfrantz",
+        "timestamp": 1609561443654828,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "palace_125/61",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 0,
+          "tileset": 0,
+          "sprite_palette": 0,
+          "background_palette": 1,
+          "background_map": 1,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 9,
+              "y": 9,
+              "kind": 15,
+              "param": 8
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 21,
+                "y": 9,
+                "kind": 30,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 38,
+                "y": 9,
+                "kind": 24,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 60,
+                "y": 3,
+                "kind": 5,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 63,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 8,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
     }
   ],
   "extra_data": {
     "data": {
-      "west_hyrule/connector/47/layout": {
+      "west_hyrule/connector/52/layout": {
         "type": "MultiMapLayout",
-        "scale": 0.25,
+        "scale": 0.125,
         "spread": [
           1.25,
-          1.25
+          2.0
         ],
         "show_invalid_connections": false,
         "layout": {
-          "29": {
-            "x": 1929.5992,
-            "y": 771.2006
-          },
-          "5": {
-            "x": 2048.0,
-            "y": 411.2
-          },
-          "37": {
-            "x": 886.3997,
-            "y": 1011.2002
-          },
-          "49": {
-            "x": 483.19998,
-            "y": 755.2001
-          },
           "0": {
-            "x": 1152.0001,
-            "y": 108.799934
+            "x": 2220.8015,
+            "y": 3312.0
+          },
+          "1": {
+            "x": 3404.799,
+            "y": 3296.0
           },
           "4": {
-            "x": 300.80005,
-            "y": 408.00003
+            "x": 3411.1985,
+            "y": 2948.0
+          },
+          "3": {
+            "x": 2144.0012,
+            "y": 2956.0
+          },
+          "5": {
+            "x": 4518.3994,
+            "y": 2924.0
+          },
+          "7": {
+            "x": 3430.399,
+            "y": 2356.0
+          },
+          "6": {
+            "x": 2156.7976,
+            "y": 2360.0
+          },
+          "8": {
+            "x": 4409.601,
+            "y": 2380.0
+          },
+          "61": {
+            "x": 2892.7998,
+            "y": 2636.0
+          },
+          "21": {
+            "x": 4313.6035,
+            "y": 2652.0
+          },
+          "10": {
+            "x": 3327.9993,
+            "y": 1668.0
+          },
+          "9": {
+            "x": 2048.0,
+            "y": 1676.0
+          },
+          "11": {
+            "x": 4416.0,
+            "y": 1636.0
+          },
+          "56": {
+            "x": 3833.5974,
+            "y": 1972.0
+          },
+          "55": {
+            "x": 3878.3982,
+            "y": 1416.0
+          },
+          "54": {
+            "x": 2860.8003,
+            "y": 1412.0
+          },
+          "13": {
+            "x": 3308.7988,
+            "y": 1088.0
+          },
+          "12": {
+            "x": 2060.8013,
+            "y": 1084.0
+          },
+          "14": {
+            "x": 4294.4043,
+            "y": 1080.0
+          },
+          "17": {
+            "x": 4403.2,
+            "y": 564.0
+          },
+          "16": {
+            "x": 3392.0007,
+            "y": 580.0
+          },
+          "15": {
+            "x": 2003.2009,
+            "y": 556.0
+          },
+          "53": {
+            "x": 326.4002,
+            "y": 540.0
+          },
+          "19": {
+            "x": 3296.0007,
+            "y": 148.0
+          },
+          "18": {
+            "x": 1958.4014,
+            "y": 156.0
+          },
+          "40": {
+            "x": 288.00168,
+            "y": 168.0
+          },
+          "20": {
+            "x": 4403.196,
+            "y": 144.0
+          },
+          "2": {
+            "x": 4518.401,
+            "y": 3300.0
+          },
+          "34": {
+            "x": 4191.9995,
+            "y": 808.0
+          },
+          "38": {
+            "x": 6143.9995,
+            "y": 416.0
+          },
+          "24": {
+            "x": 2195.1968,
+            "y": 1968.0
           }
         }
       }
