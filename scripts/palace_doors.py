@@ -98,6 +98,7 @@ def hack(config, edit, asm):
     for group in config.sideview.group:
         if group.id in ('palace_125', 'palace_346'):
             group.max_door_index = 28
+            group.door_objects = [('Small', 6)]
 
     # Update the config to replace palace small object 6 with our door object.
     for obj in config.objects:
