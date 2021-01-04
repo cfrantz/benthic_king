@@ -4,11 +4,11 @@ CREDITS = [
     ("BENTHIC KING   ",   "BY CF207 AND",  "BENTGLASSTUBE"),
     ("PROGRAMER   ",      "CF207        ", "             "),
     ("GRAPHICS ",         "BENTGLASSTUBE", ""),
-    ("STORY   ",          "CF207        ", "BENTGLASSTUBE"  ),
+    ("STORY   ",          "CF207        ", "BENTGLASSTUBE"),
     ("MUSIC",             "BENTGLASSTUBE", "             "),
     ("TOWER PALACE",      "CF207        ", ""),
     ("SEA PALACE  ",      "BENTGLASSTUBE", ""),
-    ("SPECIAL THANKS",    "ZELDA II     ", "COMMUNITY"   ),
+    ("SPECIAL THANKS",    "ZELDA II     ", "COMMUNITY"),
     ("THANKS A BILLION.", "PUSH START TO", "PLAY AGAIN"),
 ]
 
