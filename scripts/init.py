@@ -10,7 +10,8 @@ site.addsitedir(path)
 # to be reloaded.
 modules = list(sys.modules.values())
 for m in modules:
-    if path in getattr(m, '__file__', ''):
+    file = getattr(m, '__file__', '')
+    if file and path in file:
         importlib.reload(m)
 
 try:

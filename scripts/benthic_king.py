@@ -6,6 +6,7 @@ import boss_key
 import credits
 import hc_mc_in_palaces
 import palace_doors
+import songs
 import swim
 import tile_expansion
 import title_text
@@ -22,6 +23,7 @@ def apply_all_hacks(edit, asm):
     config = credits.hack(config, edit, asm)
     config = hc_mc_in_palaces.hack(config, edit, asm)
     config = palace_doors.hack(config, edit, asm)
+    config = songs.hack(config, edit, asm)
     config = swim.hack(config, edit, asm)
     config = tile_expansion.hack(config, edit, asm)
     config = title_text.hack(config, edit, asm)
