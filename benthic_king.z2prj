@@ -24,7 +24,7 @@
       "meta": {
         "label": "Python Script",
         "user": "cfrantz",
-        "timestamp": 1609458057793154,
+        "timestamp": 1609804003250169,
         "comment": "",
         "config": "config-Benthic King",
         "extra": {
@@ -39,9 +39,55 @@
     },
     {
       "meta": {
+        "label": "ImportChrBank: bank $04",
+        "user": "cfrantz",
+        "timestamp": 1609393885214700,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "ImportChrBank",
+        "bank": 4,
+        "file": "graphics/east-overworld-1.bmp",
+        "palette": [
+          4278190080,
+          4284900966,
+          4289374890,
+          4294967295
+        ],
+        "sprite_layout": true,
+        "border": 2
+      }
+    },
+    {
+      "meta": {
+        "label": "ImportChrBank: bank $05",
+        "user": "cfrantz",
+        "timestamp": 1609393885214701,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "ImportChrBank",
+        "bank": 5,
+        "file": "graphics/east-overworld-2.bmp",
+        "palette": [
+          4278190080,
+          4284900966,
+          4289374890,
+          4294967295
+        ],
+        "sprite_layout": true,
+        "border": 2
+      }
+    },
+    {
+      "meta": {
         "label": "ImportChrBank: bank $11",
         "user": "cfrantz",
-        "timestamp": 1609393885214781,
+        "timestamp": 1609393885214702,
         "comment": "",
         "config": "config-Benthic King-hacks",
         "extra": {}
@@ -50,6 +96,98 @@
         "type": "ImportChrBank",
         "bank": 17,
         "file": "graphics/benthic-overworld-tiles.bmp",
+        "palette": [
+          4278190080,
+          4284900966,
+          4289374890,
+          4294967295
+        ],
+        "sprite_layout": true,
+        "border": 2
+      }
+    },
+    {
+      "meta": {
+        "label": "ImportChrBank: bank $12",
+        "user": "cfrantz",
+        "timestamp": 1609393885214703,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "ImportChrBank",
+        "bank": 18,
+        "file": "graphics/p6-swim-1.bmp",
+        "palette": [
+          4278190080,
+          4284900966,
+          4289374890,
+          4294967295
+        ],
+        "sprite_layout": true,
+        "border": 2
+      }
+    },
+    {
+      "meta": {
+        "label": "ImportChrBank: bank $13",
+        "user": "cfrantz",
+        "timestamp": 1609393885214704,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "ImportChrBank",
+        "bank": 19,
+        "file": "graphics/p6-swim-2.bmp",
+        "palette": [
+          4278190080,
+          4284900966,
+          4289374890,
+          4294967295
+        ],
+        "sprite_layout": true,
+        "border": 2
+      }
+    },
+    {
+      "meta": {
+        "label": "ImportChrBank: bank $18",
+        "user": "cfrantz",
+        "timestamp": 1609393885214705,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "ImportChrBank",
+        "bank": 24,
+        "file": "graphics/p6-1.bmp",
+        "palette": [
+          4278190080,
+          4284900966,
+          4289374890,
+          4294967295
+        ],
+        "sprite_layout": true,
+        "border": 2
+      }
+    },
+    {
+      "meta": {
+        "label": "ImportChrBank: bank $19",
+        "user": "cfrantz",
+        "timestamp": 1609393885214706,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "ImportChrBank",
+        "bank": 25,
+        "file": "graphics/p6-2.bmp",
         "palette": [
           4278190080,
           4284900966,
@@ -8197,7 +8335,7 @@
       "meta": {
         "label": "Overworld: East Hyrule",
         "user": "cfrantz",
-        "timestamp": 1609561422410481,
+        "timestamp": 1609801082985792,
         "comment": "",
         "config": "config-Benthic King-hacks",
         "extra": {}
@@ -9295,7 +9433,7 @@
             "hidden": null,
             "palace": {
               "index": 2,
-              "chr_bank": 12,
+              "chr_bank": 24,
               "palette": 1
             }
           },
@@ -21212,7 +21350,7 @@
       },
       "east_hyrule/connector/54/layout": {
         "type": "MultiMapLayout",
-        "scale": 0.125,
+        "scale": 0.25,
         "spread": [
           1.25,
           1.25
