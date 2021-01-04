@@ -326,7 +326,7 @@
         "type": "EnemyGroup",
         "data": [
           {
-            "id": "east_hyrule/enemy/e",
+            "id": "east_hyrule/enemy/14",
             "hp": 12,
             "palette": 1,
             "steal_xp": false,
@@ -343,7 +343,7 @@
             "unknown3": 6
           },
           {
-            "id": "east_hyrule/enemy/14",
+            "id": "east_hyrule/enemy/20",
             "hp": 24,
             "palette": 3,
             "steal_xp": false,
@@ -360,7 +360,7 @@
             "unknown3": 0
           },
           {
-            "id": "east_hyrule/enemy/18",
+            "id": "east_hyrule/enemy/24",
             "hp": 48,
             "palette": 3,
             "steal_xp": false,
@@ -377,7 +377,7 @@
             "unknown3": 0
           },
           {
-            "id": "east_hyrule/enemy/19",
+            "id": "east_hyrule/enemy/25",
             "hp": 32,
             "palette": 2,
             "steal_xp": false,
@@ -394,7 +394,7 @@
             "unknown3": 0
           },
           {
-            "id": "palace_346/enemy/21",
+            "id": "palace_346/enemy/33",
             "hp": 192,
             "palette": 3,
             "steal_xp": false,
@@ -21334,6 +21334,41 @@
           "39": {
             "x": 8140.7974,
             "y": 1388.8021
+          }
+        }
+      },
+      "west_hyrule/connector/45/layout": {
+        "type": "MultiMapLayout",
+        "scale": 0.25,
+        "spread": [
+          1.25,
+          1.25
+        ],
+        "show_invalid_connections": true,
+        "layout": {
+          "2": {
+            "x": 1024.0,
+            "y": 0.0
+          },
+          "1": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "0": {
+            "x": 825.5998,
+            "y": 1881.6
+          },
+          "28": {
+            "x": 383.99994,
+            "y": 561.60004
+          },
+          "48": {
+            "x": 2096.0,
+            "y": 468.80005
+          },
+          "36": {
+            "x": 822.40045,
+            "y": 1003.19995
           }
         }
       }
