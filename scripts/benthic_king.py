@@ -3,6 +3,7 @@ from z2edit.util import ObjectDict
 
 import barba_projectiles
 import boss_key
+import credits
 import hc_mc_in_palaces
 import palace_doors
 import swim
@@ -18,6 +19,7 @@ def apply_all_hacks(edit, asm):
     # Apply our hacks.
     config = barba_projectiles.hack(config, edit, asm)
     config = boss_key.hack(config, edit, asm)
+    config = credits.hack(config, edit, asm)
     config = hc_mc_in_palaces.hack(config, edit, asm)
     config = palace_doors.hack(config, edit, asm)
     config = swim.hack(config, edit, asm)
