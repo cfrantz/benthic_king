@@ -48,3 +48,8 @@ The end credits will roll when you win.
 
 5. Additional info:
 Ah, to be fishing.
+
+## Technical Details
+
+You can read the technical details about the hack in to [doc](doc) subdirectory,
+but be warned: **spoilers**.
