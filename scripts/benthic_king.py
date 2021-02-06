@@ -27,6 +27,7 @@ def apply_all_hacks(edit, asm):
     config = swim.hack(config, edit, asm)
     config = tile_expansion.hack(config, edit, asm)
     config = title_text.hack(config, edit, asm)
+    config = title_text.hack_graphics(config, edit, asm)
     config = victory.hack(config, edit, asm)
 
     # I can't be bothered to make a CHR import for this:

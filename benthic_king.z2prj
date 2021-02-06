@@ -39,6 +39,52 @@
     },
     {
       "meta": {
+        "label": "ImportChrBank: bank $00",
+        "user": "cfrantz",
+        "timestamp": 1609393885214750,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "ImportChrBank",
+        "bank": 0,
+        "file": "graphics/title-screen-0.bmp",
+        "palette": [
+          4278190080,
+          4284900966,
+          4289374890,
+          4294967295
+        ],
+        "sprite_layout": true,
+        "border": 2
+      }
+    },
+    {
+      "meta": {
+        "label": "ImportChrBank: bank $01",
+        "user": "cfrantz",
+        "timestamp": 1609393885214751,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "ImportChrBank",
+        "bank": 1,
+        "file": "graphics/title-screen-1.bmp",
+        "palette": [
+          4278190080,
+          4284900966,
+          4289374890,
+          4294967295
+        ],
+        "sprite_layout": false,
+        "border": 2
+      }
+    },
+    {
+      "meta": {
         "label": "ImportChrBank: bank $04",
         "user": "cfrantz",
         "timestamp": 1609393885214700,
