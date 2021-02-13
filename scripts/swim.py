@@ -1,7 +1,7 @@
 from z2edit import PyAddress
 
 def hack(config, edit, asm):
-    length = 692
+    length = 703
     freespace = edit.alloc(PyAddress.prg(0, 0x8000), length)
     freespace = freespace.addr()
 
@@ -22,7 +22,8 @@ def hack(config, edit, asm):
 
         ;; Unused RAM at $06e0
         swim_enabled = $06e0    ; is swim enabled on this screen?
-        tmpy = $06e1            ; Temp storage for Y register
+        effects = $06e0         ; other effects
+        tmpy = $06e8            ; Temp storage for Y register
 
         ;; Freespace in bank7 to hold our thunk to swimcheck.
         .org {bank7_freespace}
@@ -46,7 +47,10 @@ def hack(config, edit, asm):
         .org {freespace}
         room:
         bank = {freespace+1}
-        .db $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00 ; West caves
+        ; This first entry should really be in the "west towns" world, but
+        ; dynamic banks runs before the world-to-world transition, so we put it
+        ; in the 'west caves' category.
+        .db $3d,$81,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00 ; West caves
         .db $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00 ; West towns
         .db $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00 ; Not used
         .db $15,$0a,$3d,$0a,$38,$0a,$36,$0a,$18,$0a,$22,$0a,$02,$08,$08,$08 ; West P125
@@ -110,11 +114,18 @@ def hack(config, edit, asm):
         swimcheckdone:
             sta swim_enabled                ; store the swim state
 
+            lda #0
+            ldx #6                          ; zero out $6e6 down to $6e1
+        zero_effects_bytes:
+            sta effects,x
+            dex
+            bne zero_effects_bytes
+
         ;; Second part: dynamic banks, sfx and automation
             pla                             ; Get R5+W
             tax
         loop:
-            lda ROOM,x                      ; table at $be60
+            lda ROOM,x                      ; table of rooms
             beq done                        ; zero value means end
             cmp $0561                       ; equal to room number?
             beq loadchr                     ; yes, get and load chr bank
@@ -136,7 +147,7 @@ def hack(config, edit, asm):
             tax
             pla                             ; Low nybble is sound effect
             and #$0f
-            cpx #$08                        ; Values $80 to $8F for automation
+            cpx #$08                        ; Values $81 to $8F for misc effects
             beq automation
             sty tmpy
             tay
@@ -145,7 +156,8 @@ def hack(config, edit, asm):
             ldy tmpy
             jmp load_bank_at_769            ; load bank $769 and return
         automation:
-            sta $076c                       ; Set automation routine
+            tax
+            sta effects,x                   ; Set effect byte
             jmp load_bank_at_769            ; load bank $769 and return
             
             
