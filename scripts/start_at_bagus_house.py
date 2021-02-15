@@ -1,3 +1,4 @@
+from z2edit import PyAddress
 
 def hack(config, edit, asm):
     asm(f"""
@@ -56,4 +57,15 @@ def hack(config, edit, asm):
     setup_done:
         RTS
     """)
+
+    # Transform Bagu's townsperson sprite in town3 (Mido, which is where
+    # Bagu's House is technically located) into the little kid.  Mido currently
+    # does not map any townsperson to the little kid.
+    #
+    # Townsperson 16 is Bagu/Little Kid.
+    # Offset 13 the start of the townspeople defined by the alternate table,
+    # which starts at Prg(3, 0x9656) for the town of Mido.
+    # Value 0x34 is the offset into the sprite table for the kid sprites.
+    offset = 16 - 13
+    edit.write(PyAddress.prg(3, 0x9658) + offset, 0x34)
     return config

@@ -70,7 +70,7 @@
       "meta": {
         "label": "Python Script",
         "user": "cfrantz",
-        "timestamp": 1613260190272598,
+        "timestamp": 1613343459544348,
         "comment": "",
         "config": "config-Benthic King",
         "extra": {
@@ -647,7 +647,7 @@
       "meta": {
         "label": "TextTable",
         "user": "cfrantz",
-        "timestamp": 1612928440150572,
+        "timestamp": 1613346589151272,
         "comment": "",
         "config": "config-Benthic King-hacks",
         "extra": {}
@@ -821,7 +821,7 @@
           },
           {
             "id": "west_hyrule/town/48",
-            "text": ""
+            "text": "UNCLE BAGU!|YOU GOING|FISHING|UP NORTH?|IMMA GO|STEAL|LIFE LADY*S|MIRROR!"
           },
           {
             "id": "west_hyrule/town/49",
@@ -22530,7 +22530,7 @@
       "meta": {
         "label": "Sideview: Town 61",
         "user": "cfrantz",
-        "timestamp": 1612929154698459,
+        "timestamp": 1613347219589530,
         "comment": "",
         "config": "config-Benthic King-hacks",
         "extra": {}
@@ -22544,19 +22544,13 @@
           "grass": false,
           "bushes": false,
           "ceiling": false,
-          "floor": 7,
+          "floor": 6,
           "tileset": 2,
           "sprite_palette": 0,
           "background_palette": 2,
           "background_map": 1,
           "cursor_moves_left": false,
           "data": [
-            {
-              "x": 46,
-              "y": 9,
-              "kind": 208,
-              "param": 2
-            },
             {
               "x": 54,
               "y": 8,
@@ -22567,7 +22561,7 @@
               "x": 35,
               "y": 5,
               "kind": 224,
-              "param": 2
+              "param": 3
             },
             {
               "x": 46,
@@ -22579,17 +22573,17 @@
               "x": 31,
               "y": 13,
               "kind": 224,
-              "param": 131
+              "param": 130
             },
             {
               "x": 17,
               "y": 13,
               "kind": 224,
-              "param": 133
+              "param": 132
             },
             {
               "x": 0,
-              "y": 3,
+              "y": 4,
               "kind": 15,
               "param": 18
             },
@@ -22597,7 +22591,7 @@
               "x": 21,
               "y": 3,
               "kind": 224,
-              "param": 2
+              "param": 3
             }
           ]
         },
@@ -22605,8 +22599,8 @@
           "data": [
             [
               {
-                "x": 30,
-                "y": 4,
+                "x": 59,
+                "y": 9,
                 "kind": 25,
                 "dialog": [
                   "west_hyrule/town/19"

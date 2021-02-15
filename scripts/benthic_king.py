@@ -13,6 +13,7 @@ import songs
 import swim
 import start_at_bagus_house
 import tile_expansion
+import text_format
 import title_text
 import victory
 
@@ -32,6 +33,7 @@ def apply_all_hacks(edit, asm):
     config = swim.hack(config, edit, asm)
     config = start_at_bagus_house.hack(config, edit, asm)
     config = tile_expansion.hack(config, edit, asm)
+    config = text_format.hack(config, edit, asm)
     config = title_text.hack(config, edit, asm)
     config = title_text.hack_graphics(config, edit, asm)
     config = victory.hack(config, edit, asm)
