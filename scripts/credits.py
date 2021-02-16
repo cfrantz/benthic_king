@@ -1,4 +1,4 @@
-from z2edit import Text, PyAddress
+from z2edit import Text, Address
 
 CREDITS = [
     ("BENTHIC KING   ",   "BY CF207 AND",  "BENTGLASSTUBE"),
@@ -12,8 +12,8 @@ CREDITS = [
     ("THANKS A BILLION.", "PUSH START TO", "PLAY AGAIN"),
 ]
 
-CREDITS_POINTERS = PyAddress.prg(5, 0x9259)
-CREDITS_DATA = PyAddress.prg(5, 0x927D)
+CREDITS_POINTERS = Address.prg(5, 0x9259)
+CREDITS_DATA = Address.prg(5, 0x927D)
 CREDITS_LEN = 305
 
 PPU_ADDR = [0x2247, 0x228B, 0x22CB]

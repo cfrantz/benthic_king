@@ -1,12 +1,12 @@
-from z2edit import PyAddress
+from z2edit import Address
 
 def hack(config, edit, asm):
     length = 703
-    freespace = edit.alloc(PyAddress.prg(0, 0x8000), length)
+    freespace = edit.alloc(Address.prg(0, 0x8000), length)
     freespace = freespace.addr()
 
     bank7_length = 9
-    bank7_freespace = edit.alloc_near(PyAddress.prg(7, 0xff4c), bank7_length)
+    bank7_freespace = edit.alloc_near(Address.prg(7, 0xff4c), bank7_length)
     bank7_freespace = bank7_freespace.addr()
 
     asm(f"""

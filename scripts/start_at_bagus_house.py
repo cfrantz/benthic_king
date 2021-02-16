@@ -1,4 +1,4 @@
-from z2edit import PyAddress
+from z2edit import Address
 
 def hack(config, edit, asm):
     asm(f"""
@@ -67,5 +67,5 @@ def hack(config, edit, asm):
     # which starts at Prg(3, 0x9656) for the town of Mido.
     # Value 0x34 is the offset into the sprite table for the kid sprites.
     offset = 16 - 13
-    edit.write(PyAddress.prg(3, 0x9658) + offset, 0x34)
+    edit.write(Address.prg(3, 0x9658) + offset, 0x34)
     return config

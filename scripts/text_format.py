@@ -1,4 +1,4 @@
-from z2edit import PyAddress
+from z2edit import Address
 from z2edit.util import Tile
 
 def hack(config, edit, asm):

@@ -1,7 +1,7 @@
 import z2edit
 from z2edit.util import ObjectDict, Tile, chr_copy, check_version_or_die
 
-check_version_or_die('1.99.1')
+check_version_or_die('1.99.2')
 
 import avalanche
 import barba_projectiles

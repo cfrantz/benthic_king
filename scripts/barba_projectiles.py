@@ -1,8 +1,8 @@
-from z2edit import PyAddress
+from z2edit import Address
 # Make Barba shoot projectiles up or down.
 def hack(config, edit, asm):
     length = 21
-    freespace = edit.alloc_near(PyAddress.prg(4, 0x8000), length)
+    freespace = edit.alloc_near(Address.prg(4, 0x8000), length)
     freespace = freespace.addr()
     asm(f"""
         .bank 4
