@@ -22642,6 +22642,4014 @@
           true
         ]
       }
+    },
+    {
+      "meta": {
+        "label": "Sideview: Riverman",
+        "user": "alan",
+        "timestamp": 1621198688782828,
+        "comment": "Replace the left side of Saria with a bunch of water since DM is flooded and should be inaccessible.",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "town/6",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": false,
+          "floor": 0,
+          "tileset": 2,
+          "sprite_palette": 0,
+          "background_palette": 2,
+          "background_map": 1,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 12,
+              "y": 15,
+              "kind": 6,
+              "param": 0
+            },
+            {
+              "x": 32,
+              "y": 14,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 24,
+              "y": 15,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 40,
+              "y": 15,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 48,
+              "y": 14,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 57,
+              "y": 6,
+              "kind": 32,
+              "param": 2
+            },
+            {
+              "x": 57,
+              "y": 8,
+              "kind": 112,
+              "param": 2
+            },
+            {
+              "x": 58,
+              "y": 8,
+              "kind": 1,
+              "param": 0
+            },
+            {
+              "x": 61,
+              "y": 15,
+              "kind": 1,
+              "param": 0
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 12,
+                "y": 9,
+                "kind": 34,
+                "dialog": [
+                  "west_hyrule/town/29"
+                ],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 63,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 7,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 30,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 30,
+            "entry": 1,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "PaletteGroup: Bagu Colors",
+        "user": "alan",
+        "timestamp": 1621204038601129,
+        "comment": "Change the colors for the player character so that Bagu is red instead of green.",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "PaletteGroup",
+        "data": [
+          {
+            "id": "overworld/1",
+            "data": [
+              15,
+              15,
+              54,
+              22,
+              15,
+              15,
+              15,
+              15,
+              15,
+              48,
+              22,
+              15,
+              15,
+              22,
+              39,
+              48
+            ]
+          },
+          {
+            "id": "west_hyrule_sprites/0",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              15,
+              22,
+              48,
+              255,
+              15,
+              44,
+              48
+            ]
+          },
+          {
+            "id": "west_hyrule_sprites/1",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              7,
+              22,
+              48,
+              255,
+              12,
+              44,
+              48
+            ]
+          },
+          {
+            "id": "west_hyrule_sprites/2",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              15,
+              28,
+              44,
+              255,
+              15,
+              21,
+              37
+            ]
+          },
+          {
+            "id": "west_hyrule_sprites/3",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              15,
+              42,
+              48,
+              255,
+              15,
+              22,
+              38
+            ]
+          },
+          {
+            "id": "east_hyrule_sprites/0",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              15,
+              22,
+              48,
+              255,
+              15,
+              44,
+              48
+            ]
+          },
+          {
+            "id": "east_hyrule_sprites/1",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              7,
+              22,
+              48,
+              255,
+              12,
+              44,
+              48
+            ]
+          },
+          {
+            "id": "east_hyrule_sprites/2",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              15,
+              28,
+              44,
+              255,
+              15,
+              21,
+              37
+            ]
+          },
+          {
+            "id": "east_hyrule_sprites/3",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              15,
+              42,
+              48,
+              255,
+              15,
+              22,
+              38
+            ]
+          },
+          {
+            "id": "town_sprites/0",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              15,
+              22,
+              54,
+              255,
+              15,
+              19,
+              54
+            ]
+          },
+          {
+            "id": "town_sprites/1",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              6,
+              22,
+              54,
+              255,
+              3,
+              16,
+              54
+            ]
+          },
+          {
+            "id": "town_sprites/2",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              15,
+              28,
+              44,
+              255,
+              15,
+              21,
+              37
+            ]
+          },
+          {
+            "id": "town_sprites/3",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              15,
+              42,
+              48,
+              255,
+              15,
+              22,
+              38
+            ]
+          },
+          {
+            "id": "palace_sprites/0",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              6,
+              22,
+              48,
+              255,
+              2,
+              33,
+              48
+            ]
+          },
+          {
+            "id": "palace_sprites/1",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              7,
+              22,
+              54,
+              255,
+              0,
+              16,
+              48
+            ]
+          },
+          {
+            "id": "palace_sprites/2",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              6,
+              22,
+              48,
+              255,
+              12,
+              28,
+              60
+            ]
+          },
+          {
+            "id": "palace_sprites/3",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              15,
+              28,
+              44,
+              255,
+              15,
+              21,
+              37
+            ]
+          },
+          {
+            "id": "great_palace_sprites/0",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              6,
+              22,
+              48,
+              255,
+              2,
+              33,
+              48
+            ]
+          },
+          {
+            "id": "great_palace_sprites/1",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              7,
+              22,
+              54,
+              255,
+              0,
+              38,
+              48
+            ]
+          },
+          {
+            "id": "great_palace_sprites/2",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              4,
+              20,
+              48,
+              255,
+              40,
+              8,
+              48
+            ]
+          },
+          {
+            "id": "great_palace_sprites/3",
+            "data": [
+              255,
+              15,
+              54,
+              22,
+              255,
+              22,
+              39,
+              48,
+              255,
+              15,
+              15,
+              15,
+              255,
+              15,
+              15,
+              15
+            ]
+          },
+          {
+            "id": "title_screen/3",
+            "data": [
+              15,
+              15,
+              54,
+              22,
+              15,
+              22,
+              39,
+              48,
+              15,
+              48,
+              48,
+              48,
+              15,
+              39,
+              39,
+              15
+            ]
+          },
+          {
+            "id": "title_screen/5",
+            "data": [
+              15,
+              15,
+              54,
+              22
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "TextTable: Riverman",
+        "user": "alan",
+        "timestamp": 1621199364301602,
+        "comment": "Have riverman apologize to Bagu for not letting him cross, explaining that the river has flooded.",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "TextTable",
+        "data": [
+          {
+            "id": "west_hyrule/town/36",
+            "text": "I*M SORRY|BAGU. THE|RIVER HAS|FLOODED."
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "Overworld: West Hyrule",
+        "user": "alan",
+        "timestamp": 1621201502837639,
+        "comment": "Floods the southernmost areas of West Hyrule.  This includes the areas \naround both entrances to Death Mountain, the area past the boulder that\nblocks the path to Mido, and palace 3's island.",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Overworld",
+        "id": "west_hyrule",
+        "mason_dixon_line": 30,
+        "map": {
+          "width": 64,
+          "height": 75,
+          "data": [
+            "BBBBBBBBBBBBCCCCCCCCCCCCCC44444444CCCCCCCCCCCCCCCCCCCCCCCCCCCC44",
+            "BBBBBBBBBBBBBCCCCCCCCCCCC444BBB44444CCCCCCCCCCCCCCCCCCCCCCCC4444",
+            "BBBBBBBBBBBBBBBBCCCCCCC44444B1B444444CCCCCCCCCCCCCCCCCCCCC444424",
+            "BBBBBBBBBBBBBBBBBBBCC44444444444444444CCCCCCCCCCCCCCCCCCCC444444",
+            "BBBBBBBBBBBBBBBBBBB4444444444444444444CCCCCCCCCCCCCCCCCCC4444444",
+            "999999BBBBBBBBBBBBB44444444444444444444CCCCCCCCCCCCCCCCC44444444",
+            "990999BBBBBBBBBBBB444444444444444444444CCCCCCCCCCCC4444444444444",
+            "999999999BBBBBBBB44444444444444444444444CCCCCCCC444444444444444C",
+            "9999999999BBBBBB444444444444444444444444CCCCCCC4444444444444444C",
+            "999999BB999999999999994444444444444444444CCCCC44444444444444444C",
+            "9BBBBBBBB66666666666699999944444455555544CCCC444444444444444444C",
+            "9BBBBBBBB66666666666666666994445555555555CCBBBBB1BB444444444444C",
+            "9BBBBBBBB66666666666666666699455555556555BBBBBBBBBBBBB44444444CC",
+            "9BBBBBBBB66666666666666666669999999999955BBBBBBBBBBBBBBBB44444CC",
+            "9BBBBBBBBB66666666666666666655555555559999BBBBBBBBBBBBBBBBB444CC",
+            "9BBBBBBBBBB666666666666666555555555555555999996666BBBBBBBBBB44CC",
+            "9BBBBBBBBBBB6666666666665555555555555559995559996666BBB1BBBB4CCC",
+            "9BBBBBBBBBBB55556666666555555555555555995555555996666666BBBB4CCC",
+            "9BBBBBBBBBBB5555556666CCC555555555555995555555559666666BBBBB4CCC",
+            "9BBBBBBBBBBB55555555CCCCCC55555555559955556666559666666BBBBB4CCC",
+            "99BBBBBBBBB55555555CCCCCCCCC55555559955566666655966666BBBBBB4CCC",
+            "B99BBBBBB555555555CCCC999CCCC555559955566666655996666BBBBBB44CCC",
+            "B999BBBBBB55555555CCCC929999999999955566666665596666BBBBBBB44CCC",
+            "9999BBBBBBBB555555CCCC999CCCC5555555556666665559666BBBBBBBBB9CCC",
+            "9999BBBBBBBBB55555CCCCCCCCCCC555555556666666550966BBBBBBBBBB9CCC",
+            "9999BBBBBBBBB555555CCCCCCCCC55555555666666665559BBBBBBBBBBBB9CCC",
+            "9999BBBBBBBBBB555555CCCC5555555555566666BBBBBB59BBBBBBBBBBBB99CC",
+            "9999BBBBBBBBBB55555555555BBBB55555566BBBBBBBBBBEBBBBBBBBBBBBB9CC",
+            "B1BBBBBBBBBBBBB5555555BBBBBBBBB555BBBBBBBBBBBBB955BBBBBBBBBBB99C",
+            "BBBBBBBBBBBBBBBB5555BBBBBBBBBBBBBBBBBBBBBBBBB55955555BBBBBBBBB9C",
+            "BBBBBBBBBBBBBBBB1BBBBBBBBBBBBBBBBBBBBBBBBBB55559555555BBBBBBBB99",
+            "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5555559555555BBBBBBBBB9",
+            "BBB1BBBBBBBBBBBBB777BBBBBBBBBBBBBBBBBB1BB55555595555551BBBBBBBB9",
+            "BB5555BBBB777777777777BBBBBBBBBBBBBBBB5555555559555555BBBBBBB666",
+            "B5555556BB7277777779977BBBBBBBBBBBBB555555555559555555BBBBBBB656",
+            "555577777BB777797777777777BBBBBBBB5555555555559955555BBBBBBBB666",
+            "557777777BBBBB777777777777799977777777777777559555555BBBBBBBBBBB",
+            "55777777BBBBBBBBB7777777BBBBBB7777777777777777955555BBBBBBBBBBBB",
+            "57777777BBBBBBBBBBBBBBBBBBBBBBBB7777997777777795555BBBBBBBBBBBBB",
+            "57777777B1BBBBBBBBBBBBBBBBBBBBBBB7777777777777955BBBBBBBBBBBBBBB",
+            "57777777777BBBBBBBBBBBBBBBBBBBBB777777777777779BBBBBBBBBBBBBBBBB",
+            "5777777777777BBBBBBBBBBBBBBBBBB7777777777BBBBB9BBBBBBBBBBBBBCCCC",
+            "557777777777777BBBBBBBBBBBBBB7777777777BBBBBBB9BBBBBBBBBBBCCCCCC",
+            "55577777777777755BBBBBBBBBBB77777777777BBBBBBB9BBBBBBBBBCCCCCCCC",
+            "55557777777777755555BBBBBBB66777777777BBBBBBB99BBBBBBBCCCCCCCCCC",
+            "55577777777777555566666666666557777777BBBBBBB9BBBBBCCCCCCCCCCCCC",
+            "55777777775555556666666666665555777777BBBBBB99BBBCCCCCCCCCCCCCCC",
+            "55777755555555566666666666655555577777BBB999993CCCCCCCCCCCCCCCCC",
+            "CCC775555555555666666666999999999999999999BBBBBBCCCCCCCCCCCCCCCC",
+            "BBCC55555555555566999999966655555555555BBBBBBBBBCCCCCCCCCCCCCCCC",
+            "BBBCC5555555555559966666666666666655555BBBBBBBBCCCCCCCCCCCCCCCCC",
+            "BBBBCCC5555555559955555566666666666666BBBBBBBBCCCCCCCCCCCCCCCCCC",
+            "BBBBBBCCCCCCCCCC3C55555556666666666666BBBBBBBBCCCCCCCCCCCCCCCCCC",
+            "BBBBBBB5555555559CCCC5555566666666666BBBBBBBBCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBB5555999999555CCCC5566666666666BBBBBBBCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBB559955555555555CCC6666666666BBBBBBBCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBB9955555555565555CC666644444BBBBBCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBB995555555555555555344444464BBBBBCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBB9555555555555555CCCCCCCC444BBBBCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "CCCCCCCC0555555555CCCCCCCCCCCCCCCCCBBBCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBCCCCCCCCCBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBCCCCCCCCBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBCCCCCCCCBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBCCCCCCBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBCBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+          ]
+        },
+        "encounter": [
+          {
+            "dest_map": 29,
+            "entry": 1
+          },
+          {
+            "dest_map": 30,
+            "entry": 1
+          },
+          {
+            "dest_map": 34,
+            "entry": 1
+          },
+          {
+            "dest_map": 35,
+            "entry": 1
+          },
+          {
+            "dest_map": 39,
+            "entry": 1
+          },
+          {
+            "dest_map": 40,
+            "entry": 1
+          },
+          {
+            "dest_map": 47,
+            "entry": 1
+          },
+          {
+            "dest_map": 48,
+            "entry": 1
+          },
+          {
+            "dest_map": 52,
+            "entry": 1
+          },
+          {
+            "dest_map": 53,
+            "entry": 1
+          },
+          {
+            "dest_map": 57,
+            "entry": 1
+          },
+          {
+            "dest_map": 58,
+            "entry": 1
+          },
+          {
+            "dest_map": 59,
+            "entry": 1
+          },
+          {
+            "dest_map": 60,
+            "entry": 1
+          }
+        ],
+        "connector": [
+          {
+            "id": "west_hyrule/connector/0",
+            "x": 23,
+            "y": 22,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 2,
+            "entry_right": true,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/1",
+            "x": 29,
+            "y": 2,
+            "dest_map": 33,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/2",
+            "x": 37,
+            "y": 12,
+            "dest_map": 43,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/3",
+            "x": 16,
+            "y": 30,
+            "dest_map": 45,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/4",
+            "x": 20,
+            "y": 56,
+            "dest_map": 46,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/5",
+            "x": 62,
+            "y": 34,
+            "dest_map": 38,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/6",
+            "x": 21,
+            "y": 47,
+            "dest_map": 44,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/7",
+            "x": 62,
+            "y": 24,
+            "dest_map": 6,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": true,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/8",
+            "x": 8,
+            "y": 41,
+            "dest_map": 51,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/9",
+            "x": 48,
+            "y": 62,
+            "dest_map": 56,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/10",
+            "x": 48,
+            "y": 11,
+            "dest_map": 7,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/11",
+            "x": 55,
+            "y": 16,
+            "dest_map": 7,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": true,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/12",
+            "x": 1,
+            "y": 28,
+            "dest_map": 9,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/13",
+            "x": 3,
+            "y": 32,
+            "dest_map": 11,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": true,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/14",
+            "x": 38,
+            "y": 32,
+            "dest_map": 12,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/15",
+            "x": 8,
+            "y": 38,
+            "dest_map": 14,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/16",
+            "x": 54,
+            "y": 32,
+            "dest_map": 16,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/17",
+            "x": 50,
+            "y": 66,
+            "dest_map": 18,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": true,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/18",
+            "x": 59,
+            "y": 72,
+            "dest_map": 19,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": true,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/19",
+            "x": 16,
+            "y": 52,
+            "dest_map": 1,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": true,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/20",
+            "x": 26,
+            "y": 57,
+            "dest_map": 2,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": true,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/21",
+            "x": 26,
+            "y": 67,
+            "dest_map": 4,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": true,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/22",
+            "x": 34,
+            "y": 67,
+            "dest_map": 5,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": true,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": true,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/23",
+            "x": 7,
+            "y": 34,
+            "dest_map": 20,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/24",
+            "x": 17,
+            "y": 37,
+            "dest_map": 51,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 2,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/25",
+            "x": 33,
+            "y": 57,
+            "dest_map": 20,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/26",
+            "x": 47,
+            "y": 27,
+            "dest_map": 26,
+            "dest_world": 0,
+            "dest_overworld": 2,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/27",
+            "x": 17,
+            "y": 47,
+            "dest_map": 22,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/28",
+            "x": 19,
+            "y": 48,
+            "dest_map": 23,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/29",
+            "x": 23,
+            "y": 47,
+            "dest_map": 23,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/30",
+            "x": 37,
+            "y": 38,
+            "dest_map": 57,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/31",
+            "x": 0,
+            "y": -30,
+            "dest_map": 57,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/32",
+            "x": 38,
+            "y": 72,
+            "dest_map": 57,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 2,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/33",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/34",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/35",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/36",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/37",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/38",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/39",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/40",
+            "x": 0,
+            "y": 97,
+            "dest_map": 40,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/41",
+            "x": 62,
+            "y": 45,
+            "dest_map": 41,
+            "dest_world": 0,
+            "dest_overworld": 2,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/42",
+            "x": 10,
+            "y": 65,
+            "dest_map": 42,
+            "dest_world": 0,
+            "dest_overworld": 1,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/43",
+            "x": 21,
+            "y": 66,
+            "dest_map": 43,
+            "dest_world": 0,
+            "dest_overworld": 1,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/44",
+            "x": 50,
+            "y": 58,
+            "dest_map": 60,
+            "dest_world": 1,
+            "dest_overworld": 0,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/45",
+            "x": 46,
+            "y": 24,
+            "dest_map": 2,
+            "dest_world": 1,
+            "dest_overworld": 0,
+            "external": true,
+            "second": true,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/46",
+            "x": 0,
+            "y": 19,
+            "dest_map": 61,
+            "dest_world": 1,
+            "dest_overworld": 0,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": true,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/47",
+            "x": 2,
+            "y": 6,
+            "dest_map": 5,
+            "dest_world": 1,
+            "dest_overworld": 0,
+            "external": true,
+            "second": true,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/48",
+            "x": 8,
+            "y": 61,
+            "dest_map": 6,
+            "dest_world": 1,
+            "dest_overworld": 0,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/49",
+            "x": 8,
+            "y": 59,
+            "dest_map": 8,
+            "dest_world": 1,
+            "dest_overworld": 0,
+            "external": true,
+            "second": true,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/50",
+            "x": 21,
+            "y": 46,
+            "dest_map": 24,
+            "dest_world": 1,
+            "dest_overworld": 0,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/51",
+            "x": 46,
+            "y": 47,
+            "dest_map": 11,
+            "dest_world": 1,
+            "dest_overworld": 0,
+            "external": true,
+            "second": true,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/52",
+            "x": 62,
+            "y": 2,
+            "dest_map": 0,
+            "dest_world": 3,
+            "dest_overworld": 0,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": {
+              "index": 0,
+              "chr_bank": 8,
+              "palette": 0
+            }
+          },
+          {
+            "id": "west_hyrule/connector/53",
+            "x": 11,
+            "y": 34,
+            "dest_map": 14,
+            "dest_world": 3,
+            "dest_overworld": 0,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": {
+              "index": 1,
+              "chr_bank": 10,
+              "palette": 1
+            }
+          },
+          {
+            "id": "west_hyrule/connector/54",
+            "x": 57,
+            "y": 68,
+            "dest_map": 0,
+            "dest_world": 4,
+            "dest_overworld": 0,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": {
+              "index": 2,
+              "chr_bank": 18,
+              "palette": 2
+            }
+          },
+          {
+            "id": "west_hyrule/connector/55",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": {
+              "index": 3,
+              "chr_bank": 18,
+              "palette": 2
+            }
+          },
+          {
+            "id": "west_hyrule/connector/56",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/57",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/58",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/59",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/60",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/61",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/62",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "Sideview: North Palace",
+        "user": "alan",
+        "timestamp": 1621202134149265,
+        "comment": "Remove sleeping Zelda from North Palace.  Nobody cares about her in this game.",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "west_hyrule/0",
+        "map": {
+          "objset": 0,
+          "width": 3,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 8,
+          "tileset": 6,
+          "sprite_palette": 0,
+          "background_palette": 0,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 0,
+              "y": 2,
+              "kind": 64,
+              "param": 15
+            },
+            {
+              "x": 2,
+              "y": 2,
+              "kind": 240,
+              "param": 8
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "kind": 240,
+              "param": 8
+            },
+            {
+              "x": 8,
+              "y": 2,
+              "kind": 240,
+              "param": 7
+            },
+            {
+              "x": 11,
+              "y": 2,
+              "kind": 240,
+              "param": 8
+            },
+            {
+              "x": 14,
+              "y": 2,
+              "kind": 240,
+              "param": 8
+            },
+            {
+              "x": 16,
+              "y": 14,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 16,
+              "y": 2,
+              "kind": 64,
+              "param": 15
+            },
+            {
+              "x": 16,
+              "y": 10,
+              "kind": 176,
+              "param": 15
+            },
+            {
+              "x": 17,
+              "y": 2,
+              "kind": 240,
+              "param": 7
+            },
+            {
+              "x": 18,
+              "y": 9,
+              "kind": 176,
+              "param": 11
+            },
+            {
+              "x": 19,
+              "y": 8,
+              "kind": 176,
+              "param": 9
+            },
+            {
+              "x": 19,
+              "y": 10,
+              "kind": 160,
+              "param": 9
+            },
+            {
+              "x": 20,
+              "y": 2,
+              "kind": 240,
+              "param": 5
+            },
+            {
+              "x": 20,
+              "y": 9,
+              "kind": 160,
+              "param": 7
+            },
+            {
+              "x": 21,
+              "y": 8,
+              "kind": 160,
+              "param": 5
+            },
+            {
+              "x": 27,
+              "y": 2,
+              "kind": 240,
+              "param": 5
+            },
+            {
+              "x": 30,
+              "y": 2,
+              "kind": 240,
+              "param": 7
+            },
+            {
+              "x": 32,
+              "y": 2,
+              "kind": 64,
+              "param": 15
+            },
+            {
+              "x": 33,
+              "y": 2,
+              "kind": 240,
+              "param": 8
+            },
+            {
+              "x": 36,
+              "y": 2,
+              "kind": 240,
+              "param": 8
+            },
+            {
+              "x": 39,
+              "y": 2,
+              "kind": 240,
+              "param": 8
+            },
+            {
+              "x": 42,
+              "y": 2,
+              "kind": 240,
+              "param": 8
+            },
+            {
+              "x": 45,
+              "y": 2,
+              "kind": 240,
+              "param": 8
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            []
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 63,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "Sideview: West Hyrule 15",
+        "user": "alan",
+        "timestamp": 1621202702729079,
+        "comment": "Replace the now-useless medicine with a 1up.",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "west_hyrule/15",
+        "map": {
+          "objset": 1,
+          "width": 4,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 1,
+          "tileset": 0,
+          "sprite_palette": 1,
+          "background_palette": 1,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 48,
+              "y": 14,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 54,
+              "y": 9,
+              "kind": 32,
+              "param": 1
+            },
+            {
+              "x": 56,
+              "y": 15,
+              "kind": 32,
+              "param": 1
+            },
+            {
+              "x": 58,
+              "y": 9,
+              "kind": 32,
+              "param": 3
+            },
+            {
+              "x": 60,
+              "y": 8,
+              "kind": 32,
+              "param": 1
+            },
+            {
+              "x": 60,
+              "y": 7,
+              "kind": 15,
+              "param": 18
+            },
+            {
+              "x": 62,
+              "y": 13,
+              "kind": 0,
+              "param": 15
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 15,
+                "y": 8,
+                "kind": 23,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 33,
+                "y": 8,
+                "kind": 24,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 53,
+                "y": 8,
+                "kind": 24,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 14,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 1,
+            "point_target_back": null
+          }
+        ],
+        "door": [],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "Sideview: West Hyrule 46 (Forest 100-Pbag)",
+        "user": "alan",
+        "timestamp": 1621202781237003,
+        "comment": "Reduce the pbag near Saria to 50 points to match the one near start in vanilla.",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "west_hyrule/46",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": true,
+          "bushes": false,
+          "ceiling": false,
+          "floor": 0,
+          "tileset": 1,
+          "sprite_palette": 1,
+          "background_palette": 4,
+          "background_map": 4,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 6,
+              "y": 9,
+              "kind": 128,
+              "param": 0
+            },
+            {
+              "x": 9,
+              "y": 9,
+              "kind": 128,
+              "param": 0
+            },
+            {
+              "x": 17,
+              "y": 9,
+              "kind": 128,
+              "param": 0
+            },
+            {
+              "x": 19,
+              "y": 9,
+              "kind": 128,
+              "param": 0
+            },
+            {
+              "x": 26,
+              "y": 0,
+              "kind": 48,
+              "param": 13
+            },
+            {
+              "x": 28,
+              "y": 1,
+              "kind": 48,
+              "param": 9
+            },
+            {
+              "x": 28,
+              "y": 2,
+              "kind": 48,
+              "param": 7
+            },
+            {
+              "x": 30,
+              "y": 3,
+              "kind": 48,
+              "param": 5
+            },
+            {
+              "x": 38,
+              "y": 9,
+              "kind": 15,
+              "param": 10
+            },
+            {
+              "x": 44,
+              "y": 9,
+              "kind": 128,
+              "param": 0
+            },
+            {
+              "x": 50,
+              "y": 9,
+              "kind": 128,
+              "param": 0
+            },
+            {
+              "x": 56,
+              "y": 9,
+              "kind": 128,
+              "param": 0
+            },
+            {
+              "x": 58,
+              "y": 9,
+              "kind": 128,
+              "param": 0
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 8,
+                "y": 8,
+                "kind": 31,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 10,
+                "y": 8,
+                "kind": 31,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 14,
+                "y": 8,
+                "kind": 31,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 38,
+                "y": 8,
+                "kind": 31,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 47,
+                "y": 8,
+                "kind": 31,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 51,
+                "y": 8,
+                "kind": 31,
+                "dialog": [],
+                "condition": null
+              },
+              {
+                "x": 58,
+                "y": 8,
+                "kind": 31,
+                "dialog": [],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [],
+        "door": [],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "Sideview: Town 11",
+        "user": "alan",
+        "timestamp": 1621205584062961,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "town/11",
+        "map": {
+          "objset": 0,
+          "width": 4,
+          "grass": false,
+          "bushes": true,
+          "ceiling": false,
+          "floor": 0,
+          "tileset": 2,
+          "sprite_palette": 0,
+          "background_palette": 2,
+          "background_map": 1,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 6,
+              "y": 8,
+              "kind": 144,
+              "param": 6
+            },
+            {
+              "x": 29,
+              "y": 6,
+              "kind": 48,
+              "param": 4
+            },
+            {
+              "x": 6,
+              "y": 6,
+              "kind": 48,
+              "param": 6
+            },
+            {
+              "x": 7,
+              "y": 8,
+              "kind": 160,
+              "param": 0
+            },
+            {
+              "x": 32,
+              "y": 8,
+              "kind": 160,
+              "param": 0
+            },
+            {
+              "x": 9,
+              "y": 8,
+              "kind": 160,
+              "param": 0
+            },
+            {
+              "x": 30,
+              "y": 8,
+              "kind": 1,
+              "param": 0
+            },
+            {
+              "x": 11,
+              "y": 8,
+              "kind": 0,
+              "param": 0
+            },
+            {
+              "x": 48,
+              "y": 15,
+              "kind": 112,
+              "param": 15
+            },
+            {
+              "x": 38,
+              "y": 15,
+              "kind": 16,
+              "param": 0
+            },
+            {
+              "x": 35,
+              "y": 15,
+              "kind": 16,
+              "param": 1
+            },
+            {
+              "x": 3,
+              "y": 15,
+              "kind": 16,
+              "param": 1
+            },
+            {
+              "x": 40,
+              "y": 15,
+              "kind": 112,
+              "param": 7
+            },
+            {
+              "x": 16,
+              "y": 15,
+              "kind": 96,
+              "param": 7
+            },
+            {
+              "x": 29,
+              "y": 8,
+              "kind": 144,
+              "param": 4
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            []
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 63,
+            "entry": 3,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 63,
+            "entry": 1,
+            "point_target_back": null
+          }
+        ],
+        "door": [
+          {
+            "dest_map": 0,
+            "entry": 2,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 44,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "Sideview: Town 44",
+        "user": "alan",
+        "timestamp": 1621205578289459,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Sideview",
+        "id": "town/44",
+        "map": {
+          "objset": 0,
+          "width": 1,
+          "grass": false,
+          "bushes": false,
+          "ceiling": true,
+          "floor": 8,
+          "tileset": 1,
+          "sprite_palette": 1,
+          "background_palette": 6,
+          "background_map": 0,
+          "cursor_moves_left": false,
+          "data": [
+            {
+              "x": 8,
+              "y": 10,
+              "kind": 5,
+              "param": 0
+            },
+            {
+              "x": 5,
+              "y": 10,
+              "kind": 5,
+              "param": 0
+            },
+            {
+              "x": 6,
+              "y": 9,
+              "kind": 8,
+              "param": 0
+            },
+            {
+              "x": 10,
+              "y": 7,
+              "kind": 160,
+              "param": 0
+            },
+            {
+              "x": 3,
+              "y": 5,
+              "kind": 128,
+              "param": 9
+            },
+            {
+              "x": 13,
+              "y": 15,
+              "kind": 3,
+              "param": 0
+            },
+            {
+              "x": 0,
+              "y": 15,
+              "kind": 0,
+              "param": 0
+            }
+          ]
+        },
+        "enemy": {
+          "data": [
+            [
+              {
+                "x": 11,
+                "y": 9,
+                "kind": 13,
+                "dialog": [
+                  "west_hyrule/town/47",
+                  "west_hyrule/town/16"
+                ],
+                "condition": null
+              }
+            ]
+          ],
+          "is_encounter": false,
+          "valid": true
+        },
+        "connection": [
+          {
+            "dest_map": 11,
+            "entry": 1,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          },
+          {
+            "dest_map": 0,
+            "entry": 0,
+            "point_target_back": null
+          }
+        ],
+        "door": [],
+        "availability": [
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "TextTable: Downstab",
+        "user": "alan",
+        "timestamp": 1621205850469312,
+        "comment": "",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "TextTable",
+        "data": [
+          {
+            "id": "west_hyrule/town/16",
+            "text": "I MISS|HAVING A|BASEMENT."
+          },
+          {
+            "id": "west_hyrule/town/47",
+            "text": "PRESS DOWN|WHEN YOU|JUMP. IT*S|VERY FUN."
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "TextTable: King's Tomb",
+        "user": "alan",
+        "timestamp": 1621206718703071,
+        "comment": "Have the lady in King's Tomb tell you the palace isn't ready.",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "TextTable",
+        "data": [
+          {
+            "id": "west_hyrule/town/51",
+            "text": "THIS PALACE|ISN*T READY|FOR YOU|YET."
+          }
+        ]
+      }
+    },
+    {
+      "meta": {
+        "label": "Overworld: West Hyrule",
+        "user": "alan",
+        "timestamp": 1621206645222150,
+        "comment": "Remove the trap tiles from around Bagu's House.",
+        "config": "config-Benthic King-hacks",
+        "extra": {}
+      },
+      "edit": {
+        "type": "Overworld",
+        "id": "west_hyrule",
+        "mason_dixon_line": 30,
+        "map": {
+          "width": 64,
+          "height": 75,
+          "data": [
+            "BBBBBBBBBBBBCCCCCCCCCCCCCC44444444CCCCCCCCCCCCCCCCCCCCCCCCCCCC44",
+            "BBBBBBBBBBBBBCCCCCCCCCCCC444BBB44444CCCCCCCCCCCCCCCCCCCCCCCC4444",
+            "BBBBBBBBBBBBBBBBCCCCCCC44444B1B444444CCCCCCCCCCCCCCCCCCCCC444424",
+            "BBBBBBBBBBBBBBBBBBBCC44444444444444444CCCCCCCCCCCCCCCCCCCC444444",
+            "BBBBBBBBBBBBBBBBBBB4444444444444444444CCCCCCCCCCCCCCCCCCC4444444",
+            "999999BBBBBBBBBBBBB44444444444444444444CCCCCCCCCCCCCCCCC44444444",
+            "990999BBBBBBBBBBBB444444444444444444444CCCCCCCCCCCC4444444444444",
+            "999999999BBBBBBBB44444444444444444444444CCCCCCCC444444444444444C",
+            "9999999999BBBBBB444444444444444444444444CCCCCCC4444444444444444C",
+            "999999BB999999999999994444444444444444444CCCCC44444444444444444C",
+            "9BBBBBBBB66666666666699999944444455555544CCCC444444444444444444C",
+            "9BBBBBBBB66666666666666666994445555555555CCBBBBB1BB444444444444C",
+            "9BBBBBBBB66666666666666666699455555556555BBBBBBBBBBBBB44444444CC",
+            "9BBBBBBBB66666666666666666669999999999955BBBBBBBBBBBBBBBB44444CC",
+            "9BBBBBBBBB66666666666666666655555555559999BBBBBBBBBBBBBBBBB444CC",
+            "9BBBBBBBBBB666666666666666555555555555555999996666BBBBBBBBBB44CC",
+            "9BBBBBBBBBBB6666666666665555555555555559995559996666BBB1BBBB4CCC",
+            "9BBBBBBBBBBB55556666666555555555555555995555555996666666BBBB4CCC",
+            "9BBBBBBBBBBB5555556666CCC555555555555995555555559666666BBBBB4CCC",
+            "9BBBBBBBBBBB55555555CCCCCC55555555559955556666559666666BBBBB4CCC",
+            "99BBBBBBBBB55555555CCCCCCCCC55555559955566666655966666BBBBBB4CCC",
+            "B99BBBBBB555555555CCCC999CCCC555559955566666655996666BBBBBB44CCC",
+            "B999BBBBBB55555555CCCC929999999999955566666665596666BBBBBBB44CCC",
+            "9999BBBBBBBB555555CCCC999CCCC5555555556666665559666BBBBBBBBB9CCC",
+            "9999BBBBBBBBB55555CCCCCCCCCCC555555556666666550966BBBBBBBBBB9CCC",
+            "9999BBBBBBBBB555555CCCCCCCCC55555555666666665559BBBBBBBBBBBB9CCC",
+            "9999BBBBBBBBBB555555CCCC5555555555566666BBBBBB59BBBBBBBBBBBB99CC",
+            "9999BBBBBBBBBB55555555555BBBB55555566BBBBBBBBBBEBBBBBBBBBBBBB9CC",
+            "B1BBBBBBBBBBBBB5555555BBBBBBBBB555BBBBBBBBBBBBB955BBBBBBBBBBB99C",
+            "BBBBBBBBBBBBBBBB5555BBBBBBBBBBBBBBBBBBBBBBBBB55955555BBBBBBBBB9C",
+            "BBBBBBBBBBBBBBBB1BBBBBBBBBBBBBBBBBBBBBBBBBB55559555555BBBBBBBB99",
+            "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5555559555555BBBBBBBBB9",
+            "BBB1BBBBBBBBBBBBB777BBBBBBBBBBBBBBBBBB1BB55555595555551BBBBBBBB9",
+            "BB5555BBBB777777777777BBBBBBBBBBBBBBBB5555555559555555BBBBBBB666",
+            "B5555556BB7277777779977BBBBBBBBBBBBB555555555559555555BBBBBBB656",
+            "555577777BB777797777777777BBBBBBBB5555555555559955555BBBBBBBB666",
+            "557777777BBBBB777777777777799977777777777777559555555BBBBBBBBBBB",
+            "55777777BBBBBBBBB7777777BBBBBB7777777777777777955555BBBBBBBBBBBB",
+            "57777777BBBBBBBBBBBBBBBBBBBBBBBB7777997777777795555BBBBBBBBBBBBB",
+            "57777777B1BBBBBBBBBBBBBBBBBBBBBBB7777777777777955BBBBBBBBBBBBBBB",
+            "57777777777BBBBBBBBBBBBBBBBBBBBB777777777777779BBBBBBBBBBBBBBBBB",
+            "5777777777777BBBBBBBBBBBBBBBBBB7777777777BBBBB9BBBBBBBBBBBBBCCCC",
+            "557777777777777BBBBBBBBBBBBBB7777777777BBBBBBB9BBBBBBBBBBBCCCCCC",
+            "55577777777777755BBBBBBBBBBB77777777777BBBBBBB9BBBBBBBBBCCCCCCCC",
+            "55557777777777755555BBBBBBB66777777777BBBBBBB99BBBBBBBCCCCCCCCCC",
+            "55577777777777555566666666666557777777BBBBBBB9BBBBBCCCCCCCCCCCCC",
+            "55777777775555556666666666665555777777BBBBBB99BBBCCCCCCCCCCCCCCC",
+            "55777755555555566666666666655555577777BBB999993CCCCCCCCCCCCCCCCC",
+            "CCC775555555555666666666999999999999999999BBBBBBCCCCCCCCCCCCCCCC",
+            "BBCC55555555555566999999966655555555555BBBBBBBBBCCCCCCCCCCCCCCCC",
+            "BBBCC5555555555559966666666666666655555BBBBBBBBCCCCCCCCCCCCCCCCC",
+            "BBBBCCC5555555559955555566666666666666BBBBBBBBCCCCCCCCCCCCCCCCCC",
+            "BBBBBBCCCCCCCCCC3C55555556666666666666BBBBBBBBCCCCCCCCCCCCCCCCCC",
+            "BBBBBBB5555555559CCCC5555566666666666BBBBBBBBCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBB5555999999555CCCC5566666666666BBBBBBBCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBB559955555555555CCC6666666666BBBBBBBCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBB9955555555565555CC666644444BBBBBCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBB995555555555555555344444464BBBBBCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBB9555555555555555CCCCCCCC444BBBBCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "CCCCCCCC0555555555CCCCCCCCCCCCCCCCCBBBCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBCCCCCCCCCBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBCCCCCCCCBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBCCCCCCCCBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBCCCCCCBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBCBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+            "BBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+          ]
+        },
+        "encounter": [
+          {
+            "dest_map": 29,
+            "entry": 1
+          },
+          {
+            "dest_map": 30,
+            "entry": 1
+          },
+          {
+            "dest_map": 34,
+            "entry": 1
+          },
+          {
+            "dest_map": 35,
+            "entry": 1
+          },
+          {
+            "dest_map": 39,
+            "entry": 1
+          },
+          {
+            "dest_map": 40,
+            "entry": 1
+          },
+          {
+            "dest_map": 47,
+            "entry": 1
+          },
+          {
+            "dest_map": 48,
+            "entry": 1
+          },
+          {
+            "dest_map": 52,
+            "entry": 1
+          },
+          {
+            "dest_map": 53,
+            "entry": 1
+          },
+          {
+            "dest_map": 57,
+            "entry": 1
+          },
+          {
+            "dest_map": 58,
+            "entry": 1
+          },
+          {
+            "dest_map": 59,
+            "entry": 1
+          },
+          {
+            "dest_map": 60,
+            "entry": 1
+          }
+        ],
+        "connector": [
+          {
+            "id": "west_hyrule/connector/0",
+            "x": 23,
+            "y": 22,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 2,
+            "entry_right": true,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/1",
+            "x": 29,
+            "y": 2,
+            "dest_map": 33,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/2",
+            "x": 37,
+            "y": 12,
+            "dest_map": 43,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/3",
+            "x": 16,
+            "y": 30,
+            "dest_map": 45,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/4",
+            "x": 20,
+            "y": 56,
+            "dest_map": 46,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/5",
+            "x": 62,
+            "y": 34,
+            "dest_map": 38,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/6",
+            "x": 56,
+            "y": 56,
+            "dest_map": 44,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/7",
+            "x": 62,
+            "y": 24,
+            "dest_map": 6,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": true,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/8",
+            "x": 39,
+            "y": 64,
+            "dest_map": 51,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/9",
+            "x": 48,
+            "y": 62,
+            "dest_map": 56,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/10",
+            "x": 48,
+            "y": 11,
+            "dest_map": 7,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/11",
+            "x": 55,
+            "y": 16,
+            "dest_map": 7,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": true,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/12",
+            "x": 1,
+            "y": 28,
+            "dest_map": 9,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/13",
+            "x": 3,
+            "y": 32,
+            "dest_map": 11,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": true,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/14",
+            "x": 38,
+            "y": 32,
+            "dest_map": 12,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/15",
+            "x": 9,
+            "y": 39,
+            "dest_map": 14,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/16",
+            "x": 54,
+            "y": 32,
+            "dest_map": 16,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/17",
+            "x": 50,
+            "y": 66,
+            "dest_map": 18,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": true,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/18",
+            "x": 59,
+            "y": 72,
+            "dest_map": 19,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": true,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/19",
+            "x": 16,
+            "y": 52,
+            "dest_map": 1,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": true,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/20",
+            "x": 26,
+            "y": 57,
+            "dest_map": 2,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": true,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/21",
+            "x": 26,
+            "y": 67,
+            "dest_map": 4,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": true,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/22",
+            "x": 34,
+            "y": 67,
+            "dest_map": 5,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": true,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": true,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/23",
+            "x": 7,
+            "y": 34,
+            "dest_map": 20,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/24",
+            "x": 17,
+            "y": 37,
+            "dest_map": 51,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 2,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/25",
+            "x": 33,
+            "y": 57,
+            "dest_map": 20,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/26",
+            "x": 47,
+            "y": 27,
+            "dest_map": 26,
+            "dest_world": 0,
+            "dest_overworld": 2,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/27",
+            "x": 54,
+            "y": 60,
+            "dest_map": 22,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/28",
+            "x": 51,
+            "y": 53,
+            "dest_map": 23,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/29",
+            "x": 56,
+            "y": 57,
+            "dest_map": 23,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 1,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/30",
+            "x": 37,
+            "y": 38,
+            "dest_map": 57,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/31",
+            "x": 0,
+            "y": -30,
+            "dest_map": 57,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/32",
+            "x": 38,
+            "y": 72,
+            "dest_map": 57,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 2,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/33",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/34",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/35",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/36",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/37",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/38",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/39",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/40",
+            "x": 0,
+            "y": 97,
+            "dest_map": 40,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/41",
+            "x": 62,
+            "y": 45,
+            "dest_map": 41,
+            "dest_world": 0,
+            "dest_overworld": 2,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/42",
+            "x": 10,
+            "y": 65,
+            "dest_map": 42,
+            "dest_world": 0,
+            "dest_overworld": 1,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/43",
+            "x": 21,
+            "y": 66,
+            "dest_map": 43,
+            "dest_world": 0,
+            "dest_overworld": 1,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/44",
+            "x": 11,
+            "y": 34,
+            "dest_map": 60,
+            "dest_world": 1,
+            "dest_overworld": 0,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/45",
+            "x": 46,
+            "y": 24,
+            "dest_map": 9,
+            "dest_world": 1,
+            "dest_overworld": 0,
+            "external": true,
+            "second": true,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/46",
+            "x": 0,
+            "y": 19,
+            "dest_map": 61,
+            "dest_world": 1,
+            "dest_overworld": 0,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": true,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/47",
+            "x": 2,
+            "y": 6,
+            "dest_map": 5,
+            "dest_world": 1,
+            "dest_overworld": 0,
+            "external": true,
+            "second": true,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/48",
+            "x": 8,
+            "y": 61,
+            "dest_map": 6,
+            "dest_world": 1,
+            "dest_overworld": 0,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/49",
+            "x": 8,
+            "y": 59,
+            "dest_map": 8,
+            "dest_world": 1,
+            "dest_overworld": 0,
+            "external": true,
+            "second": true,
+            "exit_2_lower": false,
+            "entry": 3,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/50",
+            "x": 21,
+            "y": 46,
+            "dest_map": 24,
+            "dest_world": 1,
+            "dest_overworld": 0,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/51",
+            "x": 46,
+            "y": 47,
+            "dest_map": 11,
+            "dest_world": 1,
+            "dest_overworld": 0,
+            "external": true,
+            "second": true,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/52",
+            "x": 62,
+            "y": 2,
+            "dest_map": 0,
+            "dest_world": 3,
+            "dest_overworld": 0,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": {
+              "index": 0,
+              "chr_bank": 8,
+              "palette": 0
+            }
+          },
+          {
+            "id": "west_hyrule/connector/53",
+            "x": 55,
+            "y": 49,
+            "dest_map": 12,
+            "dest_world": 1,
+            "dest_overworld": 0,
+            "external": true,
+            "second": true,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": {
+              "index": 1,
+              "chr_bank": 10,
+              "palette": 1
+            }
+          },
+          {
+            "id": "west_hyrule/connector/54",
+            "x": 57,
+            "y": 68,
+            "dest_map": 0,
+            "dest_world": 4,
+            "dest_overworld": 0,
+            "external": true,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": {
+              "index": 2,
+              "chr_bank": 18,
+              "palette": 2
+            }
+          },
+          {
+            "id": "west_hyrule/connector/55",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": {
+              "index": 3,
+              "chr_bank": 18,
+              "palette": 2
+            }
+          },
+          {
+            "id": "west_hyrule/connector/56",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/57",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/58",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/59",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/60",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/61",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          },
+          {
+            "id": "west_hyrule/connector/62",
+            "x": 0,
+            "y": -30,
+            "dest_map": 0,
+            "dest_world": 0,
+            "dest_overworld": 0,
+            "external": false,
+            "second": false,
+            "exit_2_lower": false,
+            "entry": 0,
+            "entry_right": false,
+            "passthru": false,
+            "fall": false,
+            "hidden": null,
+            "palace": null
+          }
+        ]
+      }
     }
   ],
   "extra_data": {
@@ -22936,29 +26944,145 @@
         ],
         "show_invalid_connections": true,
         "layout": {
-          "2": {
+          "12": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "32": {
+            "x": 384.0,
+            "y": 200.0
+          },
+          "13": {
             "x": 1024.0,
             "y": 0.0
           },
-          "1": {
+          "14": {
+            "x": 2048.0,
+            "y": 0.0
+          },
+          "58": {
+            "x": 2048.0,
+            "y": 200.0
+          },
+          "52": {
+            "x": 1024.0,
+            "y": 200.0
+          },
+          "46": {
+            "x": 2048.0,
+            "y": 456.0
+          }
+        }
+      },
+      "west_hyrule/connector/49/layout": {
+        "type": "MultiMapLayout",
+        "scale": 0.25,
+        "spread": [
+          1.25,
+          1.25
+        ],
+        "show_invalid_connections": true,
+        "layout": {
+          "8": {
+            "x": 2048.0,
+            "y": 0.0
+          },
+          "7": {
+            "x": 1024.0,
+            "y": 0.0
+          },
+          "6": {
             "x": 0.0,
             "y": 0.0
           },
           "0": {
-            "x": 825.5998,
-            "y": 1881.6
+            "x": 0.0,
+            "y": 256.0
           },
-          "28": {
-            "x": 383.99994,
-            "y": 561.60004
+          "30": {
+            "x": 716.7999,
+            "y": 606.3998
           },
-          "48": {
-            "x": 2096.0,
-            "y": 468.80005
+          "50": {
+            "x": 1664.0,
+            "y": 200.0
           },
-          "36": {
-            "x": 822.40045,
-            "y": 1003.19995
+          "38": {
+            "x": 1664.0,
+            "y": 456.0
+          }
+        }
+      },
+      "west_hyrule/connector/0/layout": {
+        "type": "MultiMapLayout",
+        "scale": 0.75,
+        "spread": [
+          1.25,
+          1.25
+        ],
+        "show_invalid_connections": true,
+        "layout": {
+          "0": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      },
+      "west_hyrule/connector/51/layout": {
+        "type": "MultiMapLayout",
+        "scale": 0.25,
+        "spread": [
+          1.25,
+          1.25
+        ],
+        "show_invalid_connections": false,
+        "layout": {
+          "11": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "0": {
+            "x": 6.400767,
+            "y": 1030.4001
+          },
+          "44": {
+            "x": 329.60056,
+            "y": 475.1998
+          }
+        }
+      },
+      "west_hyrule/connector/47/layout": {
+        "type": "MultiMapLayout",
+        "scale": 0.25,
+        "spread": [
+          1.25,
+          1.25
+        ],
+        "show_invalid_connections": true,
+        "layout": {
+          "5": {
+            "x": 950.4002,
+            "y": 0.0
+          },
+          "4": {
+            "x": 0.0,
+            "y": 6.400023
+          },
+          "0": {
+            "x": 156.80057,
+            "y": 1705.6001
+          },
+          "29": {
+            "x": 51.200394,
+            "y": 340.80014
+          },
+          "49": {
+            "x": 1033.6005,
+            "y": 315.19998
+          },
+          "37": {
+            "x": 1289.6003,
+            "y": 673.6002
           }
         }
       }
