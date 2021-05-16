@@ -3,7 +3,7 @@
 # Give overworld up to 64 unique tiles.
 ######################################################################
 import z2edit
-from z2edit import PyAddress
+from z2edit import Address
 from z2edit.util import ObjectDict, Tile, chr_clear
 
 def hack(config, edit, asm):
@@ -14,7 +14,7 @@ def hack(config, edit, asm):
     # Create a new tile mapping table, followed by a palette mapping table.
     ######################################################################
     length = 0x16c
-    freespace = edit.alloc_near(PyAddress.prg(0, 0xb000), length)
+    freespace = edit.alloc_near(Address.prg(0, 0xb000), length)
     overworld_tile_mappings = freespace
     overworld_palette_codes = freespace + 0x100
     freespace = freespace.addr()
@@ -177,7 +177,7 @@ def hack(config, edit, asm):
     ######################################################################
     length = 0x36
     for bank in (1, 2):
-        freespace = edit.alloc_near(PyAddress.prg(bank, 0xac00), length)
+        freespace = edit.alloc_near(Address.prg(bank, 0xac00), length)
         freespace = freespace.addr()
         asm(f"""
             .bank {bank}

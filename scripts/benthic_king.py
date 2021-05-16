@@ -1,5 +1,7 @@
 import z2edit
-from z2edit.util import ObjectDict, Tile, chr_copy
+from z2edit.util import Config, Tile, chr_copy, check_version_or_die
+
+check_version_or_die('1.99.3')
 
 import barba_projectiles
 import boss_key
@@ -15,7 +17,7 @@ import victory
 def apply_all_hacks(edit, asm):
     # Get a local copy of the config so we can update it as we go.
     meta = edit.meta
-    config = ObjectDict.from_json(z2edit.config[meta['config']])
+    config = Config.get(meta['config'])
 
     # Apply our hacks.
     config = barba_projectiles.hack(config, edit, asm)
@@ -43,7 +45,7 @@ def apply_all_hacks(edit, asm):
 
     # Now tell the editor about the new configuration.
     name = meta['config'] + '-hacks'
-    z2edit.config[name] = config.to_json()
+    Config.put(name, config)
     # Now tell the project about the new configuration.
     meta['extra'] = {'next_config': name}
     edit.meta = meta

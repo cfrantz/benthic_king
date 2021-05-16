@@ -2,7 +2,7 @@
 # Add the town-door mechanic to palaces.
 ######################################################################
 import z2edit
-from z2edit import PyAddress
+from z2edit import Address
 from z2edit.util import ObjectDict, Tile, chr_copy
 
 def hack(config, edit, asm):
@@ -13,12 +13,12 @@ def hack(config, edit, asm):
 
     # Hack the game to support doorways in palaces
     bank4_length = 23
-    bank4_freespace = edit.alloc_near(PyAddress.prg(4, 0x9ee0), bank4_length)
+    bank4_freespace = edit.alloc_near(Address.prg(4, 0x9ee0), bank4_length)
     print("bank4_freespace", bank4_freespace)
     bank4_freespace = bank4_freespace.addr()
 
     bank7_length = 15
-    bank7_freespace = edit.alloc_near(PyAddress.prg(7, 0xfeaa), bank7_length)
+    bank7_freespace = edit.alloc_near(Address.prg(7, 0xfeaa), bank7_length)
     print("bank7_freespace", bank7_freespace)
     bank7_freespace = bank7_freespace.addr()
 

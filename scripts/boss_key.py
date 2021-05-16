@@ -1,8 +1,8 @@
-from z2edit import PyAddress
+from z2edit import Address
 
 def hack(config, edit, asm):
     length = 31
-    freespace = edit.alloc_near(PyAddress.prg(7, 0x8000), length)
+    freespace = edit.alloc_near(Address.prg(7, 0x8000), length)
     freespace = freespace.addr()
     asm(f"""
         ;; Burn some precious bank7 freespace for boss-to-item transforms.

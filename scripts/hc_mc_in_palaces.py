@@ -1,5 +1,5 @@
 import z2edit
-from z2edit import PyAddress
+from z2edit import Address
 from z2edit.util import Tile, chr_clear, chr_copy, chr_swap
 
 # Graphics arrangement (numbers in expressed in hex):
@@ -43,10 +43,10 @@ def hack(config, edit, asm):
         chr_swap(edit, Tile(bank, 0x9d), Tile(bank, 0x31))
 
     # Fix the overworld PRG banks after the cave wall move.
-    edit.write(PyAddress.prg(1, 0x8463), 0x31)
-    edit.write(PyAddress.prg(1, 0x846b), 0x31)
-    edit.write(PyAddress.prg(2, 0x8463), 0x31)
-    edit.write(PyAddress.prg(2, 0x846b), 0x31)
+    edit.write(Address.prg(1, 0x8463), 0x31)
+    edit.write(Address.prg(1, 0x846b), 0x31)
+    edit.write(Address.prg(2, 0x8463), 0x31)
+    edit.write(Address.prg(2, 0x846b), 0x31)
 
     # Copy the meds to the comma/blank in the palace banks.
     # Move tile $88 to $8d and clear tile $8b ($89,$8b,$8d appear unused).
@@ -69,14 +69,14 @@ def hack(config, edit, asm):
         chr_copy(edit, Tile(bank, 0x83), Tile(3, 0x83))
 
     # Fix the palace crystal statue after tile moves
-    edit.write(PyAddress.prg(4, 0x8391), 0x8d)
-    edit.write(PyAddress.prg(4, 0x83a5), 0x8d)
+    edit.write(Address.prg(4, 0x8391), 0x8d)
+    edit.write(Address.prg(4, 0x83a5), 0x8d)
 
     # Rewrite the sprite table for the meds/kid:
-    edit.write_bytes(PyAddress.prg(-1, 0xeea9), bytes([0x9d, 0x9d]))
-    edit.write_bytes(PyAddress.prg(-1, 0xeea5), bytes([0x9d, 0x9d]))
+    edit.write_bytes(Address.prg(-1, 0xeea9), bytes([0x9d, 0x9d]))
+    edit.write_bytes(Address.prg(-1, 0xeea5), bytes([0x9d, 0x9d]))
     # Rewrite the sprite table for link-holding-up-item:
-    edit.write_bytes(PyAddress.prg(-1, 0xeb92), bytes([0x89, 0xb1]))
+    edit.write_bytes(Address.prg(-1, 0xeb92), bytes([0x89, 0xb1]))
 
     # No config modification; just return the config back to caller.
     return config
