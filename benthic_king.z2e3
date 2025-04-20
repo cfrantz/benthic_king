@@ -12,7 +12,7 @@
       meta: {
         label: "",
         user: "cfrantz",
-        timestamp: 1744467241566650,
+        timestamp: 1745109759292032,
         comment: "",
         extra: {
         }
@@ -29,7 +29,8 @@
           layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/title-screen-0.bmp"
+            "graphics/title-screen-0.bmp",
+            "graphics/plan/bagu-sideview.bmp"
           ]
         }
       }
@@ -60,6 +61,32 @@
         }
       }
     },
+    "/chr/2": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745109778658896,
+        comment: "",
+        extra: {
+        }
+      },
+      data: {
+        ChrBank: {
+          schema: "Mmc1_4k",
+          address: {
+            Chr: [
+              2,
+              0
+            ]
+          },
+          layout: "Sprite",
+          border: 0,
+          overlay: [
+            "graphics/plan/bagu-sideview.bmp"
+          ]
+        }
+      }
+    },
     "/chr/4": {
       meta: {
         label: "",
@@ -81,7 +108,8 @@
           layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/east-overworld-1.bmp"
+            "graphics/east-overworld-1.bmp",
+            "graphics/plan/bagu-sideview.bmp"
           ]
         }
       }
@@ -112,11 +140,141 @@
         }
       }
     },
+    "/chr/6": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745109778658896,
+        comment: "",
+        extra: {
+        }
+      },
+      data: {
+        ChrBank: {
+          schema: "Mmc1_4k",
+          address: {
+            Chr: [
+              6,
+              0
+            ]
+          },
+          layout: "Sprite",
+          border: 0,
+          overlay: [
+            "graphics/plan/bagu-sideview.bmp"
+          ]
+        }
+      }
+    },
+    "/chr/8": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745109778658896,
+        comment: "",
+        extra: {
+        }
+      },
+      data: {
+        ChrBank: {
+          schema: "Mmc1_4k",
+          address: {
+            Chr: [
+              8,
+              0
+            ]
+          },
+          layout: "Sprite",
+          border: 0,
+          overlay: [
+            "graphics/plan/bagu-sideview.bmp"
+          ]
+        }
+      }
+    },
+    "/chr/10": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745109778658896,
+        comment: "",
+        extra: {
+        }
+      },
+      data: {
+        ChrBank: {
+          schema: "Mmc1_4k",
+          address: {
+            Chr: [
+              10,
+              0
+            ]
+          },
+          layout: "Sprite",
+          border: 0,
+          overlay: [
+            "graphics/plan/bagu-sideview.bmp"
+          ]
+        }
+      }
+    },
+    "/chr/12": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745109778658896,
+        comment: "",
+        extra: {
+        }
+      },
+      data: {
+        ChrBank: {
+          schema: "Mmc1_4k",
+          address: {
+            Chr: [
+              12,
+              0
+            ]
+          },
+          layout: "Sprite",
+          border: 0,
+          overlay: [
+            "graphics/plan/bagu-sideview.bmp"
+          ]
+        }
+      }
+    },
+    "/chr/14": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745109778658896,
+        comment: "",
+        extra: {
+        }
+      },
+      data: {
+        ChrBank: {
+          schema: "Mmc1_4k",
+          address: {
+            Chr: [
+              14,
+              0
+            ]
+          },
+          layout: "Sprite",
+          border: 0,
+          overlay: [
+            "graphics/plan/bagu-sideview.bmp"
+          ]
+        }
+      }
+    },
     "/chr/17": {
       meta: {
         label: "",
         user: "cfrantz",
-        timestamp: 1743898559557078,
+        timestamp: 1745109832508656,
         comment: "",
         extra: {
         }
@@ -130,10 +288,11 @@
               0
             ]
           },
-          layout: "Tile",
+          layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/benthic-overworld-tiles.bmp"
+            "graphics/benthic-overworld-tiles.bmp",
+            "graphics/plan/bagu-overworld.bmp"
           ]
         }
       }
@@ -159,7 +318,8 @@
           layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/p6-swim-1.bmp"
+            "graphics/p6-swim-1.bmp",
+            "graphics/plan/bagu-sideview.bmp"
           ]
         }
       }
@@ -190,6 +350,58 @@
         }
       }
     },
+    "/chr/20": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745109778658896,
+        comment: "",
+        extra: {
+        }
+      },
+      data: {
+        ChrBank: {
+          schema: "Mmc1_4k",
+          address: {
+            Chr: [
+              20,
+              0
+            ]
+          },
+          layout: "Sprite",
+          border: 0,
+          overlay: [
+            "graphics/plan/bagu-sideview.bmp"
+          ]
+        }
+      }
+    },
+    "/chr/22": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745109778658896,
+        comment: "",
+        extra: {
+        }
+      },
+      data: {
+        ChrBank: {
+          schema: "Mmc1_4k",
+          address: {
+            Chr: [
+              22,
+              0
+            ]
+          },
+          layout: "Sprite",
+          border: 0,
+          overlay: [
+            "graphics/plan/bagu-sideview.bmp"
+          ]
+        }
+      }
+    },
     "/chr/24": {
       meta: {
         label: "",
@@ -211,6 +423,7 @@
           layout: "Sprite",
           border: 0,
           overlay: [
+            "graphics/plan/bagu-sideview.bmp",
             "graphics/p6-1.bmp"
           ]
         }
