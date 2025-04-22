@@ -4,12 +4,15 @@ from z2edit.util import ObjectDict, Tile, chr_copy
 from . import barba_projectiles
 from . import boss_key
 from . import credits
+from . import earthquake
 from . import game_over
 from . import hc_mc_in_palaces
 from . import palace_doors
 from . import songs
+from . import start_at_bagus_house
 from . import swim
 from . import tile_expansion
+from . import text_format
 from . import title_text
 from . import victory
 
@@ -19,14 +22,17 @@ def hack(project):
     barba_projectiles.hack(project, config)
     boss_key.hack(project, config)
     credits.hack(project, config)
+    earthquake.hack(project, config)
     game_over.hack(project, config)
     hc_mc_in_palaces.hack(project, config)
     palace_doors.hack(project, config)
     swim.hack(project, config)
+    text_format.hack(project, config)
     tile_expansion.hack(project, config)
     title_text.hack(project, config)
     title_text.hack_graphics(project, config)
     victory.hack(project, config)
+    start_at_bagus_house.hack(project, config)
     songs.hack(project, config)
 
     project.config = config.to_json()

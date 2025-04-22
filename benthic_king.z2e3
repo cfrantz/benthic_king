@@ -587,8 +587,8 @@
     "/bank/1/overworld/0": {
       meta: {
         label: "",
-        user: "",
-        timestamp: 1,
+        user: "cfrantz",
+        timestamp: 1745196841632281,
         comment: "",
         extra: {
         }
@@ -606,30 +606,30 @@
               "BBBBBBBBBBBBBBBBCCCCCCC44444B1B444444CCCCCCCCCCCCCCCCCCCCC4C44H4",
               "BBBBBBBBBBBBBBBBBBBCC44444444444444444CCCCCCCCCCCCCCCCCCCC44444C",
               "BBBBBBBBBBBBBBBBBBB4444444444444444444CCCCCCCCCCCCCCCCCCC4444444",
-              "BBBBBBBBBBBBBBBBBBB44444444444444444444CCCCCCCCCCCCCCCCC44444444",
-              "BBBBBBBBBBBBBBBBBB444444444444444444444CCCCCCCCCCCC4444444444444",
-              "BBBBBBBBBBBBBBBBB44444444444444444444444CCCCCCCC444444444444444C",
-              "BBBBBBBBBBBBBBBB444444444444444444444444CCCCCCC4444444444444444C",
-              "BBBBBBBBBBB999999999994444444444444444444CCCCC44444444444444444C",
-              "BBBBBBBBBB6666666666699999944444455555544CCCC444444444444444444C",
-              "BBBBBBBBB66666666666666666994445555555555CCBBBBB1BB444444444444C",
-              "BBBBBBBBB66666666666666666699455555556555BBBBBBBBBBBBB44444444CC",
-              "BBBBBBBBB66666666666666666669999999999955BBBBBBBBBBBBBBBB44444CC",
-              "BBBBBBBBBB66666666666666666655555555559999BBBBBBBBBBBBBBBBB444CC",
-              "BBBBBBBBBBB666666666666666555555555555555999996666BBBBBBBBBB44CC",
-              "BBBBBBBBBBBB6666666666665555555555555559995559996666BBB1BBBB4CCC",
-              "BBBBBBBBBBBB55556666666555555555555555995555555996666666BBBB4CCC",
-              "BBBBBBBBBBBB5555556666CCC555555555555995555555559666666BBBBB4CCC",
-              "BBBBBBBBBBBB55555555CCCCCC55555555559955556666559666666BBBBB4CCC",
-              "BBBBBBBBBBB55555555CCCCCCCCC55555559955566666655966666BBBBBB4CCC",
-              "BBBBBBBBB555555555CCCC999CCCC555559955566666655996666BBBBBB44CCC",
-              "BBBBBBBBBB55555555CCCC929999999999955566666665596666BBBBBBB44CCC",
-              "BBBBBBBBBBBB555555CCCC999CCCC5555555556666665559666BBBBBBBBB9CCC",
-              "BBBBBBBBBBBBB55555CCCCCCCCCCC555555556666666550966BBBBBBBBBB9CCC",
-              "BBBBBBBBBBBBB555555CCCCCCCCC55555555666666665559BBBBBBBBBBBB9CCC",
-              "BBBBBBBBBBBBBB555555CCCC5555555555566666BBBBBB59BBBBBBBBBBBB99CC",
-              "BBBBBBBBBBBBBB55555555555BBBB55555566BBBBBBBBBBTBBBBBBBBBBBBB9CC",
-              "BBBBBBBBBBBBBBB5555555BBBBBBBBB555BBBBBBBBBBBBBCCCBBBBBBBBBBB99C",
+              "999999BBBBBBBBBBBBB44444444444444444444CCCCCCCCCCCCCCCCC44444444",
+              "990999BBBBBBBBBBBB444444444444444444444CCCCCCCCCCCC4444444444444",
+              "999999999BBBBBBBB44444444444444444444444CCCCCCCC444444444444444C",
+              "9999999999BBBBBB444444444444444444444444CCCCCCC4444444444444444C",
+              "999999BB999999999999994444444444444444444CCCCC44444444444444444C",
+              "9BBBBBBBBB6666666666699999944444455555544CCCC444444444444444444C",
+              "9BBBBBBBB66666666666666666994445555555555CCBBBBB1BB444444444444C",
+              "9BBBBBBBB66666666666666666699455555556555BBBBBBBBBBBBB44444444CC",
+              "9BBBBBBBB66666666666666666669999999999955BBBBBBBBBBBBBBBB44444CC",
+              "9BBBBBBBBB66666666666666666655555555559999BBBBBBBBBBBBBBBBB444CC",
+              "9BBBBBBBBBB666666666666666555555555555555999996666BBBBBBBBBB44CC",
+              "9BBBBBBBBBBB6666666666665555555555555559995559996666BBB1BBBB4CCC",
+              "9BBBBBBBBBBB55556666666555555555555555995555555996666666BBBB4CCC",
+              "9BBBBBBBBBBB5555556666CCC555555555555995555555559666666BBBBB4CCC",
+              "9BBBBBBBBBBB55555555CCCCCC55555555559955556666559666666BBBBB4CCC",
+              "99BBBBBBBBB55555555CCCCCCCCC55555559955566666655966666BBBBBB4CCC",
+              "B99BBBBBB555555555CCCC999CCCC555559955566666655996666BBBBBB44CCC",
+              "B999BBBBBB55555555CCCC929999999999955566666665596666BBBBBBB44CCC",
+              "9999BBBBBBBB555555CCCC999CCCC5555555556666665559666BBBBBBBBB9CCC",
+              "9999BBBBBBBBB55555CCCCCCCCCCC555555556666666550966BBBBBBBBBB9CCC",
+              "9999BBBBBBBBB555555CCCCCCCCC55555555666666665559BBBBBBBBBBBB9CCC",
+              "9999BBBBBBBBBB555555CCCC5555555555566666BBBBBB59BBBBBBBBBBBB99CC",
+              "9999BBBBBBBBBB55555555555BBBB55555566BBBBBBBBBBTBBBBBBBBBBBBB9CC",
+              "BCBBBBBBBBBBBBB5555555BBBBBBBBB555BBBBBBBBBBBBBCCCBBBBBBBBBBB99C",
               "BBBBBBBBBBBBBBBB5555BBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCBBBBBBBBB9C",
               "BBBBBBBBBBBBBBBB1BBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCBBBBBBBB99",
               "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCmCCCCCCCBBBBBBBBB9",
@@ -792,8 +792,8 @@
               palace: null
             },
             "7": {
-              x: 47,
-              y: 33,
+              x: 61,
+              y: 27,
               area: 6,
               screen: 1,
               entry_right: false,
@@ -1384,6 +1384,1129 @@
               palace: null
             },
             "44": {
+              x: 11,
+              y: 34,
+              area: 60,
+              screen: 0,
+              entry_right: false,
+              dest_world: 1,
+              dest_overworld: 0,
+              external: true,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "45": {
+              x: 46,
+              y: 24,
+              area: 2,
+              screen: 3,
+              entry_right: false,
+              dest_world: 1,
+              dest_overworld: 0,
+              external: true,
+              second: true,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "46": {
+              x: 1,
+              y: 27,
+              area: 61,
+              screen: 0,
+              entry_right: false,
+              dest_world: 1,
+              dest_overworld: 0,
+              external: true,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "47": {
+              x: 2,
+              y: 6,
+              area: 5,
+              screen: 3,
+              entry_right: false,
+              dest_world: 1,
+              dest_overworld: 0,
+              external: true,
+              second: true,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "48": {
+              x: 8,
+              y: 61,
+              area: 6,
+              screen: 0,
+              entry_right: false,
+              dest_world: 1,
+              dest_overworld: 0,
+              external: true,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "49": {
+              x: 8,
+              y: 59,
+              area: 8,
+              screen: 3,
+              entry_right: false,
+              dest_world: 1,
+              dest_overworld: 0,
+              external: true,
+              second: true,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "50": {
+              x: 21,
+              y: 46,
+              area: 24,
+              screen: 0,
+              entry_right: false,
+              dest_world: 1,
+              dest_overworld: 0,
+              external: true,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "51": {
+              x: 60,
+              y: 45,
+              area: 11,
+              screen: 3,
+              entry_right: false,
+              dest_world: 1,
+              dest_overworld: 0,
+              external: true,
+              second: true,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "52": {
+              x: 62,
+              y: 2,
+              area: 0,
+              screen: 0,
+              entry_right: false,
+              dest_world: 3,
+              dest_overworld: 0,
+              external: true,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: {
+                index: 0,
+                chr_bank: 8,
+                palette: 0
+              }
+            },
+            "53": {
+              x: 11,
+              y: 32,
+              area: 14,
+              screen: 0,
+              entry_right: false,
+              dest_world: 3,
+              dest_overworld: 0,
+              external: true,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: {
+                index: 1,
+                chr_bank: 10,
+                palette: 1
+              }
+            },
+            "54": {
+              x: 57,
+              y: 68,
+              area: 0,
+              screen: 0,
+              entry_right: false,
+              dest_world: 4,
+              dest_overworld: 0,
+              external: true,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: {
+                index: 2,
+                chr_bank: 18,
+                palette: 2
+              }
+            },
+            "55": {
+              x: 0,
+              y: 226,
+              area: 0,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: {
+                index: 3,
+                chr_bank: 18,
+                palette: 2
+              }
+            },
+            "56": {
+              x: 0,
+              y: 226,
+              area: 0,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "57": {
+              x: 0,
+              y: 226,
+              area: 0,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "58": {
+              x: 0,
+              y: 226,
+              area: 0,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "59": {
+              x: 0,
+              y: 226,
+              area: 0,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "60": {
+              x: 0,
+              y: 226,
+              area: 0,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "61": {
+              x: 0,
+              y: 226,
+              area: 0,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "62": {
+              x: 0,
+              y: 226,
+              area: 0,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            }
+          }
+        }
+      }
+    },
+    "/bank/1/overworld/1": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745170770801144,
+        comment: "Copy of vanilla West Hyrule",
+        extra: {
+        }
+      },
+      data: {
+        Overworld: {
+          compress_boulder: null,
+          compress_spider: null,
+          map: {
+            width: 64,
+            height: 75,
+            data: [
+              "BBBBBBBBBBBBCCCCCCCCCCCCCC44444444CCCCCCCCCCCCCCCCCCCCCCCCCCCC44",
+              "BBBBBBBBBBBBBCCCCCCCCCCCC444BBB44444CCCCCCCCCCCCCCCCCCCCCCCC4444",
+              "BBBBBBBBBBBBBBBBCCCCCCC44444B1B444444CCCCCCCCCCCCCCCCCCCCC444424",
+              "BBBBBBBBBBBBBBBBBBBCC44444444444444444CCCCCCCCCCCCCCCCCCCC444444",
+              "BBBBBBBBBBBBBBBBBBB4444444444444444444CCCCCCCCCCCCCCCCCCC4444444",
+              "999999BBBBBBBBBBBBB44444444444444444444CCCCCCCCCCCCCCCCC44444444",
+              "990999BBBBBBBBBBBB444444444444444444444CCCCCCCCCCCC4444444444444",
+              "999999999BBBBBBBB44444444444444444444444CCCCCCCC444444444444444C",
+              "9999999999BBBBBB444444444444444444444444CCCCCCC4444444444444444C",
+              "999999BB999999999999994444444444444444444CCCCC44444444444444444C",
+              "9BBBBBBBB66666666666699999944444455555544CCCC444444444444444444C",
+              "9BBBBBBBB66666666666666666994445555555555CCBBBBB1BB444444444444C",
+              "9BBBBBBBB66666666666666666699455555556555BBBBBBBBBBBBB44444444CC",
+              "9BBBBBBBB66666666666666666669999999999955BBBBBBBBBBBBBBBB44444CC",
+              "9BBBBBBBBB66666666666666666655555555559999BBBBBBBBBBBBBBBBB444CC",
+              "9BBBBBBBBBB666666666666666555555555555555999996666BBBBBBBBBB44CC",
+              "9BBBBBBBBBBB6666666666665555555555555559995559996666BBB1BBBB4CCC",
+              "9BBBBBBBBBBB55556666666555555555555555995555555996666666BBBB4CCC",
+              "9BBBBBBBBBBB5555556666CCC555555555555995555555559666666BBBBB4CCC",
+              "9BBBBBBBBBBB55555555CCCCCC55555555559955556666559666666BBBBB4CCC",
+              "99BBBBBBBBB55555555CCCCCCCCC55555559955566666655966666BBBBBB4CCC",
+              "B99BBBBBB555555555CCCC999CCCC555559955566666655996666BBBBBB44CCC",
+              "B999BBBBBB55555555CCCC929999999999955566666665596666BBBBBBB44CCC",
+              "9999BBBBBBBB555555CCCC999CCCC5555555556666665559666BBBBBBBBB9CCC",
+              "9999BBBBBBBBB55555CCCCCCCCCCC555555556666666550966BBBBBBBBBB9CCC",
+              "9999BBBBBBBBB555555CCCCCCCCC55555555666666665559BBBBBBBBBBBB9CCC",
+              "9999BBBBBBBBBB555555CCCC5555555555566666BBBBBB59BBBBBBBBBBBB99CC",
+              "9999BBBBBBBBBB55555555555BBBB55555566BBBBBBBBBBEBBBBBBBBBBBBB9CC",
+              "B1BBBBBBBBBBBBB5555555BBBBBBBBB555BBBBBBBBBBBBB955BBBBBBBBBBB99C",
+              "BBBBBBBBBBBBBBBB5555BBBBBBBBBBBBBBBBBBBBBBBBB55955555BBBBBBBBB9C",
+              "BBBBBBBBBBBBBBBB1BBBBBBBBBBBBBBBBBBBBBBBBBB55559555555BBBBBBBB99",
+              "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5555559555555BBBBBBBBB9",
+              "BBB1BBBBBBBBBBBBB777BBBBBBBBBBBBBBBBBB1BB555555955555E1BBBBBBBB9",
+              "BB5555BBBB777777777777BBBBBBBBBBBBBBBB5555555559555555BBBBBBB666",
+              "B5555556BB7277777779977BBBBBBBBBBBBB555555555559555555BBBBBBB656",
+              "555577777BB777797777777777BBBBBBBB5555555555559955555BBBBBBBB666",
+              "557777777BBBBB777777777777799977777777777777559555555BBBBBBBBBBB",
+              "55777777BBBBBBBBB7777777BBBBBB7777777777777777955555BBBBBBBBBBBB",
+              "57777777BBBBBBBBBBBBBBBBBBBBBBBB7777997777777795555BBBBBBBBBBBBB",
+              "57777777B1BBBBBBBBBBBBBBBBBBBBBBB7777777777777955BBBBBBBBBBBBBBB",
+              "577777777E7BBBBBBBBBBBBBBBBBBBBB777777777777779BBBBBBBBBBBBBBBBB",
+              "5777777777777BBBBBBBBBBBBBBBBBB7777777777BBBBB9BBBBBBBBBBBBB444C",
+              "557777777777777BBBBBBBBBBBBBB7777777777BBBBBBB9BBBBBBBBBBB44444C",
+              "55577777777777755BBBBBBBBBBB77777777777BBBBBBB9BBBBBBBBB444444CC",
+              "55557777777777755555BBBBBBB66777777777BBBBBBB99BBBBBBB44444444CC",
+              "55577777777777555566666666666557777777BBBBBBB9BBBBB4444444440CCC",
+              "55777777775555556666666666665555777777BBBBBB99BBB444444444444CCC",
+              "55777755555555566666666666655555577777BBB99999E999999999999993CC",
+              "CCC775555555555666666666999999999999999999BBBBBB4444444444444CCC",
+              "BBCC55555555555566999999966655555555555BBBBBBBBB44444444444444CC",
+              "BBBCC5555555555559966666666666666655555BBBBBBBB444444444444444CC",
+              "BBBBCCC5555555559955555566666666666666BBBBBBBB44444444444444444C",
+              "BBBBBBCCCCCCCCCC3C55555556666666666666BBBBBBBB444444444444444444",
+              "BBBBBBB5555555559CCCC5555566666666666BBBBBBBB9988888888888444444",
+              "BBBBBBB5555999999555CCCC5566666666666BBBBBBB99888888888888444444",
+              "BBBBBBBB559955555555555CCC6666666666BBBBBBB998888888888888444444",
+              "BBBBBBBBB9955555555565555CC666644444BBBBB999888888888888884444CC",
+              "BBBBBBBB995555555555555555344444464BBBBB998888888999888888444CCC",
+              "BBBBBBBB9555555555555555CCCCCCCC444BBBB4988888888989888888444CCC",
+              "CCCCCCCC0555555555CCCCCCCCCCCCCCCCCBBB4498888888899988888844CCCC",
+              "BBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCC444449888888888888888884CCCCC",
+              "BBBBBBBB09999CCCCBBBCCCCCCCCCCCCCCCC4444988888888888888888CCCCCC",
+              "BBBBBBBB99999999BBBB4444CCCCCCCCCCCC444498888888888888888CCCCCCC",
+              "BBBBBBBB99999999BBB444444CCCCCCCCCCC44449888888888888888CCCCCCCC",
+              "BBBBBBBBB999999BBBBB44444CCCCCCCCCCC4444988888888888888CCCCCCCCC",
+              "BBBBBBBBBB1BBBBBBBBBBB4444CCCCCCCCCC4449988888888888888CCC444CCC",
+              "BBBBBBBBBBBBBBBBBBBBB14444CCCCCCCCC4449948888888888888CCC44444CC",
+              "BBBBBBBBBBBBBBBBBBBBBBB444333333333999944888888888888CCC44BBB44C",
+              "BBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCC44444488888888888CCCC42BBB444",
+              "BBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCC444444888888888CCCCCC4BBBBB44",
+              "BBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCC4444488888888CCCCCCC4BBBBB44",
+              "BBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCC444448888888CCCCCCCCBBBBBB44",
+              "BBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCC444488888CCCCCCCCCCCBB1444C",
+              "BBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCC4448888CCCCCCCCCCCCCBBBBBC",
+              "BBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCC4488CCCCCCCCCCCCCCCCBBBCC"
+            ]
+          },
+          connection: {
+            "0": {
+              x: 23,
+              y: 22,
+              area: 0,
+              screen: 2,
+              entry_right: true,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "1": {
+              x: 29,
+              y: 2,
+              area: 33,
+              screen: 3,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "2": {
+              x: 37,
+              y: 12,
+              area: 43,
+              screen: 1,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "3": {
+              x: 16,
+              y: 30,
+              area: 45,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "4": {
+              x: 20,
+              y: 56,
+              area: 46,
+              screen: 1,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "5": {
+              x: 62,
+              y: 34,
+              area: 38,
+              screen: 1,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "6": {
+              x: 21,
+              y: 47,
+              area: 44,
+              screen: 1,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "7": {
+              x: 61,
+              y: 27,
+              area: 6,
+              screen: 1,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: true,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "8": {
+              x: 8,
+              y: 41,
+              area: 51,
+              screen: 1,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "9": {
+              x: 48,
+              y: 62,
+              area: 56,
+              screen: 1,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "10": {
+              x: 48,
+              y: 11,
+              area: 7,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "11": {
+              x: 55,
+              y: 16,
+              area: 7,
+              screen: 3,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: true,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "12": {
+              x: 1,
+              y: 28,
+              area: 9,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "13": {
+              x: 3,
+              y: 32,
+              area: 11,
+              screen: 3,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: true,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "14": {
+              x: 38,
+              y: 32,
+              area: 12,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "15": {
+              x: 9,
+              y: 39,
+              area: 14,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "16": {
+              x: 54,
+              y: 32,
+              area: 16,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "17": {
+              x: 50,
+              y: 66,
+              area: 18,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: true,
+              hidden: null,
+              palace: null
+            },
+            "18": {
+              x: 59,
+              y: 72,
+              area: 19,
+              screen: 3,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: true,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "19": {
+              x: 16,
+              y: 52,
+              area: 1,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: true,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "20": {
+              x: 26,
+              y: 57,
+              area: 2,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: true,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "21": {
+              x: 26,
+              y: 67,
+              area: 4,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: true,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "22": {
+              x: 34,
+              y: 67,
+              area: 5,
+              screen: 3,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: true,
+              exit_2_lower: false,
+              passthru: true,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "23": {
+              x: 7,
+              y: 34,
+              area: 20,
+              screen: 1,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "24": {
+              x: 17,
+              y: 37,
+              area: 51,
+              screen: 2,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "25": {
+              x: 33,
+              y: 57,
+              area: 20,
+              screen: 3,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "26": {
+              x: 20,
+              y: 46,
+              area: 21,
+              screen: 1,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "27": {
+              x: 17,
+              y: 47,
+              area: 22,
+              screen: 1,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "28": {
+              x: 19,
+              y: 48,
+              area: 23,
+              screen: 1,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "29": {
+              x: 23,
+              y: 47,
+              area: 23,
+              screen: 1,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "30": {
+              x: 37,
+              y: 38,
+              area: 57,
+              screen: 3,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "31": {
+              x: 0,
+              y: 226,
+              area: 57,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "32": {
+              x: 38,
+              y: 72,
+              area: 57,
+              screen: 2,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "33": {
+              x: 0,
+              y: 226,
+              area: 0,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "34": {
+              x: 0,
+              y: 226,
+              area: 0,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "35": {
+              x: 0,
+              y: 226,
+              area: 0,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "36": {
+              x: 0,
+              y: 226,
+              area: 0,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "37": {
+              x: 0,
+              y: 226,
+              area: 0,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "38": {
+              x: 0,
+              y: 226,
+              area: 0,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "39": {
+              x: 0,
+              y: 226,
+              area: 0,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "40": {
+              x: 0,
+              y: 97,
+              area: 40,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 0,
+              external: false,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "41": {
+              x: 61,
+              y: 47,
+              area: 41,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 2,
+              external: true,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "42": {
+              x: 10,
+              y: 65,
+              area: 42,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 1,
+              external: true,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "43": {
+              x: 21,
+              y: 66,
+              area: 43,
+              screen: 0,
+              entry_right: false,
+              dest_world: 0,
+              dest_overworld: 1,
+              external: true,
+              second: false,
+              exit_2_lower: false,
+              passthru: false,
+              fall: false,
+              hidden: null,
+              palace: null
+            },
+            "44": {
               x: 50,
               y: 58,
               area: 60,
@@ -1683,1129 +2806,6 @@
               second: false,
               exit_2_lower: false,
               passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "62": {
-              x: 0,
-              y: 226,
-              area: 0,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            }
-          }
-        }
-      }
-    },
-    "/bank/1/overworld/1": {
-      meta: {
-        label: "",
-        user: "",
-        timestamp: 1,
-        comment: "",
-        extra: {
-        }
-      },
-      data: {
-        Overworld: {
-          compress_boulder: null,
-          compress_spider: null,
-          map: {
-            width: 64,
-            height: 75,
-            data: [
-              "BBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCBBCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCBBBBBBCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCBBBBBBBBBCBCCCCCCCCCCC",
-              "BBBBBBB1BBBBBBBBBBBBBBB1BBCCCCCCCCCCCCCCCBBBBBBBBBBBBBCCCCCCCCCC",
-              "BBBBBB99BBBBBBB999BBB999BBCCCCCCCCCCCCCCBBBBBBBBBBBBBBCCCCCCCCCC",
-              "BBBBB9999BBBBB1999BB99999CCCCCCCCCCCCCCCBBBBBBBBBBBBBBBCCCCCCCCC",
-              "BBBBB99991BBBBBB991B99B99CCCCCCCCCCCCCCCB9999999999999BCCCCCCCCC",
-              "BBBB19999BBBBBBBBBBB99999CCCCCCCCCCCCCCCB9BBBBBBBBB9BBBBCCCCCCCC",
-              "1BBBBBCCCBB199BBBBBBB9999CCCCCCCCCCCCCCBB9999999999999BBBCCCCCCC",
-              "99BBBBBBBBBB99991BBBBBBB9CCCCCCCCCCCCCCBB9BBBBBBB9BBB9BBBBCCCCCC",
-              "999BBBBBBBBB9999BB1BBBBB9CCCCCCCCCCCCCCBB9B99999B999B9BBBBCCCCCC",
-              "9991BBB1BBBBBBBBBB66BBB99CCCCCCCCCCCCCCBB9B9BBB9B9B9B9BBBBBCCCCC",
-              "BBBBBB99BBBBBBBBBB66BB99CCCCCCCCCCCCCCCBB9B999B999B9B9BBBBBBCCCC",
-              "BBBBB19991BBBB1BB999BB9CCCCCCCCCCCCCCCBBB9BBB9B9BBB9B9BBBBBBCCCC",
-              "BBB1BB999BB1999B19991B99CCCCCCCCCCCCCCBBB99999B999B9B9BBBBBBBCCC",
-              "BB99BBBBBBBB999BB99BBBB99CCCCCCCCCCCCCBBBBBBBBBBB9B9B9BBBBBBBBCC",
-              "B999BBBBBBB999BBBBBB1BBB99CCCCCCCCCCCCBBB999999999B9B9BBBBBBBBCC",
-              "99991BBBBB1999BBBBBB99BBB9CCCCCCCCCCCCBBB9BBBBBBB9B9B9BBBBBBBBCC",
-              "999BBBBB1BBBBBBBBBBB991BB99CCCCCCCCCCCBBB9999999B9B9999999BBBCCC",
-              "999BBB9999BBBBBB99BBBBBBBB99CCCCCCCCCCCBBBBBB9BBB9BBBBBBB9BBCCCC",
-              "B99BB199B991BB1999BB1BBBBBB9CCCCCCCCCCCCB999B9B99999B999B9BBBCCC",
-              "BBBBBB99999BBBBB6BB99BBBBBB9CCCCCCCCCCCCB9B9B9BBBBB9BBB9B9BBBBBC",
-              "BBBBBBB999BBBBBBBB9999BB9999CCCCCCCCCCCBB9B9B99999B99999B9BBBBBB",
-              "BBBBBBB1BBBB99BBBB1BBBB9999CCCCCCCCCCCCBB9B9BBB9BBBBBBB9B9B999BB",
-              "99BBBBBBBBBB9991BBBBBBB9999CCCCCCCCCCCBBB9B99999999999B9B99929BB",
-              "9991BBBBBBB9999BBBBBBBB999CCCCCCCCCCCCBBB9BBBBBBBBB9D3DDDDD999BB",
-              "B99BBBBBBBBBB1BBB1BBBBBB1BCCCCCCCCCCCCBBB99999999999D9B999BBBBBB",
-              "BBBBBBBBBBBBBBBBB99BBBBBBBCCCCCCCCCCCCCBBBBBBBBBBBDDD9B9BBBBBBBB",
-              "BBBBBBBBBBBBBBBB999BBBBBBCCCCCCCCCCCCCCBBBB9999999D999B999BBBBBB",
-              "BBBBBBB99999BBBBBB1BBB1BBCCCCCCCCCCCCCCBBBB9BBBBB9D9BBBBB9BBBBBB",
-              "BBBBBBB9E91999BBBBBB444CCCCCCCCCCCCCCCCCBBB99999B939B999B9BBBBBB",
-              "BBBBBBB99999B9BB1BBB44CCCCCCCCCCCCCCCCCCDDDDDDD3DDD9B9B9B9BBBBBC",
-              "BBBBBBBBBBBBB44444444CCCCCCCCCCCCCCCCCCCCBB9B999B999B9B9B9BBBBBC",
-              "BB8888BBBBBBB44444444CCCCCCCCCCC333333333999B9BBB9B9B9B9B9BBBBCC",
-              "BB8888BBBB444444444444CCCCCCCCCCCCCCCCCCCBB9B99999B999B9B9BBBCCC",
-              "BB88884444444444444444CCCCCCCCCCCCCCCCCCCBB9BBB9BBBBBBB9B9BBCCCC",
-              "BB88884444444444CCC44444CCCCCCCCCCCCCCCCCBB999999999999999BBBCCC",
-              "BBBBBB66666644CCCCC46664CCCCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBCCCC",
-              "BBBBBB66666644CCC444CC64CCCCCCCCCCCCCCCCCCCBBBBBBBBBBBBBCCCCCCCC",
-              "BBBBBB6666664444C4444444CCCCCCCCCCCCCCCCCCCBBBBBBBBBBBCCCCCCCCCC",
-              "BBBBBB6666664444C44444CCCCCCCCCCCCCCCCCCCCCCBBBCBBBBBCCCCCCCCCCC",
-              "BBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "BBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
-              "________________________________________________________________",
-              "________________________________________________________________",
-              "________________________________________________________________",
-              "________________________________________________________________",
-              "________________________________________________________________",
-              "________________________________________________________________",
-              "________________________________________________________________",
-              "________________________________________________________________",
-              "________________________________________________________________",
-              "________________________________________________________________",
-              "________________________________________________________________",
-              "________________________________________________________________",
-              "________________________________________________________________",
-              "________________________________________________________________",
-              "________________________________________________________________"
-            ]
-          },
-          connection: {
-            "0": {
-              x: 0,
-              y: 12,
-              area: 1,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "1": {
-              x: 4,
-              y: 11,
-              area: 1,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "2": {
-              x: 9,
-              y: 10,
-              area: 2,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "3": {
-              x: 11,
-              y: 12,
-              area: 2,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "4": {
-              x: 16,
-              y: 13,
-              area: 3,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "5": {
-              x: 14,
-              y: 9,
-              area: 3,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "6": {
-              x: 3,
-              y: 15,
-              area: 4,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "7": {
-              x: 7,
-              y: 15,
-              area: 4,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "8": {
-              x: 3,
-              y: 18,
-              area: 5,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "9": {
-              x: 5,
-              y: 17,
-              area: 5,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "10": {
-              x: 14,
-              y: 17,
-              area: 6,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "11": {
-              x: 16,
-              y: 18,
-              area: 6,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "12": {
-              x: 4,
-              y: 21,
-              area: 7,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "13": {
-              x: 5,
-              y: 24,
-              area: 7,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "14": {
-              x: 20,
-              y: 18,
-              area: 8,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "15": {
-              x: 20,
-              y: 20,
-              area: 8,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "16": {
-              x: 22,
-              y: 22,
-              area: 9,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "17": {
-              x: 20,
-              y: 24,
-              area: 9,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "18": {
-              x: 3,
-              y: 29,
-              area: 10,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "19": {
-              x: 7,
-              y: 27,
-              area: 10,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "20": {
-              x: 15,
-              y: 28,
-              area: 11,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "21": {
-              x: 18,
-              y: 27,
-              area: 11,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "22": {
-              x: 13,
-              y: 30,
-              area: 12,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "23": {
-              x: 17,
-              y: 30,
-              area: 12,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "24": {
-              x: 16,
-              y: 35,
-              area: 13,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "25": {
-              x: 18,
-              y: 33,
-              area: 13,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "26": {
-              x: 22,
-              y: 33,
-              area: 14,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "27": {
-              x: 24,
-              y: 30,
-              area: 14,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "28": {
-              x: 10,
-              y: 34,
-              area: 15,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "29": {
-              x: 11,
-              y: 24,
-              area: 22,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "30": {
-              x: 14,
-              y: 24,
-              area: 22,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "31": {
-              x: 9,
-              y: 17,
-              area: 23,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: true,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "32": {
-              x: 11,
-              y: 18,
-              area: 23,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: true,
-              exit_2_lower: true,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "33": {
-              x: 8,
-              y: 22,
-              area: 24,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "34": {
-              x: 10,
-              y: 21,
-              area: 24,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "35": {
-              x: 18,
-              y: 10,
-              area: 25,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: true,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "36": {
-              x: 18,
-              y: 14,
-              area: 25,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: true,
-              exit_2_lower: true,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "37": {
-              x: 45,
-              y: 32,
-              area: 34,
-              screen: 1,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: true,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "38": {
-              x: 48,
-              y: 38,
-              area: 35,
-              screen: 1,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: true,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "39": {
-              x: 41,
-              y: 28,
-              area: 36,
-              screen: 1,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: true,
-              hidden: null,
-              palace: null
-            },
-            "40": {
-              x: 40,
-              y: 37,
-              area: 40,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 2,
-              external: true,
-              second: false,
-              exit_2_lower: false,
-              passthru: true,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "41": {
-              x: 0,
-              y: 97,
-              area: 41,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "42": {
-              x: 7,
-              y: 7,
-              area: 42,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: true,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "43": {
-              x: 23,
-              y: 7,
-              area: 43,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: true,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "44": {
-              x: 0,
-              y: 226,
-              area: 6,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: true,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "45": {
-              x: 0,
-              y: 226,
-              area: 8,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: true,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "46": {
-              x: 0,
-              y: 226,
-              area: 6,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: true,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "47": {
-              x: 0,
-              y: 226,
-              area: 8,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: true,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "48": {
-              x: 0,
-              y: 226,
-              area: 6,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: true,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "49": {
-              x: 0,
-              y: 226,
-              area: 8,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: true,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "50": {
-              x: 0,
-              y: 226,
-              area: 6,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: true,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "51": {
-              x: 0,
-              y: 226,
-              area: 8,
-              screen: 3,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: true,
-              second: true,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "52": {
-              x: 60,
-              y: 28,
-              area: 15,
-              screen: 0,
-              entry_right: false,
-              dest_world: 4,
-              dest_overworld: 1,
-              external: true,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: {
-                index: 0,
-                chr_bank: 20,
-                palette: 3
-              }
-            },
-            "53": {
-              x: 0,
-              y: 226,
-              area: 0,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: true,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: {
-                index: 1,
-                chr_bank: 20,
-                palette: 3
-              }
-            },
-            "54": {
-              x: 0,
-              y: 226,
-              area: 0,
-              screen: 0,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: true,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: false,
-              hidden: null,
-              palace: {
-                index: 2,
-                chr_bank: 20,
-                palette: 3
-              }
-            },
-            "55": {
-              x: 57,
-              y: 30,
-              area: 37,
-              screen: 1,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: true,
-              hidden: null,
-              palace: {
-                index: 3,
-                chr_bank: 20,
-                palette: 3
-              }
-            },
-            "56": {
-              x: 8,
-              y: 34,
-              area: 26,
-              screen: 1,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: false,
-              fall: true,
-              hidden: null,
-              palace: null
-            },
-            "57": {
-              x: 48,
-              y: 28,
-              area: 47,
-              screen: 1,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: true,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "58": {
-              x: 51,
-              y: 19,
-              area: 48,
-              screen: 1,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: true,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "59": {
-              x: 46,
-              y: 20,
-              area: 49,
-              screen: 1,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: true,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "60": {
-              x: 48,
-              y: 16,
-              area: 50,
-              screen: 1,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: true,
-              fall: false,
-              hidden: null,
-              palace: null
-            },
-            "61": {
-              x: 50,
-              y: 12,
-              area: 51,
-              screen: 1,
-              entry_right: false,
-              dest_world: 0,
-              dest_overworld: 0,
-              external: false,
-              second: false,
-              exit_2_lower: false,
-              passthru: true,
               fall: false,
               hidden: null,
               palace: null
@@ -12932,8 +12932,8 @@
     "/bank/2/sideview/1/53": {
       meta: {
         label: "",
-        user: "",
-        timestamp: 1,
+        user: "cfrantz",
+        timestamp: 1745285389468552,
         comment: "",
         extra: {
           alias: "52,54,55,56",
@@ -13189,639 +13189,34 @@
               ],
               [
                 {
-                  x: 63,
-                  y: 17,
-                  kind: 63
+                  x: 42,
+                  y: 5,
+                  kind: 6
                 },
                 {
-                  x: 63,
-                  y: 17,
-                  kind: 63
+                  x: 31,
+                  y: 7,
+                  kind: 6
                 },
                 {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 63,
-                  y: 17,
-                  kind: 63
-                },
-                {
-                  x: 15,
-                  y: 17,
-                  kind: 0
-                },
-                {
-                  x: 0,
-                  y: 1,
-                  kind: 26
-                },
-                {
-                  x: 40,
-                  y: 6,
-                  kind: 16
-                },
-                {
-                  x: 0,
+                  x: 13,
                   y: 8,
-                  kind: 20
-                },
-                {
-                  x: 9,
-                  y: 1,
-                  kind: 50
-                },
-                {
-                  x: 10,
-                  y: 1,
-                  kind: 40
-                },
-                {
-                  x: 9,
-                  y: 1,
                   kind: 6
                 },
                 {
-                  x: 26,
-                  y: 1,
-                  kind: 8
-                },
-                {
-                  x: 9,
-                  y: 1,
-                  kind: 4
-                },
-                {
-                  x: 10,
-                  y: 16,
-                  kind: 20
-                },
-                {
-                  x: 9,
-                  y: 1,
-                  kind: 50
-                },
-                {
-                  x: 10,
-                  y: 1,
-                  kind: 40
-                },
-                {
-                  x: 9,
-                  y: 1,
+                  x: 5,
+                  y: 5,
                   kind: 6
                 },
                 {
-                  x: 26,
-                  y: 1,
-                  kind: 8
+                  x: 37,
+                  y: 6,
+                  kind: 24
                 },
                 {
                   x: 9,
-                  y: 1,
-                  kind: 18
-                },
-                {
-                  x: 0,
-                  y: 16,
-                  kind: 14
-                },
-                {
-                  x: 56,
-                  y: 6,
+                  y: 9,
                   kind: 24
-                },
-                {
-                  x: 57,
-                  y: 1,
-                  kind: 33
-                },
-                {
-                  x: 48,
-                  y: 1,
-                  kind: 24
-                },
-                {
-                  x: 63,
-                  y: 1,
-                  kind: 34
-                },
-                {
-                  x: 48,
-                  y: 1,
-                  kind: 24
-                },
-                {
-                  x: 57,
-                  y: 1,
-                  kind: 35
-                },
-                {
-                  x: 48,
-                  y: 1,
-                  kind: 24
-                },
-                {
-                  x: 14,
-                  y: 1,
-                  kind: 10
-                },
-                {
-                  x: 0,
-                  y: 16,
-                  kind: 14
-                },
-                {
-                  x: 56,
-                  y: 1,
-                  kind: 24
-                },
-                {
-                  x: 56,
-                  y: 1,
-                  kind: 35
-                },
-                {
-                  x: 48,
-                  y: 1,
-                  kind: 24
-                },
-                {
-                  x: 15,
-                  y: 1,
-                  kind: 28
-                },
-                {
-                  x: 48,
-                  y: 14,
-                  kind: 2
-                },
-                {
-                  x: 49,
-                  y: 3,
-                  kind: 53
-                },
-                {
-                  x: 50,
-                  y: 5,
-                  kind: 50
-                },
-                {
-                  x: 49,
-                  y: 6,
-                  kind: 54
-                },
-                {
-                  x: 50,
-                  y: 5,
-                  kind: 52
-                },
-                {
-                  x: 49,
-                  y: 6,
-                  kind: 50
-                },
-                {
-                  x: 50,
-                  y: 5,
-                  kind: 50
-                },
-                {
-                  x: 49,
-                  y: 6,
-                  kind: 56
-                },
-                {
-                  x: 49,
-                  y: 6,
-                  kind: 52
-                },
-                {
-                  x: 49,
-                  y: 6,
-                  kind: 50
-                },
-                {
-                  x: 50,
-                  y: 5,
-                  kind: 50
                 }
               ]
             ]
@@ -16330,11 +15725,213 @@
         }
       }
     },
+    "/bank/3/sideview/0/60": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745196132899073,
+        comment: "",
+        extra: {
+          "original-address": "Prg(3, 92e6)"
+        }
+      },
+      data: {
+        Sideview: {
+          map: {
+            objset: 0,
+            width: 0,
+            grass: false,
+            bushes: false,
+            ceiling: false,
+            floor: 0,
+            tileset: 2,
+            sprite_palette: 0,
+            background_palette: 2,
+            background_map: 1,
+            cursor_moves_left: false,
+            data: [
+              {
+                x: 2,
+                y: 4,
+                kind: 224,
+                param: 6
+              },
+              {
+                x: 2,
+                y: 3,
+                kind: 240,
+                param: 12
+              },
+              {
+                x: 10,
+                y: 4,
+                kind: 224,
+                param: 6
+              },
+              {
+                x: 6,
+                y: 4,
+                kind: 224,
+                param: 6
+              },
+              {
+                x: 14,
+                y: 4,
+                kind: 224,
+                param: 6
+              }
+            ]
+          },
+          enemy: {
+            data: [
+              [
+                {
+                  x: 12,
+                  y: 9,
+                  kind: 13
+                }
+              ]
+            ]
+          },
+          connection: [
+            {
+              area: 63,
+              screen: 0
+            },
+            {
+              area: 63,
+              screen: 0
+            },
+            {
+              area: 63,
+              screen: 0
+            },
+            {
+              area: 63,
+              screen: 0
+            }
+          ],
+          availability: [
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      }
+    },
+    "/bank/3/sideview/0/61": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745288512301764,
+        comment: "",
+        extra: {
+        }
+      },
+      data: {
+        Sideview: {
+          map: {
+            objset: 0,
+            width: 3,
+            grass: false,
+            bushes: false,
+            ceiling: false,
+            floor: 6,
+            tileset: 2,
+            sprite_palette: 0,
+            background_palette: 2,
+            background_map: 1,
+            cursor_moves_left: false,
+            data: [
+              {
+                x: 54,
+                y: 8,
+                kind: 224,
+                param: 2
+              },
+              {
+                x: 35,
+                y: 5,
+                kind: 224,
+                param: 3
+              },
+              {
+                x: 46,
+                y: 13,
+                kind: 224,
+                param: 128
+              },
+              {
+                x: 31,
+                y: 13,
+                kind: 224,
+                param: 130
+              },
+              {
+                x: 17,
+                y: 13,
+                kind: 224,
+                param: 132
+              },
+              {
+                x: 0,
+                y: 4,
+                kind: 15,
+                param: 18
+              },
+              {
+                x: 21,
+                y: 3,
+                kind: 224,
+                param: 3
+              }
+            ]
+          },
+          enemy: {
+            data: [
+              [
+                {
+                  x: 59,
+                  y: 9,
+                  kind: 25,
+                  dialog: 19
+                }
+              ]
+            ]
+          },
+          connection: [
+            {
+              area: 63,
+              screen: 0
+            },
+            {
+              area: 63,
+              screen: 0
+            },
+            {
+              area: 63,
+              screen: 0
+            },
+            {
+              area: 63,
+              screen: 0
+            }
+          ],
+          availability: [
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      }
+    },
     "/bank/3/text_table/1:ids": {
       meta: {
         label: "",
         user: "",
-        timestamp: 1,
+        timestamp: 1745288512301814,
         comment: "",
         extra: {
         }
@@ -16404,7 +16001,7 @@
               2,
               2,
               15,
-              4,
+              19,
               4,
               4,
               5,
@@ -16535,8 +16132,8 @@
     "/bank/3/text_table/1": {
       meta: {
         label: "",
-        user: "",
-        timestamp: 1,
+        user: "cfrantz",
+        timestamp: 1745196431765755,
         comment: "",
         extra: {
         }
@@ -16563,7 +16160,7 @@
             "16": "",
             "17": "",
             "18": "",
-            "19": "",
+            "19": "AN|EARTHQUAKE|AND A|FLOOD!",
             "20": "",
             "21": "",
             "22": "",
@@ -16592,10 +16189,10 @@
             "45": "",
             "46": "",
             "47": "",
-            "48": "",
+            "48": "UNCLE BAGU!|YOU GOING|FISHING|UP NORTH?|IMMA GO|STEAL|LIFE LADY*S|MIRROR!",
             "49": "",
             "50": "",
-            "51": ""
+            "51": "MIDORO|PALACE WILL|REOPEN AS|A WALMART|NEXT YEAR!"
           }
         }
       }
@@ -37454,8 +37051,8 @@
     "/global/misc": {
       meta: {
         label: "",
-        user: "",
-        timestamp: 1,
+        user: "cfrantz",
+        timestamp: 1745195525065616,
         comment: "",
         extra: {
         }
@@ -37464,7 +37061,7 @@
         Miscellaneous: {
           walk_anywhere: false,
           item_pickup_delay: 112,
-          text_delay: 7,
+          text_delay: 42,
           beam_sword_time: 45,
           beam_sword_speed: 32,
           elevator_speed: 36,
@@ -37472,7 +37069,7 @@
           hack: {
             overworld_breakblocks: "vanilla",
             palace_continue: "vanilla",
-            palace_to_stone: "vanilla",
+            palace_to_stone: "never",
             palace5_detect: "vanilla",
             spell_bits: "vanilla",
             spell_cast: "vanilla",
