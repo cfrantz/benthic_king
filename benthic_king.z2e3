@@ -589,7 +589,7 @@
       meta: {
         label: "",
         user: "cfrantz",
-        timestamp: 1745196841632281,
+        timestamp: 1745460321575871,
         comment: "",
         extra: {
         }
@@ -937,8 +937,8 @@
               palace: null
             },
             "16": {
-              x: 54,
-              y: 32,
+              x: 10,
+              y: 65,
               area: 16,
               screen: 0,
               entry_right: false,
@@ -1354,7 +1354,7 @@
             },
             "42": {
               x: 10,
-              y: 65,
+              y: 66,
               area: 42,
               screen: 0,
               entry_right: false,
@@ -2916,6 +2916,216 @@
               38
             ]
           }
+        }
+      }
+    },
+    "/bank/1/sideview/0/17": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745460719581360,
+        comment: "",
+        extra: {
+          "original-address": "Prg(1, 8fdd)"
+        }
+      },
+      data: {
+        Sideview: {
+          map: {
+            objset: 1,
+            width: 3,
+            grass: false,
+            bushes: false,
+            ceiling: false,
+            floor: 7,
+            tileset: 0,
+            sprite_palette: 1,
+            background_palette: 1,
+            background_map: 0,
+            cursor_moves_left: false,
+            data: [
+              {
+                x: 46,
+                y: 4,
+                kind: 15,
+                param: 14
+              },
+              {
+                x: 25,
+                y: 7,
+                kind: 15,
+                param: 15
+              },
+              {
+                x: 26,
+                y: 5,
+                kind: 224,
+                param: 3
+              },
+              {
+                x: 24,
+                y: 6,
+                kind: 224,
+                param: 2
+              },
+              {
+                x: 23,
+                y: 5,
+                kind: 224,
+                param: 3
+              },
+              {
+                x: 25,
+                y: 8,
+                kind: 112,
+                param: 0
+              },
+              {
+                x: 25,
+                y: 6,
+                kind: 112,
+                param: 0
+              },
+              {
+                x: 21,
+                y: 8,
+                kind: 112,
+                param: 1
+              },
+              {
+                x: 0,
+                y: 0,
+                kind: 80,
+                param: 5
+              },
+              {
+                x: 16,
+                y: 8,
+                kind: 80,
+                param: 4
+              },
+              {
+                x: 12,
+                y: 13,
+                kind: 0,
+                param: 0
+              },
+              {
+                x: 10,
+                y: 13,
+                kind: 0,
+                param: 1
+              },
+              {
+                x: 8,
+                y: 13,
+                kind: 0,
+                param: 3
+              },
+              {
+                x: 6,
+                y: 13,
+                kind: 0,
+                param: 5
+              },
+              {
+                x: 41,
+                y: 13,
+                kind: 0,
+                param: 7
+              },
+              {
+                x: 36,
+                y: 13,
+                kind: 0,
+                param: 5
+              },
+              {
+                x: 29,
+                y: 13,
+                kind: 0,
+                param: 3
+              },
+              {
+                x: 27,
+                y: 13,
+                kind: 0,
+                param: 5
+              },
+              {
+                x: 47,
+                y: 13,
+                kind: 0,
+                param: 15
+              },
+              {
+                x: 45,
+                y: 13,
+                kind: 0,
+                param: 6
+              }
+            ]
+          },
+          enemy: {
+            data: [
+              [
+                {
+                  x: 25,
+                  y: 7,
+                  kind: 28
+                },
+                {
+                  x: 8,
+                  y: 7,
+                  kind: 5
+                },
+                {
+                  x: 34,
+                  y: 7,
+                  kind: 28
+                },
+                {
+                  x: 45,
+                  y: 4,
+                  kind: 28
+                },
+                {
+                  x: 23,
+                  y: 4,
+                  kind: 3
+                },
+                {
+                  x: 16,
+                  y: 10,
+                  kind: 5
+                }
+              ]
+            ]
+          },
+          connection: [
+            {
+              area: 16,
+              screen: 3
+            },
+            {
+              area: 0,
+              screen: 0
+            },
+            {
+              area: 0,
+              screen: 0
+            },
+            {
+              area: 63,
+              screen: 1
+            }
+          ],
+          availability: [
+            true,
+            true,
+            true,
+            true
+          ]
         }
       }
     },
