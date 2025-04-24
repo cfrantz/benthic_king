@@ -21,10 +21,10 @@ TITLE_TEXT = [
     "ENDLESSLY FISHING, BUT NOW  ",
     "HE HAS ANGERED THE KING OF  ",
     "THE MERFOLK.  THE OCEANS    ",
-    "ARE RISING QUICKLY.  LINK   ",
+    "ARE RISING QUICKLY.  YOU    ",
     "MUST JOURNEY INTO THE       ",
     "BRINY DEPTHS AND DEFEAT     ",
-    "THE FISH KING IN HIS MOST   ",
+    "THE FISH KING IN THE MOST   ",
     "ADVENTURESOME QUEST YET...  ",
     "       .1987 NINTENDO       ",
     "                            ",
@@ -70,5 +70,3 @@ def hack_graphics(project, config):
     # Table of start addresses per line.
     for (i, ptr) in enumerate([0xaf69, 0xaf84, 0xafaa, 0xafc5, 0xafda, 0xafef, 0xb014]):
         project.rom.write_word(Address.Prg(5, 0xab5f + i*2), ptr)
-
-    return config
