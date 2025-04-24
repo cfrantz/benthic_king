@@ -12,7 +12,7 @@
       meta: {
         label: "",
         user: "cfrantz",
-        timestamp: 1745109759292032,
+        timestamp: 1745456385531389,
         comment: "",
         extra: {
         }
@@ -27,10 +27,11 @@
             ]
           },
           layout: "Sprite",
-          border: 0,
+          border: 1,
           overlay: [
             "graphics/title-screen-0.bmp",
-            "graphics/plan/bagu-sideview.bmp"
+            "graphics/plan/bagu-sideview.bmp",
+            "graphics/title-screen-bagu.bmp"
           ]
         }
       }
