@@ -4245,8 +4245,8 @@
     "/bank/1/sideview/0/33": {
       meta: {
         label: "",
-        user: "",
-        timestamp: 1,
+        user: "cfrantz",
+        timestamp: 1745465141697605,
         comment: "",
         extra: {
         }
@@ -4282,7 +4282,7 @@
                 x: 4,
                 y: 8,
                 kind: 15,
-                param: 14
+                param: 21
               },
               {
                 x: 6,
@@ -14442,6 +14442,196 @@
         }
       }
     },
+    "/bank/3/sideview/0/4": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745466154247849,
+        comment: "",
+        extra: {
+          "original-address": "Prg(3, 919c)",
+          alias: "3",
+          "enemy-alias": "3"
+        }
+      },
+      data: {
+        Sideview: {
+          map: {
+            objset: 0,
+            width: 3,
+            grass: false,
+            bushes: false,
+            ceiling: false,
+            floor: 0,
+            tileset: 2,
+            sprite_palette: 0,
+            background_palette: 1,
+            background_map: 1,
+            cursor_moves_left: false,
+            data: [
+              {
+                x: 8,
+                y: 15,
+                kind: 6,
+                param: 0
+              },
+              {
+                x: 18,
+                y: 5,
+                kind: 32,
+                param: 9
+              },
+              {
+                x: 18,
+                y: 6,
+                kind: 32,
+                param: 9
+              },
+              {
+                x: 19,
+                y: 8,
+                kind: 144,
+                param: 7
+              },
+              {
+                x: 23,
+                y: 8,
+                kind: 0,
+                param: 0
+              },
+              {
+                x: 34,
+                y: 5,
+                kind: 32,
+                param: 7
+              },
+              {
+                x: 34,
+                y: 6,
+                kind: 32,
+                param: 7
+              },
+              {
+                x: 35,
+                y: 8,
+                kind: 144,
+                param: 5
+              },
+              {
+                x: 38,
+                y: 8,
+                kind: 1,
+                param: 0
+              },
+              {
+                x: 46,
+                y: 5,
+                kind: 32,
+                param: 9
+              },
+              {
+                x: 46,
+                y: 6,
+                kind: 32,
+                param: 9
+              },
+              {
+                x: 47,
+                y: 8,
+                kind: 144,
+                param: 7
+              },
+              {
+                x: 51,
+                y: 8,
+                kind: 0,
+                param: 0
+              },
+              {
+                x: 61,
+                y: 15,
+                kind: 1,
+                param: 0
+              }
+            ]
+          },
+          enemy: {
+            data: [
+              [
+                {
+                  x: 8,
+                  y: 9,
+                  kind: 34
+                },
+                {
+                  x: 15,
+                  y: 9,
+                  kind: 35
+                },
+                {
+                  x: 29,
+                  y: 9,
+                  kind: 17
+                },
+                {
+                  x: 48,
+                  y: 9,
+                  kind: 35
+                },
+                {
+                  x: 51,
+                  y: 9,
+                  kind: 22,
+                  dialog2: 34
+                }
+              ]
+            ]
+          },
+          connection: [
+            {
+              area: 63,
+              screen: 1
+            },
+            {
+              area: 0,
+              screen: 0
+            },
+            {
+              area: 0,
+              screen: 0
+            },
+            {
+              area: 5,
+              screen: 0
+            }
+          ],
+          availability: [
+            true,
+            true,
+            true,
+            true
+          ],
+          door: [
+            {
+              area: 0,
+              screen: 0
+            },
+            {
+              area: 0,
+              screen: 0
+            },
+            {
+              area: 29,
+              screen: 1
+            },
+            {
+              area: 49,
+              screen: 0
+            }
+          ]
+        }
+      }
+    },
     "/bank/3/sideview/0/12": {
       meta: {
         label: "",
@@ -15374,6 +15564,282 @@
               area: 63,
               screen: 3
             }
+          ]
+        }
+      }
+    },
+    "/bank/3/sideview/0/29": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745465604481211,
+        comment: "",
+        extra: {
+          "original-address": "Prg(3, 9cc2)",
+          alias: "25,28,30,31,32,33,34,35,61,62"
+        }
+      },
+      data: {
+        Sideview: {
+          map: {
+            objset: 0,
+            width: 0,
+            grass: false,
+            bushes: false,
+            ceiling: true,
+            floor: 8,
+            tileset: 1,
+            sprite_palette: 0,
+            background_palette: 6,
+            background_map: 0,
+            cursor_moves_left: false,
+            data: [
+              {
+                x: 0,
+                y: 15,
+                kind: 0,
+                param: 0
+              },
+              {
+                x: 1,
+                y: 15,
+                kind: 48,
+                param: 8
+              },
+              {
+                x: 3,
+                y: 5,
+                kind: 128,
+                param: 9
+              },
+              {
+                x: 4,
+                y: 7,
+                kind: 160,
+                param: 0
+              },
+              {
+                x: 6,
+                y: 7,
+                kind: 160,
+                param: 0
+              },
+              {
+                x: 9,
+                y: 10,
+                kind: 5,
+                param: 0
+              },
+              {
+                x: 10,
+                y: 15,
+                kind: 64,
+                param: 5
+              },
+              {
+                x: 10,
+                y: 9,
+                kind: 8,
+                param: 0
+              },
+              {
+                x: 12,
+                y: 10,
+                kind: 5,
+                param: 0
+              },
+              {
+                x: 13,
+                y: 15,
+                kind: 3,
+                param: 0
+              },
+              {
+                x: 16,
+                y: 15,
+                kind: 2,
+                param: 0
+              },
+              {
+                x: 17,
+                y: 15,
+                kind: 48,
+                param: 8
+              },
+              {
+                x: 19,
+                y: 5,
+                kind: 128,
+                param: 9
+              },
+              {
+                x: 20,
+                y: 7,
+                kind: 160,
+                param: 0
+              },
+              {
+                x: 24,
+                y: 15,
+                kind: 32,
+                param: 6
+              },
+              {
+                x: 26,
+                y: 15,
+                kind: 64,
+                param: 4
+              },
+              {
+                x: 29,
+                y: 15,
+                kind: 1,
+                param: 0
+              },
+              {
+                x: 32,
+                y: 15,
+                kind: 0,
+                param: 0
+              },
+              {
+                x: 33,
+                y: 15,
+                kind: 48,
+                param: 9
+              },
+              {
+                x: 35,
+                y: 5,
+                kind: 128,
+                param: 9
+              },
+              {
+                x: 36,
+                y: 7,
+                kind: 160,
+                param: 0
+              },
+              {
+                x: 38,
+                y: 7,
+                kind: 160,
+                param: 0
+              },
+              {
+                x: 40,
+                y: 7,
+                kind: 160,
+                param: 0
+              },
+              {
+                x: 40,
+                y: 10,
+                kind: 9,
+                param: 0
+              },
+              {
+                x: 42,
+                y: 7,
+                kind: 160,
+                param: 0
+              },
+              {
+                x: 42,
+                y: 15,
+                kind: 64,
+                param: 4
+              },
+              {
+                x: 45,
+                y: 15,
+                kind: 3,
+                param: 0
+              },
+              {
+                x: 48,
+                y: 15,
+                kind: 2,
+                param: 0
+              },
+              {
+                x: 49,
+                y: 15,
+                kind: 48,
+                param: 8
+              },
+              {
+                x: 51,
+                y: 5,
+                kind: 128,
+                param: 9
+              },
+              {
+                x: 52,
+                y: 7,
+                kind: 160,
+                param: 0
+              },
+              {
+                x: 56,
+                y: 15,
+                kind: 32,
+                param: 6
+              },
+              {
+                x: 58,
+                y: 15,
+                kind: 64,
+                param: 4
+              },
+              {
+                x: 61,
+                y: 15,
+                kind: 1,
+                param: 0
+              }
+            ]
+          },
+          enemy: {
+            data: [
+              [
+                {
+                  x: 21,
+                  y: 9,
+                  kind: 18
+                },
+                {
+                  x: 42,
+                  y: 9,
+                  kind: 14,
+                  dialog2: 25
+                }
+              ]
+            ]
+          },
+          connection: [
+            {
+              area: 0,
+              screen: 0
+            },
+            {
+              area: 4,
+              screen: 2
+            },
+            {
+              area: 5,
+              screen: 0
+            },
+            {
+              area: 0,
+              screen: 0
+            }
+          ],
+          availability: [
+            true,
+            true,
+            true,
+            true
           ]
         }
       }
@@ -16406,7 +16872,7 @@
       meta: {
         label: "",
         user: "",
-        timestamp: 1745288512301814,
+        timestamp: 1745466154247915,
         comment: "",
         extra: {
         }
@@ -16534,7 +17000,7 @@
               37,
               16,
               30,
-              26,
+              25,
               28,
               43,
               15,
@@ -16566,7 +17032,7 @@
               28,
               44,
               14,
-              14,
+              34,
               28,
               38,
               1,
@@ -16608,7 +17074,7 @@
       meta: {
         label: "",
         user: "cfrantz",
-        timestamp: 1745196431765755,
+        timestamp: 1745466615731156,
         comment: "",
         extra: {
         }
@@ -16629,45 +17095,45 @@
             "10": "HELMETHEAD|DOES NOT|NEED TO|BREATHE.",
             "11": "CARRY A|CROSS IF|YOU GO|UNDERWATER.",
             "12": "WELCOME|  TO| RAURU.",
-            "13": "LOOKS LIKE|YOU KNOW|SOME TRICKS|ALREADY.",
+            "13": "GORIYA OF|TANTARI|STOLE OUR|GATORADE!",
             "14": "I SAW A|MERMAID|BUT NOBODY|BELIEVES.",
             "15": "NOPE!",
-            "16": "",
-            "17": "",
-            "18": "",
             "19": "AN|EARTHQUAKE|AND A|FLOOD!",
-            "20": "",
-            "21": "",
-            "22": "",
-            "23": "",
-            "24": "",
-            "25": "",
-            "26": "",
-            "27": "",
-            "28": "",
-            "29": "",
-            "30": "",
-            "31": "",
-            "32": "",
-            "33": "",
-            "34": "",
-            "35": "",
-            "36": "",
-            "37": "",
-            "38": "",
-            "39": "",
-            "40": "",
-            "41": "",
-            "42": "",
-            "43": "",
-            "44": "",
-            "45": "",
-            "46": "",
-            "47": "",
             "48": "UNCLE BAGU!|YOU GOING|FISHING|UP NORTH?|IMMA GO|STEAL|LIFE LADY*S|MIRROR!",
-            "49": "",
-            "50": "",
-            "51": "MIDORO|PALACE WILL|REOPEN AS|A WALMART|NEXT YEAR!"
+            "51": "MIDORO|PALACE WILL|REOPEN AS|A WALMART|NEXT YEAR!",
+            "16": "I CANNOT|HELP YOU|ANYMORE.|GO NOW.",
+            "17": "HAMMER..._SPECTACLE|ROCK...|DEATH MTN.",
+            "18": "MY SISTER|LIVES IN|SARIA.|PLEASE STOP|THE FLOOD!",
+            "20": "TOWN| OF|RUTO",
+            "21": "I FOUND A|MIRROR|UNDER THE|TABLE.",
+            "22": "I LOST|MY MIRROR.",
+            "23": "OH! YOU|FOUND MY|MIRROR!|FOLLOW ME.",
+            "24": "WITH THIS|YOU CAN|JUMP VERY|HIGH.",
+            "25": "I AM|ERROR.",
+            "26": "SOUTH OF|KINGS TOMB|IN MIDO IS|A TUNNEL.",
+            "27": "MIDORO|PALACE IS|UNDER|RENOVATION",
+            "28": "EYES OF|GANON ARE|EVERYWHERE|BE CAREFUL",
+            "29": "WATER TOWN|    OF|  SARIA",
+            "30": "IF ALL|ELSE FAILS|USE FIRE.",
+            "31": "NOTHING.",
+            "32": "RETURN THE|CRYSTAL TO|THE PALACE|IN PARAPA.",
+            "33": "HORSEHEAD|AND|HELMETHEAD|TOOK OVER|PARAPA|TOWER.",
+            "34": "GATORADE!|COME SEE|MY FATHER.",
+            "35": "USE THIS|MAGIC TO|RESTORE|YOUR LIFE.",
+            "36": "DON BAGU!|YOU SAID|NO ONE|CAN CROSS|WITHOUT A|NOTE. NOT|EVEN YOU!",
+            "37": "DON BAGU!|LET ME|PREPARE|THE BRIDGE",
+            "38": "NO ONE IS|HERE BUT A|CHURCHBELL|WILL RING.",
+            "39": "THE ISLAND|PALACE IN|THE SOUTH|HAS A RAFT",
+            "40": "FIND MAGIC|IN A CAVE|IN MORUGE|SWAMP.",
+            "41": "HARBOR| TOWN|  OF| MIDO",
+            "42": "THE DOOR|WILL NOT|OPEN. ITS|VERY QUIET",
+            "43": "PLEASE. MY|DAUGHTER|IS SICK.|HELP HER!",
+            "44": "THE WATER|OF LIFE!|QUICK COME|WITH ME.",
+            "45": "ASK ERROR|OF RUTO|ABOUT THE|PALACE.",
+            "46": "THIS MAGIC|WORD WILL|GIVE YOU|POWER.",
+            "47": "WHEN YOU|JUMP PRESS|DOWNWARD|TO STAB.",
+            "49": "ZZZ...",
+            "50": "|MASTER BAGU|...|I WAS|RESTING|MY EYES"
           }
         }
       }
@@ -37760,8 +38226,8 @@
     "/global/item": {
       meta: {
         label: "",
-        user: "",
-        timestamp: 1,
+        user: "cfrantz",
+        timestamp: 1745465175964403,
         comment: "",
         extra: {
         }
@@ -38194,8 +38660,8 @@
               slot: 1
             },
             Medicine: {
-              bit: 6,
-              slot: 3
+              bit: 4,
+              slot: 1
             },
             "Magic Containers": {
               bit: 3,
@@ -38775,6 +39241,98 @@
             "39": {
               x: 5585.84326171875,
               y: 656.6152954101563
+            }
+          }
+        }
+      }
+    },
+    "multimap/bank/1/overworld/0/45": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745465413880805,
+        comment: "",
+        extra: {
+        }
+      },
+      data: {
+        MultiMap: {
+          scale: 0.5,
+          spread: [
+            1.2999999523162842,
+            1.2999999523162842
+          ],
+          show_invalid_connections: false,
+          layout: {
+            "2": {
+              x: 1024.0001220703125,
+              y: 0
+            },
+            "1": {
+              x: 0,
+              y: 0
+            },
+            "0": {
+              x: 289.23052978515625,
+              y: 1051.384521484375
+            },
+            "28": {
+              x: 1789.8458251953125,
+              y: 172.30775451660156
+            },
+            "48": {
+              x: 384.0006408691406,
+              y: 292.3074951171875
+            },
+            "36": {
+              x: 488.6153259277344,
+              y: 562.1538696289063
+            }
+          }
+        }
+      }
+    },
+    "multimap/bank/1/overworld/0/47": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745465546280836,
+        comment: "",
+        extra: {
+        }
+      },
+      data: {
+        MultiMap: {
+          scale: 0.5,
+          spread: [
+            1.2999999523162842,
+            1.2999999523162842
+          ],
+          show_invalid_connections: false,
+          layout: {
+            "5": {
+              x: 1024,
+              y: 0
+            },
+            "4": {
+              x: 0,
+              y: 0
+            },
+            "0": {
+              x: 2226.155517578125,
+              y: 154.46151733398438
+            },
+            "29": {
+              x: 183.99996948242188,
+              y: 527.6920776367188
+            },
+            "49": {
+              x: 785.5387573242188,
+              y: 213.84616088867188
+            },
+            "37": {
+              x: 1024,
+              y: 456.0000305175781
             }
           }
         }
