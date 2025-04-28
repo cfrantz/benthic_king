@@ -38822,6 +38822,86 @@
         }
       }
     },
+    "/global/palette/falling": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745883551409703,
+        comment: "",
+        extra: {
+        }
+      },
+      data: {
+        PaletteGroup: {
+          group: {
+            falling: [
+              15,
+              44,
+              28,
+              12,
+              15,
+              44,
+              28,
+              12,
+              15,
+              44,
+              28,
+              12,
+              15,
+              44,
+              28,
+              12
+            ],
+            falling_sprites: [
+              15,
+              24,
+              54,
+              22,
+              15,
+              15,
+              15,
+              15,
+              15,
+              15,
+              15,
+              15,
+              15,
+              48,
+              15,
+              15
+            ]
+          }
+        }
+      }
+    },
+    "/global/palette/lives": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745883537778216,
+        comment: "",
+        extra: {
+        }
+      },
+      data: {
+        PaletteGroup: {
+          group: {
+            lives: [
+              15,
+              48,
+              18,
+              22
+            ],
+            lives_sprites: [
+              15,
+              24,
+              54,
+              22
+            ]
+          }
+        }
+      }
+    },
     "/global/palette/overworld": {
       meta: {
         label: "",
@@ -38874,11 +38954,11 @@
         }
       }
     },
-    "/global/palette/special": {
+    "/global/palette/shield": {
       meta: {
         label: "",
         user: "cfrantz",
-        timestamp: 1745454607131407,
+        timestamp: 1745883507110179,
         comment: "",
         extra: {
         }
@@ -38887,43 +38967,7 @@
         PaletteGroup: {
           group: {
             shield: [
-              7
-            ],
-            darklink: [
-              20,
-              48,
-              18,
-              22,
-              20,
-              15,
-              15,
-              15,
-              20,
-              15,
-              15,
-              15,
-              20,
-              15,
-              15,
-              15
-            ],
-            post_darklink: [
-              15,
-              48,
-              18,
-              22,
-              15,
-              7,
-              39,
-              55,
-              15,
-              7,
-              22,
-              48,
-              15,
-              60,
-              28,
-              12
+              6
             ]
           }
         }
