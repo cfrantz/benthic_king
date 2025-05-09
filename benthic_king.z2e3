@@ -37884,7 +37884,7 @@
         }
       }
     },
-    "/bank/5/palette/select": {
+    "/global/palette/select": {
       meta: {
         label: "",
         user: "cfrantz",
