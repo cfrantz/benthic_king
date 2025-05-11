@@ -16765,7 +16765,7 @@
       meta: {
         label: "",
         user: "cfrantz",
-        timestamp: 1745288512301764,
+        timestamp: 1746981392372586,
         comment: "",
         extra: {
         }
@@ -16777,8 +16777,8 @@
             width: 3,
             grass: false,
             bushes: false,
-            ceiling: false,
-            floor: 6,
+            ceiling: true,
+            floor: 15,
             tileset: 2,
             sprite_palette: 0,
             background_palette: 2,
@@ -16798,16 +16798,10 @@
                 param: 3
               },
               {
-                x: 46,
+                x: 1,
                 y: 13,
                 kind: 224,
-                param: 128
-              },
-              {
-                x: 31,
-                y: 13,
-                kind: 224,
-                param: 130
+                param: 134
               },
               {
                 x: 17,
@@ -16816,7 +16810,19 @@
                 param: 132
               },
               {
-                x: 0,
+                x: 31,
+                y: 13,
+                kind: 224,
+                param: 130
+              },
+              {
+                x: 46,
+                y: 13,
+                kind: 224,
+                param: 128
+              },
+              {
+                x: 1,
                 y: 4,
                 kind: 15,
                 param: 18
@@ -16872,7 +16878,7 @@
       meta: {
         label: "",
         user: "",
-        timestamp: 1745466154247915,
+        timestamp: 1746981392372646,
         comment: "",
         extra: {
         }
@@ -37884,34 +37890,6 @@
         }
       }
     },
-    "/global/palette/select": {
-      meta: {
-        label: "",
-        user: "cfrantz",
-        timestamp: 1745454721231649,
-        comment: "",
-        extra: {
-        }
-      },
-      data: {
-        PaletteGroup: {
-          group: {
-            background: [
-              15,
-              48,
-              18,
-              22
-            ],
-            sprites: [
-              15,
-              24,
-              54,
-              22
-            ]
-          }
-        }
-      }
-    },
     "/bank/5/sideview/0/0": {
       meta: {
         label: "",
@@ -38968,6 +38946,34 @@
           group: {
             shield: [
               6
+            ]
+          }
+        }
+      }
+    },
+    "/global/palette/select": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1745454721231649,
+        comment: "",
+        extra: {
+        }
+      },
+      data: {
+        PaletteGroup: {
+          group: {
+            background: [
+              15,
+              48,
+              18,
+              22
+            ],
+            sprites: [
+              15,
+              24,
+              54,
+              22
             ]
           }
         }
