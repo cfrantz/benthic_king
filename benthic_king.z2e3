@@ -38932,6 +38932,25 @@
         }
       }
     },
+    "/global/palette/post_magic": {
+      meta: {
+        label: "",
+        user: "cfrantz",
+        timestamp: 1747095950721606,
+        comment: "",
+        extra: {
+        }
+      },
+      data: {
+        PaletteGroup: {
+          group: {
+            post_magic: [
+              22
+            ]
+          }
+        }
+      }
+    },
     "/global/palette/shield": {
       meta: {
         label: "",
