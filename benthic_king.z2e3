@@ -29,9 +29,15 @@
           layout: "Sprite",
           border: 1,
           overlay: [
-            "graphics/title-screen-0.bmp",
-            "graphics/plan/bagu-sideview.bmp",
-            "graphics/title-screen-bagu.bmp"
+            {
+              path: "graphics/title-screen-0.bmp"
+            },
+            {
+              path: "graphics/plan/bagu-sideview.bmp"
+            },
+            {
+              path: "graphics/title-screen-bagu.bmp"
+            }
           ]
         }
       }
@@ -57,7 +63,9 @@
           layout: "Tile",
           border: 0,
           overlay: [
-            "graphics/title-screen-1.bmp"
+            {
+              path: "graphics/title-screen-1.bmp"
+            }
           ]
         }
       }
@@ -83,7 +91,9 @@
           layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/plan/bagu-sideview.bmp"
+            {
+              path: "graphics/plan/bagu-sideview.bmp"
+            }
           ]
         }
       }
@@ -109,8 +119,12 @@
           layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/east-overworld-1.bmp",
-            "graphics/plan/bagu-sideview.bmp"
+            {
+              path: "graphics/east-overworld-1.bmp"
+            },
+            {
+              path: "graphics/plan/bagu-sideview.bmp"
+            }
           ]
         }
       }
@@ -136,7 +150,9 @@
           layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/east-overworld-2.bmp"
+            {
+              path: "graphics/east-overworld-2.bmp"
+            }
           ]
         }
       }
@@ -162,7 +178,9 @@
           layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/plan/bagu-sideview.bmp"
+            {
+              path: "graphics/plan/bagu-sideview.bmp"
+            }
           ]
         }
       }
@@ -188,7 +206,9 @@
           layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/plan/bagu-sideview.bmp"
+            {
+              path: "graphics/plan/bagu-sideview.bmp"
+            }
           ]
         }
       }
@@ -214,7 +234,9 @@
           layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/plan/bagu-sideview.bmp"
+            {
+              path: "graphics/plan/bagu-sideview.bmp"
+            }
           ]
         }
       }
@@ -240,7 +262,9 @@
           layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/plan/bagu-sideview.bmp"
+            {
+              path: "graphics/plan/bagu-sideview.bmp"
+            }
           ]
         }
       }
@@ -266,7 +290,9 @@
           layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/plan/bagu-sideview.bmp"
+            {
+              path: "graphics/plan/bagu-sideview.bmp"
+            }
           ]
         }
       }
@@ -292,8 +318,12 @@
           layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/benthic-overworld-tiles.bmp",
-            "graphics/plan/bagu-overworld.bmp"
+            {
+              path: "graphics/benthic-overworld-tiles.bmp"
+            },
+            {
+              path: "graphics/plan/bagu-overworld.bmp"
+            }
           ]
         }
       }
@@ -319,8 +349,12 @@
           layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/p6-swim-1.bmp",
-            "graphics/plan/bagu-sideview.bmp"
+            {
+              path: "graphics/p6-swim-1.bmp"
+            },
+            {
+              path: "graphics/plan/bagu-sideview.bmp"
+            }
           ]
         }
       }
@@ -346,7 +380,9 @@
           layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/p6-swim-2.bmp"
+            {
+              path: "graphics/p6-swim-2.bmp"
+            }
           ]
         }
       }
@@ -372,7 +408,9 @@
           layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/plan/bagu-sideview.bmp"
+            {
+              path: "graphics/plan/bagu-sideview.bmp"
+            }
           ]
         }
       }
@@ -398,7 +436,9 @@
           layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/plan/bagu-sideview.bmp"
+            {
+              path: "graphics/plan/bagu-sideview.bmp"
+            }
           ]
         }
       }
@@ -424,8 +464,12 @@
           layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/plan/bagu-sideview.bmp",
-            "graphics/p6-1.bmp"
+            {
+              path: "graphics/plan/bagu-sideview.bmp"
+            },
+            {
+              path: "graphics/p6-1.bmp"
+            }
           ]
         }
       }
@@ -451,7 +495,9 @@
           layout: "Sprite",
           border: 0,
           overlay: [
-            "graphics/p6-2.bmp"
+            {
+              path: "graphics/p6-2.bmp"
+            }
           ]
         }
       }
